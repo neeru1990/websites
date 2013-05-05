@@ -1,0 +1,160 @@
+<HTML>
+<HEAD>
+<TITLE>UDIT presents Fiesta 2003</TITLE>
+<LINK rel="stylesheet" type="text/css" href="scripts/main.css">
+<SCRIPT language="JavaScript" src="scripts/resize.js"></SCRIPT>
+<SCRIPT language="JavaScript">
+<!--
+	function check(enquiry)
+	{
+		if (enquiry.realname.value == '')
+		{
+		    alert("Please Enter Your Full Name!");
+		    enquiry.realname.focus();
+		    return false;
+		}
+
+		if (enquiry.email.value == '')
+		{
+		    alert("Please Enter Your Email Address!");
+		    enquiry.email.focus();
+		    return false;
+		}
+
+		if (enquiry.Profile.value == '')
+		{
+		    alert("Please Select Your Profile!");
+		    enquiry.Profile.focus();
+		    return false;
+		}
+
+		if (enquiry.Institution.value == '')
+		{
+		    alert("Please Enter Your Organization / Institution!");
+		    enquiry.Institution.focus();
+		    return false;
+		}
+
+		
+		if (enquiry.Rating.value == '')
+		{
+		    alert("Please Enter The Overall Rating!");
+		    enquiry.Rating.focus();
+		    return false;
+		}
+
+		if (enquiry.Comments.value == '')
+		{
+		    alert("Please Enter Your Comments!");
+		    enquiry.Comments.focus();
+		    return false;
+		}
+
+		return true;
+	}
+//-->
+</SCRIPT>
+</HEAD>
+<BODY>
+<TABLE width="600" align="center" border="0" cellspacing="0" cellpadding="0">
+  <TR> 
+    <TD> <CENTER>
+        <IMG src="images/header.gif" width="463" height="30"> <BR>
+        <BR>
+      </CENTER>
+      <H5 align="center">Tell us how we can make Fiesta better!</H5>
+
+        
+      <P>Our website is currently under construction but we expect it to be up 
+        and running within a couple of weeks. However, you may fill in the feedback 
+        form below to let us know how you liked our inter-collegiate festival, 
+        'Fiesta'. Your comments will definitely encourage us in making next year's 
+        event an even bigger success!<BR>
+        <BR>
+      </P>
+        
+      </TD>
+  </TR>
+</TABLE>
+<TABLE width="500" border="0" align="center" cellpadding="7" cellspacing="0">
+  <FORM method="post" action="http://202.71.129.35/cgi-bin/FormMail.pl" onSubmit="return check(this)">
+    <INPUT type=hidden name="recipient" value="udit@dicelords.com">
+    <INPUT type=hidden name="subject" value="Fiesta 2003 Feedback">
+    <INPUT type=hidden name="redirect" value="http://www.dicelords.com/clients/udit/thanks.htm">
+    <TR> 
+      <TD width="224">Full Name</TD>
+      <TD width="2">&nbsp;</TD>
+      <TD colspan="3"> <INPUT type="text" name="realname" size="30"></TD>
+    </TR>
+    <TR> 
+      <TD>E-Mail Address</TD>
+      <TD>&nbsp;</TD>
+      <TD colspan="3"> <INPUT name="email" type="text" id="email" size="30"> 
+      </TD>
+    </TR>
+    <TR> 
+      <TD>Profile</TD>
+      <TD>&nbsp;</TD>
+      <TD colspan="3"> <SELECT name="Profile" id="Profile">
+          <OPTION selected>-- Select One --</OPTION>
+          <OPTION value="Parent">Parent</OPTION>
+          <OPTION value="Professional">Professional</OPTION>
+          <OPTION value="Student">Student</OPTION>
+          <OPTION value="Teacher">Teacher</OPTION>
+        </SELECT> </TD>
+    </TR>
+    <TR> 
+      <TD>Organization / Institution</TD>
+      <TD>&nbsp;</TD>
+      <TD colspan="3"> <INPUT name="Institution" type="text" id="Institution2" size="30"> 
+      </TD>
+    </TR>
+    <TR> 
+      <TD>How many days of the event did you attend?</TD>
+      <TD>&nbsp;</TD>
+      <TD width="67"> <INPUT name="Attendance" type="checkbox" id="Day1" value="Day1" checked>
+        Day 1</TD>
+      <TD width="67"> <INPUT name="Attendance" type="checkbox" id="Day2" value="Day2">
+        Day 2</TD>
+      <TD width="71"> <INPUT name="Attendance" type="checkbox" id="Day3" value="Day3">
+        Day 3</TD>
+    </TR>
+    <TR> 
+      <TD>How would you rate the event's overall impact?</TD>
+      <TD>&nbsp;</TD>
+      <TD colspan="3"> <SELECT name="Rating" id="Rating">
+          <OPTION selected>-- Select One --</OPTION>
+          <OPTION value="Very Good">Very Good</OPTION>
+          <OPTION value="Good">Good</OPTION>
+          <OPTION value="Average">Average</OPTION>
+          <OPTION value="Poor">Poor</OPTION>
+          <OPTION value="Very Poor">Very Poor</OPTION>
+        </SELECT> </TD>
+    </TR>
+    <TR> 
+      <TD>Comments &amp; Suggestions</TD>
+      <TD>&nbsp;</TD>
+      <TD colspan="3"><TEXTAREA name="Comments" cols="30" rows="3" id="Comments"></TEXTAREA></TD>
+    </TR>
+    <TR> 
+      <TD>Would you like to be informed about upcoming UDIT events?</TD>
+      <TD>&nbsp;</TD>
+      <TD width="67"> <INPUT name="ToBeInformed" type="radio" value="Yes" checked>
+        Yes</TD>
+      <TD colspan="2"> <INPUT name="ToBeInformed" type="radio" value="No">
+        No</TD>
+    </TR>
+    <TR> 
+      <TD><DIV align="right"> 
+          <INPUT type="submit" name="Submit" id="Submit" value="Submit">
+        </DIV></TD>
+      <TD>&nbsp;</TD>
+      <TD colspan="3"> <INPUT name="Reset" type="reset" id="Reset" value="Reset"> 
+      </TD>
+    </TR>
+  </FORM>
+</TABLE>
+<HR align="center" width="600">
+<P>&nbsp;</P>
+</BODY>
+</HTML>
