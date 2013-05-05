@@ -1,0 +1,147 @@
+BODY	{
+	font-family: Verdana, Arial, Tahoma, Helvetica, sans-serif;
+	margin: 0px;
+	color: #444444;
+	background-color: #FFFFFF;
+	}
+
+A:link, A:visited	{
+	text-decoration: none;
+	color: #004080;
+	}
+A:active{
+	text-decoration: none;
+	color: #AAAAAA;
+	}
+A:hover	{
+	color: #E68A00;
+	}
+
+TR{
+	vertical-align: top;
+}	
+	
+P, UL, TD{
+	line-height: 15px;
+	font-size: 11px;
+	}
+P, UL	{
+	vertical-align: top;
+	text-align: justify;
+	}
+
+HR	{
+	height: 1px;
+	color: #DDDDDD;
+	}
+H1	{
+	font-size: 24px;
+	text-align: right;
+	font-style: italic;
+	color:	#CCCCCC;
+	}
+H2	{
+	font-size: 16px;
+	color: #2F5B79;
+	}
+
+H5	{
+	font-size: 12px;
+	}
+H6	{
+	font-size: 11px;
+	}
+INPUT, SELECT, TEXTAREA
+	{
+	font-family: Verdana, Arial, Tahoma, Helvetica, sans-serif;
+	font-size: 10px;
+	}
+
+/******************************************************************/
+
+A.menu:link, A.menu:visited {
+	text-decoration: none;
+	color: #666666;
+	}
+A.menu:hover
+	{
+	padding-bottom: 3px;
+	border-bottom: 5px solid #CCCCCC;
+	color: #004080;
+	}
+TD.links
+	{
+	vertical-align: top;
+	text-align: right;
+	font-size: 11px;
+	color: #004080;
+	}
+TD.prodhead
+	{
+	background-color: #EEEEEE;
+	line-height: 18px;
+	font-size: 16px;
+	color: #2F5B79;
+	font-weight: bold;
+	}
+TD.center{
+	vertical-align: middle;
+	text-align: center;
+	}
+.bg	{
+	background-color: #EEEEEE;
+	padding-left:121px;
+	}
+TD.pad15, TD.links, TD.matter
+	{
+	padding: 15px;
+	}
+TD.borders
+	{
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #CCCCCC;
+	}
+
+TD.matter{
+	font-size: 11px;
+	border-left: 1px solid #DDDDDD;
+	}
+
+
+TD.headers, TD.news
+	{
+	border-top: 1px solid #FFFFFF;
+	padding-left: 15px;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 20px;
+	}
+TD.headers
+	{
+	border-left: 1px solid #FFFFFF;
+	}
+TD.news
+	{
+	border-left: 0px;
+	}
+
+
+TD.copyright, TD.footer
+	{
+	padding: 5px;
+	line-height: 12px;
+	}
+TD.copyright
+	{
+	text-align: center;
+	border-top: 1px solid #DDDDDD;
+	font-size: 10px;
+	}
+TD.footer{
+	text-align: right;
+	padding-right: 15px;
+	}

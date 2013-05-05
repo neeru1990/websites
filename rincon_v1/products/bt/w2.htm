@@ -1,0 +1,905 @@
+<html>
+
+<head>
+<style type="text/css">
+body {font-family: Arial, Helvetica, sans-serif; font-size: 10pt}
+a:visited {text-decoration: none}
+a:active {text-decoration: none}
+a:hover {color: #83694D}
+a:link {text-decoration: none}
+</style>
+<title>Brooktrout - Whitepaper</title>
+<script language="JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v3.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+</head>
+
+<body bgcolor="#ffffff" topmargin="0" leftmargin="0" text="#645646" link="#597FB2"
+vlink="#597FB2" alink="#83694D"
+onLoad="MM_preloadImages('../../images/rf1.gif','../../images/cx1.gif','../../images/hp1.gif')">
+<div align="center"><center>
+
+<table border="0" cellpadding="0" cellspacing="0" width="770" background="top.jpg">
+  <tr>
+    <td align="center" valign="bottom" rowspan="2" background="../../images/top.jpg"><p
+    align="center"><strong><font size="2" face="Arial"><br>
+    <br>
+    <br>
+    <br>
+    <a href="../../index.htm">Home</a> | <a href="../../about.htm">About Us</a> | </font><font
+    color="#83694D" size="2" face="Arial">Products</font><font size="2" face="Arial"> | <a
+    href="../../clients.htm">Clients</a> | <a href="../../sitemap.htm">Sitemap</a> | <a
+    href="../../contact.htm">Contact Us</a></font></strong></td>
+  </tr>
+</table>
+</center></div><div align="center"><center>
+
+<table border="0" cellpadding="2" cellspacing="0" width="770">
+  <tr>
+    <td valign="top" width="145">&nbsp;<table border="0" width="100%" cellspacing="0"
+    cellpadding="0">
+      <tr>
+        <td width="100%"><a href="http://www.brooktrout.com" target="new"><img src="bt.GIF"
+        width="164" height="69" border="0" alt="Brooktrout Technologies"></a></td>
+      </tr>
+    </table>
+    <p><font size="2" face="Arial"><strong><strong><strong><font size="2" face="Arial"><a
+    href="../rf/index.htm" onMouseOut="MM_swapImgRestore()"
+    onMouseOver="MM_swapImage('Image3','','../../images/rf1.gif',1)"><img name="Image3"
+    border="0" src="../../images/rf0.gif" width="100" height="20"></a><br>
+    </font><img src="../../images/bt1.gif" width="100" height="20"></strong><br>
+    </strong></strong></font><font size="1" face="Arial">&nbsp; <a href="index.htm">TR114</a><br>
+    <strong>&nbsp; </strong><a href="trisdn.htm">TR114 ISDN</a><br>
+    <strong>&nbsp; </strong><a href="trufax.htm">TruFAX</font><font size="2" face="Arial"><br>
+    </a>&nbsp; </font><font size="1" face="Arial">Whitepapers</font><font size="2"
+    face="Arial"><strong><br>
+    <strong><strong><strong><strong><strong><a href="../rf/index.htm"
+    onMouseOut="MM_swapImgRestore()"
+    onMouseOver="MM_swapImage('Image3','','../../images/rf1.gif',1)"></a></strong></strong></strong><a
+    href="../cx/index.htm" onMouseOut="MM_swapImgRestore()"
+    onMouseOver="MM_swapImage('cx','','../../images/cx1.gif',1)"><img name="cx" border="0"
+    src="../../images/cx0.gif" width="100" height="20"></a></strong><a href="../ds/index.htm"><br>
+    </a><strong><a href="../ds/index.htm" onMouseOut="MM_swapImgRestore()"
+    onMouseOver="MM_swapImage('hp','','../../images/hp1.gif',1)"><img name="hp" border="0"
+    src="../../images/hp0.gif" width="100" height="20"></a></strong><a href="../ds/index.htm">
+    </a></strong></strong></font></td>
+    <td width="656"><p align="center"><b><font size="4">&nbsp;</font><br>
+    <font face="Arial" size="3"><img src="bthead.gif" width="134" height="30"><br>
+    Brooktrout Technology White Papers</font></p>
+    </b><p align="center"><font face="Arial" size="2"><b>Why &amp; How to Buy Intelligent Fax
+    Boards</b></font> <small><strong>(IT Focus)</strong></small><br>
+    <font face="Arial" size="2">By <a href="mailto:75600.3341@compuserve.com"><b>Peter
+    Davidson</b></a><br>
+    President &amp; Fax Industry Analyst<br>
+    <a href="http://www.pdavidson.com/"><b>Davidson Consulting</b></a> <br>
+    </font></p>
+    <ul>
+      <li><font face="Arial" size="2"><a href="#why"><b>Why to Buy Intelligent Fax Boards</b></a> </font><ul>
+          <li><font face="Arial" size="2"><a href="#intelligence"><b>Intelligence Report:
+            Differentiating Fax Cards</b></a> </font></li>
+          <li><font face="Arial" size="2"><a href="#anatomy"><b>Anatomy of a Fax Phone Call</b></a> </font></li>
+          <li><font face="Arial" size="2"><a href="#money"><b>Money Changes Everything</b></a> </font></li>
+        </ul>
+      </li>
+      <li><font face="Arial" size="2"><a href="#how"><b>How to Buy Intelligent Fax Boards</b></a> </font></li>
+      <li><font face="Arial" size="2"><b><a href="#table1">Table 1</a> - Why Fax Phone Calls Fail
+        Unnecessarily</b> </font></li>
+      <li><font face="Arial" size="2"><b><a href="#table2">Table 2</a> - Factors Impacting Fax
+        Throughput Speed</b> </font></li>
+      <li><font face="Arial" size="2"><b><a href="#table3">Table 3</a> - Intelligent Fax Board
+        Return On Investment</b></font></li>
+    </ul>
+    <p><font face="Arial" size="2"><b>Executive Summary</b><br>
+    <br>
+    A myth exists that all fax boards and fax modems are essentially the same. If they all
+    send at 14.4 Kbs speed, then all fax phone bills are the same and what else could matter?
+    But fax technology can be surprising: for example, even sending at 14.4 Kbs, Class 1 and 2
+    fax modems typically triple page transmission time compared to intelligent fax board
+    throughput!<br>
+    <br>
+    Three distinct types of fax cards exist: Class 1 fax modems, Class 2 fax modems, and
+    intelligent fax boards, and each provides substantially different levels of performance.
+    In the mid-volume scenario presented in this white paper, intelligent fax boards are shown
+    to reduce life-of-system fax phone bills by about $3,700 over Class 2 boards and by about
+    $6,500 over Class 1 boards.<br>
+    <br>
+    The reasons why intelligent fax boards provide superior performance may be obscure &#150;
+    including Modified Modified Read compression, signal-to-noise ratios, bit-stuffing,
+    critical timing issues and call progress capabilities &#150; but they are no less real to
+    the bottom line for being esoteric. This paper explains how fax boards differ, how those
+    differences play out according to fax phone call elements and installed base capabilities,
+    and why intelligent fax boards are a superior choice for virtually all but the very
+    lowest-volume computer fax applications.<br>
+    <br>
+    This paper also provides a checklist of items to consider when purchasing intelligent fax
+    boards.<br>
+    <br>
+    <a name="why"></a><b>Why to Buy Intelligent Fax Boards</b><br>
+    <br>
+    In the glossy pages of the popular computer trade press, the &quot;fax modem&quot; has
+    been widely regarded as a commodity item, triggering the widely held belief that all fax
+    modems are the same. In fact, however, vast disparities exist between the performance
+    provided by low-cost fax/data modems (for example, Class 1 and 2 devices) and intelligent
+    fax boards (fax cards with on-board microprocessors). Schooled largely by the trade press,
+    when equipping their LAN fax servers, fax-on-demand systems and fax broadcasting engines
+    with fax cards, businesses all too often choose low-cost fax modems, a choice that
+    typically saddles them with one or more of the following problems: </font><ul>
+      <li><font face="Arial" size="2"><b>Dollar Drain:</b> Just about every fax phone call made
+        with low-cost fax modems costs about twice as much as necessary in usage charges paid to
+        one's telephone company (and it can literally be ten times as much!). This is a critical
+        issue because over the life of a fax system, the &quot;pennies&quot; paid for thousands of
+        fax calls tend to add up to far more than the original purchase price.<br>
+        </font></li>
+      <li><font face="Arial" size="2"><b>Hassle:</b> Headaches arise from unnecessarily high
+        percentages of fax phone calls never being completed by low-cost fax modems, particularly
+        with Class 1 devices.<br>
+        </font></li>
+      <li><font face="Arial" size="2"><b>Disinterest:</b> A fall-off occurs in computer fax system
+        usage by workers due to the unreliability of the low-cost fax modems on which the system
+        is based.<br>
+        </font></li>
+      <li><font face="Arial" size="2"><b>Quick System Max-Out:</b> Low-cost modems fail to support
+        adequate system scalability because they require general-purpose PCs to struggle to muster
+        enough power, quickly enough, to manage the multi-channel faxing that intelligent fax
+        boards support with ease. When businesses commit to systems using fax cards that don't
+        scale up well, one result can be the needless expense of an extra PC for every couple of
+        ports (instead, for example, of one PC supporting 24 or 48 ports).<br>
+        </font></li>
+      <li><font face="Arial" size="2"><b>Languishing Labor:</b> When low-cost modems are installed
+        on personal PCs, a hidden toll is extracted from users who are forced to sit idly while
+        under-powered fax modems demand full PC microprocessor attention. <br>
+        </font><font size="1" face="Arial"><a href="#top">Back to the topics </a></font></li>
+    </ul>
+    <p><font face="Arial" size="2"><a name="intelligence"></a><b>Intelligence Report:
+    Differentiating Fax Cards</b><br>
+    <br>
+    The three types of fax cards are Class 1 modems, Class 2 modems, and intelligent fax
+    boards: </font><ul>
+      <li><font face="Arial" size="2"><b>Class 1</b> fax modems (EIA 578) comprise the lowest-cost
+        category for a very simple reason: they rely totally on the power of PC microprocessors
+        for tasks critical to sending faxes, including the conversion of PC files to fax format,
+        support for bit-stuffing (bit-stuffing is explained below), and management of the fax
+        phone call itself, including all signaling to set up and maintain a fax call. They support
+        fast transmission speed (14.4 Kbs), but only the slowest form of standard fax compression.<br>
+        </font></li>
+      <li><font face="Arial" size="2"><b>Class 2</b> fax modems, like their Class 1 cousins, rely
+        on the power of PC microprocessors to convert PC files to fax format, but handle all
+        signaling to set up and maintain fax calls via on-board circuitry. They may handle bit
+        stuffing on-board or via the PC microprocessor, but support only low level fax
+        compression. Note that there are both Class 2 and 2.0 fax modems: (1) Class 2 modems are
+        based on a de facto standard [a proposed standard that was voted down &#150; but
+        manufacturers produced modems Class 2 modems anyway, resulting in many &quot;flavors&quot;
+        of Class 2 modems]; millions of Class 2 modems are installed; while some bit-stuff
+        on-the-fly, many do not; (2) Class 2.0 fax modems, which comply with the official EIA 592
+        standard, handle bit-stuffing on-the-fly; but Davidson Consulting was aware of only three
+        Class 2.0-compatible devices on the market a full two years after the 2.0 standard was
+        approved.<br>
+        </font></li>
+      <li><font face="Arial" size="2"><b>Intelligent Fax Boards</b> differentiate themselves via
+        on-board microprocessors which, in addition to sending faxes at 14.4 Kbs speed, also can
+        support advanced fax compression methods, convert documents to fax format and bit-stuff
+        on-the-fly on the board (not on the PC), and can manage fax phone calls via on-board
+        processing power.</font></li>
+    </ul>
+    <p><font face="Arial" size="2">Intelligent fax boards carry the highest price tags, which
+    is why buyers naturally flock to the lower-cost &quot;class&quot; modems. But they save
+    far, far more than the differential in cost by more reliably completing calls (see <a
+    href="#table1"><b>Table 1</b></a>), sending faxes in less time to reduce fax phone bills
+    (see <a href="#table2"><b>Table 2</b></a>), by minimizing maintenance issues, by providing
+    strong enough performance that people actually use the computer fax systems based on them,
+    and by cost-effectively exploiting server resources.<br>
+    <br>
+    <b>Are You Bit-Stuffing Your Fax Phone Bill?</b><br>
+    <br>
+    Bit stuffing is required because, with many older non-memory fax machines, the code sent
+    to describe a fax scan line transmits than the time it takes the printhead to move across
+    the page. The solution is to stuff extra bits into the code to keep the mechanical parts
+    synchronized. The receive-end fax machine invokes the need for bit-stuffing and, if the
+    sending device cannot bit stuff, the fax call aborts. The best way to bit-stuff is
+    dynamically, on-the-fly, via an on-board microprocessor. This ways, fax phone call time is
+    extended for bit stuffing only when called for and only to the extent necessary. The
+    alternative is to pre-stuff every file to be computer faxed, but this means that every fax
+    phone call lasts longer and that more bits than necessary must be stuffed. Assuming that
+    only 10% to 25% of the worldwide fax installed base actually requires bit stuffing, then
+    pre-storing unnecessarily extends 75% to 90% of calls, typically by about 40%, give or
+    take. <br>
+    </font><font size="1" face="Arial"><a href="#top">Back to the topics </a></font></p>
+    <table width="470" border="1">
+<TBODY>
+      <tr>
+        <td><table cellSpacing="0" cellPadding="0" width="470" border="0">
+<TBODY>
+          <tr>
+            <td bgColor="#f6f6f5" colSpan="5"><font face="Arial" size="2"><a name="table1"></a><b>Table
+            1</b><br>
+            Why Fax Phone Calls Fail Unnecessarily<br>
+            <img height="1"
+            src="file://D:\WINNT\Profiles\Administrator\Desktop\bt\Whitepaper.html/dot_black.gif"
+            width="469" border="0"><br>
+            <br>
+            </font></td>
+          </tr>
+          <tr>
+            <td width="110" bgColor="#f6f6f5"><font face="Arial" size="2"><b>Factor</b></font></td>
+            <td width="10" bgColor="#f6f6f5" rowSpan="11"><font face="Arial" size="2"><img height="1"
+            hspace="15"
+            src="file://D:\WINNT\Profiles\Administrator\Desktop\bt\Whitepaper.html/dot_clear.gif"
+            width="1"></font></td>
+            <td width="200" bgColor="#f6f6f5"><font face="Arial" size="2"><b>Explanation</b></font></td>
+            <td width="10" bgColor="#f6f6f5" rowSpan="10"><font face="Arial" size="2"><img height="1"
+            hspace="15"
+            src="file://D:\WINNT\Profiles\Administrator\Desktop\bt\Whitepaper.html/dot_clear.gif"
+            width="1"></font></td>
+            <td width="150" bgColor="#f6f6f5"><font face="Arial" size="2"><b>Impact</b></font></td>
+          </tr>
+          <tr>
+            <td width="110" bgColor="#f6f6f5"><font face="Arial" size="2"><br>
+            </font></td>
+            <td width="200" bgColor="#f6f6f5"><font face="Arial" size="2"><br>
+            </font></td>
+            <td width="150" bgColor="#f6f6f5"><font face="Arial" size="2"><br>
+            </font></td>
+          </tr>
+          <tr>
+            <td vAlign="top" width="110" bgColor="#f6f6f5"><font face="Arial" size="2"><b>Poor T.30<br>
+            Implementation</b></font></td>
+            <td width="200" bgColor="#f6f6f5"><font face="Arial" size="2">When fax/data modems first
+            emerged, it was makers of data modems that captured the low-cost high-volume business
+            (data comm works fine without on-board microprocessors, fax does not). Many
+            datacomm-oriented vendors were not fax experts; as a result, many data/fax modems
+            handshake incorrectly, causing calls to abort more or less frequently</font></td>
+            <td vAlign="top" width="150" bgColor="#f6f6f5"><font face="Arial" size="2">Businesses pay
+            for failed calls and retries that fail. They also pay the labor to identify the failed
+            call and to fax it by fax machine</font></td>
+          </tr>
+          <tr>
+            <td width="110" bgColor="#f6f6f5"><font face="Arial" size="2"><br>
+            </font></td>
+            <td width="200" bgColor="#f6f6f5"><font face="Arial" size="2"><br>
+            </font></td>
+            <td width="150" bgColor="#f6f6f5"><font face="Arial" size="2"><br>
+            </font></td>
+          </tr>
+          <tr>
+            <td vAlign="top" width="110" bgColor="#f6f6f5"><font face="Arial" size="2"><b>Time-Outs</b></font></td>
+            <td width="200" bgColor="#f6f6f5"><font face="Arial" size="2">Because Class 1 fax modems
+            rely on general-purpose PC architectures and processing power -- subjecting them to
+            PC-caused latencies -- they will always be subject to high percentages of fax calls
+            aborting due to time-outs </font></td>
+            <td vAlign="top" width="150" bgColor="#f6f6f5"><font face="Arial" size="2">Businesses pay
+            for failed calls and retries -- and when a 20-page fax fails at the 19th page, they pay to
+            send both a 19-page and 20-page fax</font></td>
+          </tr>
+          <tr>
+            <td width="110" bgColor="#f6f6f5"><font face="Arial" size="2"><br>
+            </font></td>
+            <td width="200" bgColor="#f6f6f5"><font face="Arial" size="2"><br>
+            </font></td>
+            <td width="150" bgColor="#f6f6f5"><font face="Arial" size="2"><br>
+            </font></td>
+          </tr>
+          <tr>
+            <td vAlign="top" width="110" bgColor="#f6f6f5"><font face="Arial" size="2"><b>Poor Call<br>
+            Progress</b></font></td>
+            <td width="200" bgColor="#f6f6f5"><font face="Arial" size="2">Call progress involves the
+            intelligent detection of telephone network signals, such as busy signals, special
+            instruction tones (SITs), and even human voices. Busy signal tones and cadences vary, for
+            one, from country to country and, when fax devices provide poor call progress monitoring,
+            the results include (1) instead of terminating the problem call immediately and moving
+            onto the next, the call continues on until the fax handshake process finally times out,
+            and (2) the incorrect information relayed back to the fax server typically results in bad
+            fax numbers being redialed time and again</font></td>
+            <td vAlign="top" width="150" bgColor="#f6f6f5"><font face="Arial" size="2">The amount of
+            traffic a fax server can handle is diminished as doomed calls linger and then are retried
+            -- and linger again. Also, system administrators aren't alerted to change or delete bad
+            numbers, typically resulting in broadcast lists with substantial amounts of bad fax
+            numbers, in turn institutionalizing inefficiencies and unnecessarily failing to deliver
+            faxes to intended recipients</font></td>
+          </tr>
+          <tr>
+            <td width="110" bgColor="#f6f6f5"><font face="Arial" size="2"><br>
+            </font></td>
+            <td width="200" bgColor="#f6f6f5"><font face="Arial" size="2"><br>
+            </font></td>
+            <td width="150" bgColor="#f6f6f5"><font face="Arial" size="2"><br>
+            </font></td>
+          </tr>
+          <tr>
+            <td vAlign="top" width="110" bgColor="#f6f6f5"><font face="Arial" size="2"><b>Signal-to-Noise<br>
+            Ratio (SNR)</b></font></td>
+            <td width="200" bgColor="#f6f6f5"><font face="Arial" size="2">When phone line noise is too
+            high, causing intolerable error rates, fax calls abort. The higher the signal-to-noise
+            ratio of a fax device, the more noise it can tolerate (for example, fewer calls abort).
+            The signal-to-noise ratios of intelligent fax boards are significantly stronger than for
+            Class 1 and 2 fax modems</font></td>
+            <td vAlign="top" width="150" bgColor="#f6f6f5"><font face="Arial" size="2">For one, low
+            SNR modems are estimated to cause 5% to 20% of overseas fax calls to fail</font></td>
+          </tr>
+          <tr>
+            <td width="110" bgColor="#f6f6f5"><font face="Arial" size="2"><br>
+            </font></td>
+            <td width="200" bgColor="#f6f6f5"><font face="Arial" size="2"><br>
+            </font></td>
+            <td width="150" bgColor="#f6f6f5"><font face="Arial" size="2"><br>
+            </font></td>
+          </tr>
+          <tr>
+            <td width="110" bgColor="#f6f6f5"><font face="Arial" size="2"><br>
+            </font></td>
+            <td align="right" bgColor="#f6f6f5" colSpan="3"><font face="Arial" size="2">Source:
+            Davidson Consulting, Burbank, CA, 1996</font></td>
+          </tr>
+</TBODY>
+        </table>
+        </td>
+      </tr>
+</TBODY>
+    </table>
+    <font face="Arial" size="2"><p align="left"></font><a href="#top"><font size="1"
+    face="Arial">Back to the topics </font></a></p>
+    <p><font face="Arial" size="2"><br>
+    <a name="anatomy"></a><b>Anatomy of a Fax Phone Call</b><br>
+    <br>
+    A great deal of the difference in modem types can be illustrated by examining the elements
+    of a fax phone call: </font><ul>
+      <li><font face="Arial" size="2"><b>Document Conversion:</b> computer files must be converted
+        from original formats to the G/3 fax format (for example, a TIFF file). Document
+        conversion is about 10 to 20 times more processing-intensive than managing the actual fax
+        phone call. <i><b>Both Class 1 and 2 fax modems place the document conversion burden --
+        which is the primary bottleneck area in a computer fax system -- on the PC, not on
+        themselves.</b></i> This either substantially reduces the volume of traffic that any fax
+        server can support or interferes with the ability of individual users to use their
+        fax-enabled PCs while documents are being converted.<br>
+        <br>
+        Intelligent fax boards can handle document conversion on-board on-the-fly, freeing PC
+        resources so a fax server can support greater volume or so end users need not sit idly at
+        their PCs during fax phone call preparation time. They may also support on-the-fly
+        enhancements to images, such as automatically superimposing business-form designs onto raw
+        data (called business-form overlay) and scaling document sizes to fit the need of
+        receive-end fax machines (for example, from the letter size used in the US to the B4 paper
+        size used in Japan).<br>
+        </font></li>
+      <li><font face="Arial" size="2"><b>Call Progress (or lack thereof):</b> Call progress
+        involves the intelligent detection of telephony signals, such as busy signals, special
+        instruction tones (SITs) and even signals from phone-line sharing devices and the sounds
+        of human voices.<br>
+        <br>
+        Busy signal tones and cadences vary depending on whether they are generated by subscriber
+        equipment (for example, a fax machine) or within a phone network (for example, all ports
+        on a telephone company switch are temporarily busy) -- as well as from country to country.
+        An example of special instruction tones (SITs) are the ever more frequent messages, on
+        long-distance calls, informing callers that area code numbers have changed. High-quality
+        call progress means that a fax device can detect all these different tones accurately. For
+        example, if a fax device misreads an SIT tone as a busy tone, it will continue to re-try
+        the transmission to the same fax number, even though the call cannot connect and the only
+        result is inefficient use of fax server resources. Moreover, if the fax system then
+        reports back to the system administrator that non-delivery of the fax was merely due to
+        busy signals rather than the need to change the phone number, the number typically will be
+        left intact and the fax system will end up trying and failing to connect to the same
+        destination over and over again.<br>
+        <br>
+        The best intelligent fax boards support call progress for the full range of signals for
+        all countries in which they are sold. In contrast, virtually all Class 1 and 2 fax modems
+        and even some intelligent fax boards support more or less limited call progress. With
+        low-end fax cards, the extent of call progress often comes down to recognizing US-based
+        busy signals some of the time -- and defaulting to error reports like &quot;busy
+        signal&quot; or &quot;non-fax device&quot; when they fail to detect the actual response
+        signal.<br>
+        </font></li>
+      <li><font face="Arial" size="2"><b>Handshaking:</b> the sending fax device calls the
+        receive-end device and they exchange signals (handshake) to determine which speed and
+        compression methods the fax phone call will use (note that handshaking takes place at 300
+        bps, regardless of how fast any modem can transmit). When fax designers built millisecond
+        tolerances into the timing of fax machine and fax phone call operations back in the 1970s,
+        they never guessed that computer fax systems would have to meet those timing requirements
+        via modems operating through serial interfaces that had to relay interrupt signals to PC
+        microprocessors that, as often as not, would already be busy handling computer-centric
+        operations. Fax machines are hardwired to meet the very strict &quot;millisecond&quot;
+        timing requirements of fax, so they virtually never have <i><b>&quot;time-out&quot;
+        problems</b></i>. Class 1 fax modems, however, rely on general-purpose PC architectures
+        and processing power to manage handshaking routines that can time-out if various
+        sub-second timing requirements are not met. As a result, Class 1 devices will always be
+        subject to high percentages of fax calls aborting due to time-out conditions. The
+        microprocessors on intelligent fax boards make certain that time-outs are eliminated as a
+        problem.<br>
+        </font></li>
+      <li><font face="Arial" size="2"><b>Page Transmission:</b> after handshaking, each page is
+        transmitted at the highest compatible and achievable speed (for example., from 2.4 to 14.4
+        Kbs) that both fax modems in a session can support. While products exist among all three
+        types of fax cards that can transmit at 14.4 Kbs, <i><b>one of the little known secrets of
+        fax technology is that other factors, led by compression and bit-stuffing, can have
+        greater impact in reducing one's fax phone bill than actual transmission speed.</b></i><br>
+        <br>
+        Take the three levels of standardized fax compression. At 9.6 Kbs with a benchmark page,
+        the Modified Huffman (MH) compression that is the best that Class 1 and 2 modems offer,
+        supports 30-second/page throughput speed. In contrast, the Modified Read (MR) and Modified
+        Modified Read (MMR) compression methods that intelligent fax boards and fax machines can
+        offer support 20- and 10-second-per-page throughput speed, respectively (33% to 67%
+        faster).<br>
+        <br>
+        One of the reasons advanced compression is so important to reducing fax phone bills is the
+        make-up of the worldwide fax installed base of devices used to receive faxes. Davidson
+        Consulting estimates that only about 10% are 14.4 Kbs devices (although they are
+        high-volume devices that generate about 25% to 30% of overall fax traffic), while about
+        70% -- generating about 85% of all fax traffic, support MR or MMR compression. Thus, the
+        approximately 30% savings from 14.4 Kbs transmission speed occurs, on average, only in 1
+        of every 3 or 4 calls. The 30% savings that MR provides over MH can be exploited on 8 or 9
+        of every 10 calls. Although it is possible to implement advanced compression in software
+        for use with Class 1 and 2 fax modems, like document conversion, the net result includes
+        major slowdowns on the server PC. The impact of compression and other effects on fax phone
+        call duration are listed in Table 2.<br>
+        </font></li>
+      <li><font face="Arial" size="2"><b>Retraining:</b> after each page is transmitted, the two
+        fax devices resynchronize with each other (retrain) and, upon successfully doing so,
+        transmit another page (then retrain, then transmit another page, and so on, until the call
+        is completed). Notably, largely because of their relative cost structures and the
+        resulting quality of components used on the cards, intelligent fax boards employ modems
+        that send out stronger signals than Class 1 and 2 modems. The stronger signals handle
+        phone line noise more effectively (for example, support a higher signal-to-noise ratio).
+        Relative to retraining, the real-world result is that, whereas failures to retrain are
+        rare among intelligent fax boards, they occur with significantly greater frequency with
+        lower-cost fax modems. </font></li>
+    </ul>
+    <p><font face="Arial" size="2">In summary, intelligent fax boards save money in a number
+    of ways: better compression cuts throughput time on most calls, efficient bit-stuffing
+    eliminates unnecessary extensions to transmission time, stronger signals and higher
+    quality call setup mean more calls are completed the first time and need not be
+    retransmitted. </font><font size="1" face="Arial"><a href="#top"><br>
+    Back to the topics </a></font></p>
+    <table width="470" border="1">
+<TBODY>
+      <tr>
+        <td><font face="Arial" size="2"><a name="table2"></a> </font><table cellSpacing="0"
+        cellPadding="0" width="470" border="0">
+<TBODY>
+          <tr>
+            <td bgColor="#f6f6f5" colSpan="5"><font face="Arial" size="2"><b>Table 2</b><br>
+            Factors Impacting Fax Throughput Speed<br>
+            <img height="1"
+            src="file://D:\WINNT\Profiles\Administrator\Desktop\bt\Whitepaper.html/dot_black.gif"
+            width="469" border="0"><br>
+            <br>
+            </font></td>
+          </tr>
+          <tr>
+            <td width="110" bgColor="#f6f6f5"><font face="Arial" size="2"><b>Factor</b></font></td>
+            <td bgColor="#f6f6f5" rowSpan="13"><font face="Arial" size="2"><img height="1" hspace="15"
+            src="file://D:\WINNT\Profiles\Administrator\Desktop\bt\Whitepaper.html/dot_clear.gif"
+            width="1"></font></td>
+            <td width="200" bgColor="#f6f6f5"><font face="Arial" size="2"><b>Explanation</b></font></td>
+            <td bgColor="#f6f6f5" rowSpan="3"><font face="Arial" size="2"><img height="1" hspace="15"
+            src="file://D:\WINNT\Profiles\Administrator\Desktop\bt\Whitepaper.html/dot_clear.gif"
+            width="1"></font></td>
+            <td width="150" bgColor="#f6f6f5"><font face="Arial" size="2"><b>Impact</b></font></td>
+          </tr>
+          <tr>
+            <td width="110" bgColor="#f6f6f5"><font face="Arial" size="2"><br>
+            </font></td>
+            <td width="200" bgColor="#f6f6f5"><font face="Arial" size="2"><br>
+            </font></td>
+            <td width="150" bgColor="#f6f6f5"><font face="Arial" size="2"><br>
+            </font></td>
+          </tr>
+          <tr>
+            <td vAlign="top" width="110" bgColor="#f6f6f5"><font face="Arial" size="2"><b>Transmission<br>
+            Speed</b></font></td>
+            <td width="200" bgColor="#f6f6f5"><font face="Arial" size="2">The fastest current fax
+            devices send at 14.4 Kbs, 50% faster than the 9.6 Kbs devices that generate 70% to 75% of
+            overall worldwide fax traffic. In general, in 1996, about 1 in every 3 or 4 fax calls
+            could be expected to transmit at 14.4 Kbs </font></td>
+            <td vAlign="top" width="150" bgColor="#f6f6f5"><font face="Arial" size="2">Save 33% on the
+            page-transmission portion of fax calls on about 1 out of every 3 or 4 fax calls</font></td>
+          </tr>
+          <tr>
+            <td width="110" bgColor="#f6f6f5"><font face="Arial" size="2"><br>
+            </font></td>
+            <td width="200" bgColor="#f6f6f5"><font face="Arial" size="2"><br>
+            </font></td>
+            <td bgColor="#f6f6f5" rowSpan="9"><font face="Arial" size="2"><br>
+            </font></td>
+            <td width="150" bgColor="#f6f6f5"><font face="Arial" size="2"><br>
+            </font></td>
+          </tr>
+          <tr>
+            <td vAlign="top" width="110" bgColor="#f6f6f5"><font face="Arial" size="2"><b>Compression</b></font></td>
+            <td width="200" bgColor="#f6f6f5"><font face="Arial" size="2">On average at 9.6 Kbs, MH
+            supports 30-second/page speed, MR 20-second, and MMR 10-second. Class 1 and 2 fax modems
+            support MH only. Intelligent fax boards usually also support MR and MMR. About 85% of fax
+            traffic uses MR or MMR </font></td>
+            <td vAlign="top" width="150" bgColor="#f6f6f5"><font face="Arial" size="2">With MR, save
+            33% on about 60% of all calls; with MMR, save 50% on an additional 25%</font></td>
+          </tr>
+          <tr>
+            <td width="110" bgColor="#f6f6f5"><font face="Arial" size="2"><br>
+            </font></td>
+            <td width="200" bgColor="#f6f6f5"><font face="Arial" size="2"><br>
+            </font></td>
+            <td width="150" bgColor="#f6f6f5"><font face="Arial" size="2"><br>
+            </font></td>
+          </tr>
+          <tr>
+            <td vAlign="top" width="110" bgColor="#f6f6f5"><font face="Arial" size="2"><b>Bit-Stuffing</b></font></td>
+            <td width="200" bgColor="#f6f6f5"><font face="Arial" size="2">Between 10% and 25% of
+            installed fax machines require bit-stuffing. When fax devices can bit-stuff on-the-fly,
+            they do so only when necessary and to the extent necessary. When they must pre-store fill
+            bits (all Class 1 modems and some Class 2), then they bit stuff on every call and more
+            than necessary </font></td>
+            <td vAlign="top" width="150" bgColor="#f6f6f5"><font face="Arial" size="2">Pre-bit-stuffing
+            can increase call duration by about 40% on 75% to 90% of all calls </font></td>
+          </tr>
+          <tr>
+            <td width="110" bgColor="#f6f6f5"><font face="Arial" size="2"><br>
+            </font></td>
+            <td width="200" bgColor="#f6f6f5"><font face="Arial" size="2"><br>
+            </font></td>
+            <td width="150" bgColor="#f6f6f5"><font face="Arial" size="2"><br>
+            </font></td>
+          </tr>
+          <tr>
+            <td vAlign="top" width="110" bgColor="#f6f6f5"><font face="Arial" size="2"><b>Signal-to-Noise<br>
+            Ratio (SNR)</b></font></td>
+            <td width="200" bgColor="#f6f6f5"><font face="Arial" size="2">The faster modems transmit,
+            the less tolerance they have to phone line noise. When phone line noise is too high for
+            full speed, fax devices step down to slower speeds, enabling the calls to happen but
+            extending their duration by 10% to 400%. The higher the SNR, the less likely that
+            step-downs need occur. Intelligent fax board SNRs tend to be significantly higher than
+            those of Class 1 and 2 fax modems </font></td>
+            <td vAlign="top" width="150" bgColor="#f6f6f5"><font face="Arial" size="2">Low SNR modems
+            can increase fax phone bills by 10% to 40% (worse if there is a high percentage of
+            overseas calls)</font></td>
+          </tr>
+          <tr>
+            <td width="110" bgColor="#f6f6f5"><font face="Arial" size="2"><br>
+            </font></td>
+            <td width="200" bgColor="#f6f6f5"><font face="Arial" size="2"><br>
+            </font></td>
+            <td width="150" bgColor="#f6f6f5"><font face="Arial" size="2"><br>
+            </font></td>
+          </tr>
+          <tr>
+            <td vAlign="top" width="110" bgColor="#f6f6f5"><font face="Arial" size="2"><b>Handshaking<br>
+            Retraining</b></font></td>
+            <td width="200" bgColor="#f6f6f5" rowSpan="2"><font face="Arial" size="2">Poor handshaking
+            and retraining can cause fax phone calls to last longer than necessary by causing
+            handshaking and retraining time to be extended because certain subprocesses need to be
+            repeated. </font></td>
+            <td vAlign="top" width="150" bgColor="#f6f6f5" rowSpan="2"><font face="Arial" size="2">Poor
+            handshaking and retraining can increase fax phone bills by 5% to 15%</font></td>
+          </tr>
+          <tr>
+            <td width="110" bgColor="#f6f6f5"><font face="Arial" size="2"><br>
+            </font></td>
+          </tr>
+          <tr>
+            <td width="110" bgColor="#f6f6f5"><font face="Arial" size="2"><br>
+            </font></td>
+            <td align="right" bgColor="#f6f6f5" colSpan="3"><font face="Arial" size="2">Source:
+            Davidson Consulting, Burbank, CA, 1996</font></td>
+          </tr>
+</TBODY>
+        </table>
+        </td>
+      </tr>
+</TBODY>
+    </table>
+    <font face="Arial" size="2"><p align="left"></font><a href="#top"><font size="1"
+    face="Arial">Back to the topics </font></a></p>
+    <p><font face="Arial" size="2"><br>
+    <a name="money"></a><b>Money Changes Everything</b><br>
+    <br>
+    Although the preceding information should make it clear that intelligent fax boards
+    provide much better overall performance than Class 1 and 2 fax/data modems, that may not
+    matter unless the superior performance translates into real-world cost-justification. In
+    other words, since Class 1 and 2 modems tend to cost between $100 and $300 per board
+    (port), while intelligent fax boards cost between $500 and $1,000 per port, the $400 to
+    $900 extra for intelligent fax boards must be offset by reduced operating costs. To
+    illustrate, we have created a return-on-investment model based on the following
+    assumptions: </font><ul>
+      <li><font face="Arial" size="2">That the extra cost per port for an intelligent fax board
+        compared to a Class 1 fax modem is the highest-possible $900 and over a Class 2 modem
+        (with on-the-fly bit-stuffing) is $700<br>
+        </font></li>
+      <li><font face="Arial" size="2">That a port is used to send just 40 4-page faxes per day
+        (considered a mid-volume load), 260 days per year<br>
+        </font></li>
+      <li><font face="Arial" size="2">Of the 40 daily faxes, 10 are local (free), 25 long-distance
+        (12-cents/minute) and 5 overseas (50-cents/minute). Note that we are not using the 25-cent
+        rate for domestic calling and one dollar and higher rates for international calling that
+        are sometimes used to make cost-justification appear more impressive<br>
+        </font></li>
+      <li><font face="Arial" size="2">That traffic patterns are more conservatively stated than
+        estimates made above, by which we mean that assumptions of the percentages of faxes
+        transmitted at various speeds and with various compression methods are quantified as
+        follows: (1) 90% 9.6 Kbs and 10% 14.4% relative to transmission speed (instead of our
+        actual estimate of 25% to 30% at 14.4) and (2) 30% MH, 60% MR and 10% MMR relative to
+        compression support (instead of the estimates above that put MR and MMR combined at 85%
+        overall)<br>
+        </font></li>
+      <li><font face="Arial" size="2">That Class 1 fax modems do not bit-stuff on-the-fly, but
+        Class 2 and intelligent fax boards do (and that bit-stuffing is unnecessary 75% of the
+        time)<br>
+        </font></li>
+      <li><font face="Arial" size="2">That all other factors, including signal-to-noise ratio,
+        unnecessarily prolonged handshaking and retraining, and the resending of failed call
+        attempts add what we consider to be a very conservative 10% to Class 1 calling time and 5%
+        to Class 2 calling time </font></li>
+    </ul>
+    <p><font face="Arial" size="2">Using this model, intelligent fax boards pay off in less
+    than a year, as shown in <a href="#table3"><b>Table 3</b></a>, and over the five-year life
+    of a system save $6,460 versus Class 1 total cost of ownership and $3,685 versus Class 2
+    total cost of ownership. Such savings are mid-volume, per port, and do not include the
+    following: </font><ul>
+      <li><font face="Arial" size="2"><b>Server Savings:</b> Class 1 fax modems support merely one
+        port per PC, period. If you need two ports, you must buy a second PC. Class 2 modems,
+        because of the overhead associated with document conversion, can push the limit of PC
+        server processing power with as few as two to four ports. In contrast, intelligent fax
+        boards can support up to 96 ports per server. The upshot: past two to four ports, an <i><b>additional
+        hidden cost of Class 2 ports can be the purchase of additional PCs.</b></i><br>
+        </font></li>
+      <li><font face="Arial" size="2"><b>More 14.4 Kbs Faxing:</b> Where a fax system sends faxes
+        to many 14.4 Kbs fax machines or intelligent fax boards, greater savings will accrue to a
+        system based on intelligent fax boards because it can send at 14.4 Kbs coupled MMR
+        compression (about 7-seconds-per-page), where Class 1 and 2 modems can only send at 14.4
+        Kbs with MH compression (about 20-seconds-per-page). Even at 14.4 Kbs, Class 1 and 2 fax
+        modems triple page transmission time!<br>
+        <br>
+        Indeed, if our ROI model assumptions are changed to reflect our estimates of actual levels
+        of 14.4 Kbs usage (25% to 30%) and compression usage (15% MH, 60% MR and 25% MMR) relative
+        to compression support (instead of the estimates above that put MR and MMR combined at 85%
+        overall), intelligent fax board savings would be about 15% to 20% higher than those
+        quantified in Table 3.<br>
+        <a href="#top"><font size="1"><font face="Arial" size="2">Back to the topics</font> </font></a></font></li>
+    </ul>
+    <table width="470" border="1">
+<TBODY>
+      <tr>
+        <td bgColor="#f6f6f5"><table cellSpacing="0" cellPadding="0" width="470">
+<TBODY>
+          <tr>
+            <td bgColor="#f6f6f5" colSpan="8"><font face="Arial" size="2"><a name="table3"></a><b>Table
+            3</b><br>
+            Intelligent Fax Board Return On Investment<br>
+            <img height="1"
+            src="file://D:\WINNT\Profiles\Administrator\Desktop\bt\Whitepaper.html/dot_black.gif"
+            width="469" border="0"><br>
+            <br>
+            </font></td>
+          </tr>
+          <tr>
+            <td bgColor="#f6f6f5"><font face="Arial" size="2"><br>
+            </font></td>
+            <td vAlign="top"><font face="Arial" size="2"><b>1-Year Fax<br>
+            Phone Bill</b></font></td>
+            <td width="15" bgColor="#f6f6f5"><font face="Arial" size="2"><img height="1" hspace="15"
+            src="file://D:\WINNT\Profiles\Administrator\Desktop\bt\Whitepaper.html/dot_clear.gif"
+            width="1"></font></td>
+            <td vAlign="top" bgColor="#f6f6f5"><font face="Arial" size="2"><b>1st-Year<br>
+            Intelligent Fax<br>
+            Board Savings¹</b></font></td>
+            <td width="15" bgColor="#f6f6f5"><font face="Arial" size="2"><img height="1" hspace="15"
+            src="file://D:\WINNT\Profiles\Administrator\Desktop\bt\Whitepaper.html/dot_clear.gif"
+            width="1"></font></td>
+            <td vAlign="top" bgColor="#f6f6f5"><font face="Arial" size="2"><b>5-Year Fax<br>
+            Phone Bill</b></font></td>
+            <td width="15" bgColor="#f6f6f5"><font face="Arial" size="2"><img height="1" hspace="15"
+            src="file://D:\WINNT\Profiles\Administrator\Desktop\bt\Whitepaper.html/dot_clear.gif"
+            width="1"></font></td>
+            <td vAlign="top"><font face="Arial" size="2"><b>5-Year<br>
+            Intelligent Fax<br>
+            Board Savings¹</b></font></td>
+          </tr>
+          <tr>
+            <td bgColor="#f6f6f5" colSpan="8"><font face="Arial" size="2"><br>
+            </font></td>
+          </tr>
+          <tr>
+            <td><font face="Arial" size="2"><b>Class 1</b></font></td>
+            <td><font face="Arial" size="2">$4,000</font></td>
+            <td width="15"><font face="Arial" size="2"><br>
+            </font></td>
+            <td><font face="Arial" size="2">$572</font></td>
+            <td width="15"><font face="Arial" size="2"><br>
+            </font></td>
+            <td><font face="Arial" size="2">$20,000</font></td>
+            <td width="15"><font face="Arial" size="2"><br>
+            </font></td>
+            <td><font face="Arial" size="2">$6,460</font></td>
+          </tr>
+          <tr>
+            <td colSpan="8"><font face="Arial" size="2"><br>
+            </font></td>
+          </tr>
+          <tr>
+            <td><font face="Arial" size="2"><b>Class 2</b></font></td>
+            <td><font face="Arial" size="2">$3,405</font></td>
+            <td width="15"><font face="Arial" size="2"><br>
+            </font></td>
+            <td><font face="Arial" size="2">$177</font></td>
+            <td width="15"><font face="Arial" size="2"><br>
+            </font></td>
+            <td><font face="Arial" size="2">$17,025</font></td>
+            <td width="15"><font face="Arial" size="2"><br>
+            </font></td>
+            <td><font face="Arial" size="2">$3,685</font></td>
+          </tr>
+          <tr>
+            <td colSpan="8"><font face="Arial" size="2"><br>
+            </font></td>
+          </tr>
+          <tr>
+            <td><font face="Arial" size="2"><b>Intelligent Fax<img height="1" hspace="8"
+            src="file://D:\WINNT\Profiles\Administrator\Desktop\bt\Whitepaper.html/dot_clear.gif"
+            width="1"><br>
+            Board</b></font></td>
+            <td vAlign="top"><font face="Arial" size="2">$2,528</font></td>
+            <td width="15"><font face="Arial" size="2"><br>
+            </font></td>
+            <td><font face="Arial" size="2"><img height="1"
+            src="file://D:\WINNT\Profiles\Administrator\Desktop\bt\Whitepaper.html/dot_black.gif"
+            width="30"></font></td>
+            <td width="15"><font face="Arial" size="2"><br>
+            </font></td>
+            <td vAlign="top"><font face="Arial" size="2">$12,640</font></td>
+            <td width="15"><font face="Arial" size="2"><br>
+            </font></td>
+            <td><font face="Arial" size="2"><img height="1"
+            src="file://D:\WINNT\Profiles\Administrator\Desktop\bt\Whitepaper.html/dot_black.gif"
+            width="30"></font></td>
+          </tr>
+          <tr>
+            <td colSpan="8"><font face="Arial" size="2"><br>
+            </font></td>
+          </tr>
+          <tr>
+            <td colSpan="8"><font face="Arial" size="2">¹ Savings after purchase-price differential
+            subtracted</font></td>
+          </tr>
+          <tr>
+            <td colSpan="8"><font face="Arial" size="2"><br>
+            </font></td>
+          </tr>
+          <tr>
+            <td colSpan="8"><font face="Arial" size="2">Source: Davidson Consulting, Burbank, CA, 1996</font></td>
+          </tr>
+</TBODY>
+        </table>
+        </td>
+      </tr>
+</TBODY>
+    </table>
+    <div align="right"></div><ul>
+      <li><font face="Arial" size="2"><b>More Overseas Faxing:</b> Because overseas phone rates
+        are higher, if one send more than 1 of every 8 faxes overseas, greater savings will result
+        from intelligent fax board use than is shown in Table 3 above. Of course, due to time-zone
+        differences, fax accounts for greater percentages of overseas than domestic calls.<br>
+        </font></li>
+      <li><font face="Arial" size="2"><b>Intangibles:</b> With intelligent fax boards, less labor
+        is exerted to track down and handle failed call attempts. Productivity increases are
+        greater because more people use intelligent fax board-based fax systems more often. Crises
+        don't occur when workers arrive at the office in the morning to find that 70 faxes out of
+        a 400-site fax broadcast were never actually sent. <br>
+        </font><a href="#top"><font face="Arial" size="1">Back to the topics </font></a></li>
+    </ul>
+    <p><font face="Arial" size="2"><b><a name="how"></a>How to Buy Intelligent Fax Boards</b><br>
+    <br>
+    Considerations in the purchase of intelligent fax boards include: </font><ul>
+      <li><font face="Arial" size="2"><b>Compatibility:</b> Boards must be compatible with server
+        operating systems, fax application software (for example., LAN fax, fax-on-demand),
+        print-to-fax conversion methods, telephone network facilities (for example, analog loop
+        start, T1, ISDN). Broad operating system support can be important to avoiding premature
+        obsolescence. Support for T1 lines (and ISDN lines, particularly in Europe and Japan) can
+        be crucial to generating the substantial savings that such bulk volume phone lines offer<br>
+        </font></li>
+      <li><font face="Arial" size="2"><b>Throughput Speed:</b> Boards preferably should support
+        14.4 Kbs transmission speed, MR and MMR compression as well as MH, and support both
+        on-board on-the-fly document conversion and bit-stuffing. Whenever possible, buyers should
+        test or otherwise determine the relative throughput speed of competing intelligent fax
+        boards, as actual throughput can vary due a range of component and software level factors<br>
+        </font></li>
+      <li><font face="Arial" size="2"><b>Call Progress:</b> Boards should provide very efficient
+        call progress for as many signal types and countries as possible. It is very much worth
+        analyzing how much poor call progress can reduce overall fax server throughput and
+        contaminate fax broadcast lists and address books<br>
+        </font></li>
+      <li><font face="Arial" size="2"><b>Computer Loading:</b> Buyers should test or otherwise
+        determine the relative loading placed on server PCs, with an eye to how loading levels
+        progress as more ports are added to a server.<br>
+        </font></li>
+      <li><font face="Arial" size="2"><b>Image Handling:</b> Can the fax device provide
+        sophisticated and flexible handling of image files? For instance, can it support wide
+        documents and business-form overlays on-the-fly? Does it support transmission of standard
+        TIFF (Type F) files, in particular enabling it not to have to rely on PCX/DCX file
+        formats, which can be much larger than TIFF files and prolong the duration of fax phone
+        calls by a factor of two to ten? When used to receive faxes, can the fax device provide
+        on-the-fly conversion of faxes received in MH or MR formats to the smaller and more
+        efficiently stored and processed MMR format?<br>
+        </font></li>
+      <li><font face="Arial" size="2"><b>Automated Processing of Received Faxes:</b> Particularly
+        in LAN fax environments, buyers should consider the flexibility of using boards that can
+        automatically route received faxes. While it may be significant for the fax device to
+        support a technology like the ITU T.33 standard for subaddressing (which can automatically
+        route faxes if transmitted from T.33-compatible devices; unfortunately, prior to mid-1996,
+        no fax machines were T.33-compatible), the real issue is direct-inward-dial (DID) support.
+        In North America, DID is the single type of inbound routing system that works with the
+        entire worldwide fax machine installed base, works whether inbound faxes are manually or
+        auto dialed, doesn't require that the person sending the fax enter some extra code or
+        command, and doesn't require that routing clerks at the receive-end LAN laboriously open
+        every received computer fax file, visually identify the recipient, and then route the fax
+        to that person's fax mailbox. While DID requires special phone lines (sometimes available
+        through one's PBX), by at least having DID implemented on fax devices, it saves the
+        company the cost of buying external DID devices. Overseas, although DID-equivalent
+        services (often abbreviated as DDI) are sometimes available, implementing equally viable
+        and transparent inbound fax routing usually requires ISDN support. Again, having ISDN on
+        the fax card eliminates the need to purchase third-party, external devices.<br>
+        </font></li>
+      <li><font face="Arial" size="2"><b>Programmability:</b> The API furnished with the
+        intelligent fax board should be powerful, reliable, easy to use, and backwards- and
+        forwards-compatible with other boards the vendor offers (and software that runs on the
+        boards). Although there is a de facto standard fax programing interface, CAS, it is
+        out-of-date and is a factor primarily in terms of supporting legacy applications with
+        leading-edge intelligent fax boards. Because the API is the software &quot;window&quot;
+        into the fax board's hardware functionality, its suitability is critical.<br>
+        </font></li>
+      <li><font face="Arial" size="2"><b>Patch, Fix and Upgradability:</b> It should be possible
+        to fix and upgrade certain fax board capabilities with relative ease, which preferably
+        means by simply downloading code and using it to update DSP-based functionality<br>
+        </font></li>
+      <li><font face="Arial" size="2"><b>System Integration Readiness:</b> How readily can the
+        intelligent fax board be integrated with other, often telephony-based, systems? Can it
+        support voice and fax on the same board? Does it support legacy integration interfaces
+        like PEB and forward-moving architectures like MVIP and SCSA? Does it fully support key
+        computer fax functions like DID and T.33 subaddressing and T.434 binary file transfer?<br>
+        </font></li>
+      <li><font face="Arial" size="2"><b>Overseas Usage Approvals:</b> Where intelligent fax
+        boards are to be used outside their country of manufacture, it is mandatory that
+        manufacturers have received approval from the telecommunications authorities in each
+        country. Moreover, it is not enough that the vendor has just any approval of a fax device
+        in a specific country, it must have approvals for each separate model of fax device for
+        each separate country.<br>
+        </font></li>
+      <li><font face="Arial" size="2"><b>Vendor Support:</b> How well can the vendor provide pre-
+        and post-installation support? How effective is the documentation? Can the fax board
+        vendor work closely with your software supplier and other players, like systems
+        integrators? </font></li>
+    </ul>
+    <p><font face="Arial" size="2">In the end, the role that intelligent fax boards must
+    fulfill for buyers is to enable the development of flexible and powerful fax applications
+    and, once implemented, to support the fax calling process cost-effectively, reliably, and
+    transparently. <br>
+    </font><font face="Arial" size="1"><a href="#top">Back to the topics </a></font><br>
+    <strong><br>
+    <small>Other Whitepapers</small><br>
+    <br>
+    <small><a href="w1.htm">How to Buy Intelligent Fax Boards (Business focus)</a><br>
+    <a href="w3.htm">Security Concerns: Can My Fax Boards Be Hacked Into?</a><br>
+    <a href="w4.htm">Using TR114 ISDN Boards in a Euro-ISDN Environment</a></strong><br>
+    <br>
+    </small><font face="Arial" size="2"><br>
+    </font></td>
+  </tr>
+</table>
+</center></div>
+</body>
+</html>

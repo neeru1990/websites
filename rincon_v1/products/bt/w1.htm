@@ -1,0 +1,764 @@
+<html>
+
+<head>
+<style type="text/css">
+body {font-family: Arial, Helvetica, sans-serif; font-size: 10pt}
+a:visited {text-decoration: none}
+a:active {text-decoration: none}
+a:hover {color: #83694D}
+a:link {text-decoration: none}
+</style>
+<title>Brooktrout - Whitepaper</title>
+<script language="JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v3.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+</head>
+
+<body bgcolor="#ffffff" topmargin="0" leftmargin="0" text="#645646" link="#597FB2"
+vlink="#597FB2" alink="#83694D"
+onLoad="MM_preloadImages('../../images/rf1.gif','../../images/cx1.gif','../../images/hp1.gif')">
+<div align="center"><center>
+
+<table border="0" cellpadding="0" cellspacing="0" width="770" background="top.jpg">
+  <tr>
+    <td align="center" valign="bottom" rowspan="2" background="../../images/top.jpg"><p
+    align="center"><strong><font size="2" face="Arial"><br>
+    <br>
+    <br>
+    <br>
+    <a href="../../index.htm">Home</a> | <a href="../../about.htm">About Us</a> | </font><font
+    color="#83694D" size="2" face="Arial">Products</font><font size="2" face="Arial"> | <a
+    href="../../clients.htm">Clients</a> | <a href="../../sitemap.htm">Sitemap</a> | <a
+    href="../../contact.htm">Contact Us</a></font></strong></td>
+  </tr>
+</table>
+</center></div><div align="center"><center>
+
+<table border="0" cellpadding="2" cellspacing="0" width="770">
+  <tr>
+    <td valign="top" width="145">&nbsp;<table border="0" width="100%" cellspacing="0"
+    cellpadding="0">
+      <tr>
+        <td width="100%"><a href="http://www.brooktrout.com" target="new"><img src="bt.GIF"
+        width="164" height="69" border="0" alt="Brooktrout Technologies"></a></td>
+      </tr>
+    </table>
+    <p><font size="2" face="Arial"><strong><strong><strong><font size="2" face="Arial"><a
+    href="../rf/index.htm" onMouseOut="MM_swapImgRestore()"
+    onMouseOver="MM_swapImage('Image3','','../../images/rf1.gif',1)"><img name="Image3"
+    border="0" src="../../images/rf0.gif" width="100" height="20"></a><br>
+    </font><img src="../../images/bt1.gif" width="100" height="20"></strong><br>
+    </strong></strong></font><font size="1" face="Arial">&nbsp; <a href="index.htm">TR114</a><br>
+    <strong>&nbsp; </strong><a href="trisdn.htm">TR114 ISDN</a><br>
+    <strong>&nbsp; </strong><a href="trufax.htm">TruFAX</font><font size="2" face="Arial"><br>
+    </a>&nbsp; </font><font size="1" face="Arial">Whitepapers</font><font size="2"
+    face="Arial"><strong><br>
+    <strong><strong><strong><strong><strong><a href="../rf/index.htm"
+    onMouseOut="MM_swapImgRestore()"
+    onMouseOver="MM_swapImage('Image3','','../../images/rf1.gif',1)"></a></strong></strong></strong><a
+    href="../cx/index.htm" onMouseOut="MM_swapImgRestore()"
+    onMouseOver="MM_swapImage('cx','','../../images/cx1.gif',1)"><img name="cx" border="0"
+    src="../../images/cx0.gif" width="100" height="20"></a></strong><a href="../ds/index.htm"><br>
+    </a><strong><a href="../ds/index.htm" onMouseOut="MM_swapImgRestore()"
+    onMouseOver="MM_swapImage('hp','','../../images/hp1.gif',1)"><img name="hp" border="0"
+    src="../../images/hp0.gif" width="100" height="20"></a></strong><a href="../ds/index.htm">
+    </a></strong></strong></font></td>
+    <td width="656"><p align="center"><b><font size="4">&nbsp;</font><br>
+    <font face="Arial" size="3"><img src="bthead.gif" width="134" height="30"><br>
+    Brooktrout Technology White Papers</font></p>
+    </b><p align="center"><font face="Arial" size="2"><b>How to Buy Intelligent Fax Boards</b></font>
+    <small><strong>(Business Focus)</strong></small><br>
+    <font face="Arial" size="2">By <a href="mailto:75600.3341@compuserve.com"><b>Peter
+    Davidson</b></a><br>
+    President &amp; Fax Industry Analyst<br>
+    <a href="http://www.pdavidson.com/"><b>Davidson Consulting</b></a> <br>
+    </font></p>
+    <p align="left"><font face="ARIAL,HELVETICA" size="2"><b>Executive Summary</b></font><small><br>
+    <br>
+    Buyers need a firm grasp of fax phone line capacity issues, in part because one less than
+    optimal way to sell fax servers is to keep the initial bid price low by specifying fax
+    servers that are under-equipped with lines. That sales tactic can win bids, but in the end
+    does a disservice to buyers who get less than expected performance at the budgeted price.
+    Buyers may be left with the dilemma of either going over budget, taking out the fax server
+    and starting over again, or settling for subpar performance for meeting their fax
+    dissemination needs, which translates into subpar performance in meeting customer service
+    needs. This report is intended to give buyers enough understanding of line-sizing factors
+    so that they can make informed purchase decisions in order to protect themselves from
+    unwelcome price/performance trade-off surprises.<br>
+    <br>
+    Although some rough industry averages exist as to how many fax server users can
+    effectively share a line (for example, 7 to 25 fax users per line), optimal ratios of
+    users to lines depends on and varies widely according to numerous site-specific factors.<br>
+    <br>
+    Site-specific factors include how many pages of fax traffic users generate, peak-hour
+    traffic volumes, fax board efficiency, acceptable levels of queue delay, whether inbound
+    as well as outbound fax traffic is supported, and how much new fax traffic will the
+    existence of a fax server create?<br>
+    <br>
+    <i>Too few lines</i> can result in delayed communications and lost opportunities and lost
+    sales due to inbound faxes that never reach an open line. <i>Too many lines</i> may cause
+    businesses to incur some unnecessary expenditures, but having ample capacity ensures
+    timely transmissions and provides room to grow as fax traffic volumes increase.<br>
+    Another rule of thumb for estimating line requirements is to take a page from single-line
+    4-page-per-minute business fax machines, which are typically shared by 10 to 25 users.<br>
+    <br>
+    The real task of determining fax server line capacity needs comes down not only to
+    identifying or estimating current fax traffic levels, but also estimating what percentage
+    of that traffic will move to the fax server. In addition, consideration must be given to: </small></p>
+    <div align="center"><ul>
+      <li><p align="left"><small>How much new traffic will emerge </small></p>
+      </li>
+      <li><p align="left"><small>What critical peak-hour volumes must be supported. </small></p>
+      </li>
+      <li><p align="left"><small>How much business-hour fax traffic can be shifted to after-hours
+        delivery through easy computer-based fax invoking of delayed-transmission commands. </small></p>
+      </li>
+      <li><p align="left"><small>How long it actually takes, on average, to send faxes, which in
+        large part depends on fax board capabilities and the type of installed machines to which
+        you send and receive faxes. </small></p>
+      </li>
+      <li><p align="left"><small>How much queuing delay is tolerable because, with outbound faxes,
+        fax servers can store transmissions in long queues, eventually faxing out all jobs, but
+        potentially causing delays up to many hours long relative to delivering most or all faxes.
+        </small></p>
+      </li>
+      <li><p align="left"><small>Whether special factors relating to inbound faxes should be
+        considered, including the fact that adequate percentages of lines (for example, 25% - 50%)
+        should be free to receive faxes at any given time (lest one's business lose orders and
+        other opportunities because inbound fax calls are blocked). Also, where Direct Inward Dial
+        (DID) lines are used to support automated routing of inbound faxes to individual
+        recipients, capacity sizing must be done separately for inbound and outbound traffic
+        because DID services only use receive-only lines. </small></p>
+      </li>
+    </ul>
+    <font face="ARIAL,HELVETICA" size="2"><b><p align="left">How Many Lines Does My Fax Server
+    Need?</b></font><small><br>
+    <br>
+    One of the most difficult assessments fax server buyers must make is how many fax server
+    phone lines to install. Ultimately, this becomes an issue that hinges on the specifics of
+    each fax server installation. Although some rough industry averages exist &#150; broadly,
+    7 to 25 fax users per line, or more narrowly, 12 to 20 users per line (according to
+    Davidson Consulting) &#150; they may be either ill-suited or just too vague to be applied
+    successfully to some specific fax server installations. Moreover, some dealers resort to
+    winning business by offering lowball pricing &#150; with that pricing not reflecting a
+    narrowing of their margins or commissions, but an unstated under-equipping of fax server
+    ports that buyers often don't comprehend til the system is up and running.<br>
+    <br>
+    Rather than using anyone's rule of thumb &#150; after all, Davidson Consulting has come
+    across sites where there are multiple phone lines for each user (and there should be
+    because each user is initiating large broadcast fax jobs) as well as sites where more than
+    50 users share a line and management professes that no performance penalty results
+    (however, Davidson Consulting generally will not recommend sharing a line among more than
+    25 users and believes that, where greater numbers of users successfully share a fax line,
+    it usually means either that many counted as users don't actively computer fax, or that
+    sites are located in countries where phone lines are so expensive and hard to get that
+    users simply accept less than optimal performance as the norm).<br>
+    <br>
+    Given the potential variances, then, it follows that the number of lines needed for each
+    fax server should be assessed according to factors specific to each business, department
+    and/or workgroup that the fax server will support, including: </small></p>
+    </div><div align="center"><ul>
+      <li><p align="left"><small>How much existing fax traffic will the fax server have to
+        support? </small></p>
+      </li>
+      <li><p align="left"><small>How much new fax traffic will the existence of a fax server
+        create? </small></p>
+      </li>
+      <li><p align="left"><small>How much fax traffic must be handled during peak hours and/or the
+        execution of major fax applications, like broadcasts? </small></p>
+      </li>
+      <li><p align="left"><small>Can fax server features be used to manage peak-hour volumes? </small></p>
+      </li>
+      <li><p align="left"><small>What kind of fax boards will be used and what are the relative
+        throughput speeds they support &#150; and, to complete this equation, (a) what throughput
+        speeds are supported by the installed base of fax devices to which the fax server will
+        transmit, and (b) what are the page densities of the faxes the fax server will process?
+        Systems using intelligent fax boards with 14.4 Kbs transmission speed and MMR compression
+        often can handle the same amount of fax traffic as Class 2 fax modems with about 33% fewer
+        lines. </small></p>
+      </li>
+      <li><p align="left"><small>How much queuing delay is tolerable for outbound faxes? </small></p>
+      </li>
+      <li><p align="left"><small>Are faxes being received as well as transmitted? If so, how many
+        lines or how much line time is required to effectively handle inbound fax volume? </small></p>
+      </li>
+    </ul>
+    <p align="left"><small>Although, in most cases, VARs, systems integrators or fax server
+    vendors will analyze the factors at work relative to specific installations and then make
+    recommendations, buyers are still advised to understand and scrutinize fax server sizing
+    dynamics well enough to assess whether the number of ports recommended is based on the
+    needs of the buyer's business or on some sellers' propensity to try to win sales via
+    pricing that is artificially low due to under specifying initial ports.<br>
+    <br>
+    Also, although line capacity can be managed and optimized after the initial implementation
+    of a fax server (and businesses must understand that situations arise where
+    well-intentioned sizing estimates miss the mark and post-installation adjustments must be
+    made), a business may pay a price for installing too many or too few fax server phone
+    lines. If too few lines are installed, typical results include: </small></p>
+    </div><div align="center"><ul>
+      <li><p align="left"><small>Outbound message delivery is delayed by many minutes or hours,
+        potentially disrupting, delaying or even occasionally undermining certain business
+        endeavors. For instance, although a delivery delay of 45 minutes for an accounting report
+        being faxed to a regional office usually is insignificant, if the same delay occurs when
+        faxing back an approval for a retail credit request or loan application, the delay itself
+        can cause a loss of business. </small></p>
+      </li>
+      <li><p align="left"><small>Inbound faxes frequently may be blocked if all lines are often
+        busy &#150; which may usually cause relatively trivial delays, but in worst-case
+        scenarios, for example, can completely block the reception of sales orders, with the
+        result that senders of those sales orders eventually fax them to competitors instead of
+        the company with the overloaded fax server. </small></p>
+      </li>
+      <li><p align="left"><small>If a fax server is generally heavily loaded, it may become
+        problematic to execute business-hour fax broadcasts, creating a lost opportunity in which
+        potential time and money savings go by the wayside. </small></p>
+      </li>
+      <li><p align="left"><small>The ability to fax something immediately, such as when called
+        with an urgent information request, may become unpredictable at best, and impossible at
+        worst. A business can project a negative image to customers by being unable to fax
+        information quickly. For example, the airline that can only promise that faxes containing
+        ticket-less flight information will arrive within 24 hours may lose business with frequent
+        flyers that often buy same-day and next-day tickets (or may just create a subtle level of
+        mistrust in such frequent flyers that, down the road, may feed into their being quicker to
+        decide to switch their allegiance to another airline). </small></p>
+      </li>
+      <li><p align="left"><small>As it becomes clear that additional lines are needed, businesses
+        must install new lines, which means additional installation costs and often significantly
+        impacts normal business operations during the time the fax server is being upgraded. </small></p>
+      </li>
+    </ul>
+    <p align="left"><small>If too many lines are installed, typical results include: </small></p>
+    </div><div align="center"><ul>
+      <li><p align="left"><small>Extra and at least temporarily unnecessary expense for fax card
+        ports &#150; if only for any that are greatly underutilized. Generally, though, computer
+        fax-enabling workers allows them to fax more documents (for example, instead of mail
+        documents or making time-consuming voice calls &#150; or just not communicating the
+        information at all), and having &quot;too much&quot; capacity initially often translates
+        into having enough capacity to grow into as traffic volume rises over time. </small></p>
+      </li>
+      <li><p align="left"><small>Similarly, in cases where telephone lines are installed directly
+        to a fax server (as opposed to through a PBX relative to shared lines) &#150; and no one
+        figures out to cancel the service for currently unnecessary and extra lines &#150;
+        unnecessarily high and ongoing payments will be disbursed to one's phone company. </small></p>
+      </li>
+      <li><p align="left"><small>In terms of the effect on fax server performance &#150; well,
+        performance should be terrific, with both outbound and inbound fax calls handled in
+        extremely timely fashion. </small></p>
+      </li>
+    </ul>
+    <p align="left"><small>Moreover, it is important to understand that initially having extra
+    capacity can make sense because it supports the virtually inevitable growth in fax traffic
+    that occurs with computer-based fax implementations. In fact, there is clearly a market
+    trend whereby businesses, upon calculating that their traffic volumes can be handled
+    satisfactorily by four ports, are instead installing 8-port cards precisely to give
+    themselves room to grow (and, at least in advanced countries, you can add phone service on
+    a line-by-line basis as extra lines are required). Finally, relative to having extra
+    capacity to grow into, buyers should remember not only that installing up to twice actual
+    current capacity levels can have value, but that in most situations, any fax server should
+    be scalable to support up to ten times its original actual line requirements. In other
+    words, if it absolutely needs 4 lines (but you install 8 for room to grow in the
+    near-term), the fax server should also support future expansion, whether on one or
+    multiple servers, to support up a minimum of 40 lines (for example, ten times the original
+    4-line volume level).<br>
+    <br>
+    <a name="thumb" target="_blank"></a></small><font face="ARIAL,HELVETICA" size="2"><b>Rules
+    of Thumb Can Help, But Don't Become &quot;All Thumbs&quot;</b></font><small><br>
+    <br>
+    A few rules of thumb for estimating fax server capacity needs:<br>
+    <br>
+    <b>Taking a Cue From Fax Machines:</b><br>
+    <br>
+    One-line <i>business</i> fax machines (for example, laser fax machines that print at four
+    pages per minute or faster) are typically shared by 10 to 25 users, according to Davidson
+    Consulting. Producing similar information over the 5 years they have been conducted,
+    annual Pitney Bowes/Gallup polls of corporate fax usage patterns have shown results
+    indicating corporate fax machine sharing by average numbers of users ranging from a low of
+    14 users per line one year to a high of 21 users per line another year (note than an
+    average of 14 users per fax machine suggests a range of perhaps 8 to 20 users sharing most
+    corporate fax machines). Such ranges, whether 8 to 20 users or 10 to 25 or even 12 to 30,
+    provide an indication of how many users comfortably share a single fax machine phone line.<br>
+    <br>
+    However, because fax servers automate the process of sending faxes (for example, make it
+    easier to broadcast faxes to multiple recipients), fax servers tend to generate higher
+    volumes of outbound faxes per user than fax machines (and such increases in outbound
+    traffic tend to create a reciprocity that in turn increases inbound fax server traffic
+    too). Assuming a 25% increase in fax traffic per user due to computer-based fax
+    automation, the users-per-fax-line ranges listed above for fax machines would, for fax
+    servers, become: 6 to 15 users or 8 to 18 or 9 to 23, respectively.<br>
+    <br>
+    <b>The Time to Fax a Page:</b><br>
+    <br>
+    It can take a shorter or longer time to send a fax or even an identical fax page,
+    depending on (a) the capabilities of both the sending and receiving fax devices in a fax
+    phone call, and (b) on the make-up of fax pages (the more text and other print on a fax
+    page, the longer that page takes to transmit). However, a long-standing and widely-used
+    rough estimate of the time it takes to fax a single page is one minute (including call
+    setup time, between-page retraining, actual page transmission time, and allowances for
+    redialing time too). Where departments within large corporations have leading-edge 14.4
+    Kbs machines and tend to fax often to corporate recipients, a more accurate rule-of-thumb
+    is 30 seconds per page.<br>
+    <br>
+    <b>Don't Rely Solely on Rules of Thumb!</b><br>
+    <br>
+    Don't automatically assume that rules of thumb fit your specific needs. There are
+    corporate workgroups comprised of frequent fax broadcasters where anything less than
+    multiple lines for each single user would create serious under capacity situations!
+    Moreover, the very term &quot;user&quot; is fraught with ambiguity: a business may have
+    100 users on a LAN, but only 20 or 50 or 80 that fax frequently at all and, of those, only
+    10 or 25 or 40 may use computer fax frequently. If you know that only 20 users on the LAN
+    actually fax, then the initial number of fax server users should be considered 20, not
+    100.<br>
+    <br>
+    Finally, relative to the actual duration of different types of fax calls, note that
+    intra-company fax calls involving state-of-the-art fax transmission and compression
+    technology (and simple text documents) can bring the average time to fax a page down to
+    under 15 seconds, making the one-minute average a recipe for overcooking one's fax server
+    capabilities.<br>
+    <br>
+    </small><font size="2"><b>Determining Fax Server Line Capacity Needs</b></font><small> <b>Estimating
+    How Much Existing and New Fax Traffic a Fax Server Must Support</b><br>
+    <br>
+    A fax server must have capacity to support:<br>
+    <i><b>Existing fax traffic</b></i> that will migrate to the fax server, as in that share
+    of faxing that a business does (before it installs the fax server), via PC fax systems and
+    fax machines, that subsequently will be handled through the fax server. Calculating
+    overall existing fax traffic sometimes can be done (more often it can't) by analyzing
+    telephone system call-detail records. Lacking that resource, fax traffic levels can be
+    roughly estimated by printing periodic reports at fax machines and then extrapolating load
+    levels. Assessing how much existing fax traffic will migrate to a fax server can be tricky
+    because it depends on (a) how much of the traffic originates as computer files and how
+    much originates as paper, and (b) the computer skills and resources of individual users,
+    with users with strong computer skills more likely to computer-fax more often and those
+    with limited computer skills more likely to continue extensively using fax machines.<br>
+    <br>
+    <i><b>New fax traffic,</b></i> as in fax traffic involving calls that were not made prior
+    to the installation of a fax server. New fax traffic typically arises upon installing fax
+    servers because: </small></p>
+    </div><div align="center"><ul>
+      <li><p align="left"><small>Many users find that computer-based fax makes it easier and
+        quicker to send 'everyday' faxes, so they send more faxes </small></p>
+      </li>
+      <li><p align="left"><small>Fax broadcast traffic often picks up as end users discover that
+        initiating ad hoc fax broadcasts via fax servers is as simple as clicking on multiple
+        recipients in a computer-based fax phone book &#150; and this can lead, for example, to
+        doing a single fax broadcast to 6 recipients rather than sequentially making 6 phone calls
+        </small></p>
+      </li>
+      <li><p align="left"><small>Businesses often use fax servers to fax-enable one or more
+        relatively high-volume strategic applications (for example, auto faxing purchase orders,
+        financial statements, inventory lists and other regularly generated paper documents that
+        previously had been distributed as physical mail). This can add hundreds or thousands of
+        fax pages to overall daily volumes </small></p>
+      </li>
+    </ul>
+    <p align="left"><small>Amounts of new fax traffic obviously can only be
+    &quot;guess-timated,&quot; although, relative to automating specific applications, it may
+    at least be possible to extrapolate from existing volumes of document pages already
+    generated for the application, for example, relative to its traditional delivery by
+    physical mail.<br>
+    <br>
+    </small><font size="2"><b>What Are Peak Hour Requirements?</b></font><small><br>
+    <br>
+    The number of lines a fax server should support may be substantially impacted by strategic
+    needs to meet peak-hour traffic delivery requirements. For example, a financial
+    institution may receive a particular set of information every morning at 10 am &#150; that
+    it must then turn around and transmit, in as timely and equitably a fashion as possible,
+    to 100 customers. Although the company's fax server might perform well at all other hours
+    of the day with just four lines, that single 10 am broadcast could create both a need and
+    cost-justification for a server with 16 lines (with 12 lines used to complete the
+    broadcast in just 20 to 30 minutes, while the other 4 lines continue to support normal
+    business-hour fax volume). Meanwhile, if the company tries to handle that same broadcast
+    with just the four lines that would otherwise suffice (assuming that the broadcast would
+    take over two of the four lines), the results would include: </small></p>
+    </div><div align="center"><ul>
+      <li><p align="left"><small>The broadcast would then last two to three hours, losing its
+        timeliness. </small></p>
+      </li>
+      <li><p align="left"><small>During those two to three hours, other fax traffic would have
+        access to only two lines instead of four. That could mean (a) that 50% of such ad hoc
+        faxing could get backlogged over that two to three hour period, with those backlogs
+        possibly not working themselves back to levels of tolerable delay until several hours
+        after the two to three hour broadcast finally ends, and/or (b) the fax server could become
+        so highly utilized with outbound traffic that it becomes nearly impossible to receive
+        inbound traffic. </small></p>
+      </li>
+    </ul>
+    <p align="left"><small>Conversely, however, the capabilities of fax servers to let users
+    easily delay fax jobs can be used, when appropriate, to reduce peak-hour traffic.
+    Non-critical faxes and fax broadcasts can be scheduled for after-hours transmission in
+    order to even out hourly traffic loads and enable the same amount of fax traffic to be
+    supported by fewer overall telephone lines.<br>
+    <br>
+    </small><font size="2"><b>The Time It Takes to Process and Transmit a Fax</b></font><small><br>
+    <br>
+    How quickly fax phone calls are actually completed can vary tremendously depending on:<br>
+    The page transmission speeds (for example, 9.6 or 14.4 Kbs) supported by both fax devices
+    involved in a fax phone call. If both fax systems transmit at 14.4 Kbs, pages will be
+    faxed at that speed. If a fax server is equipped with 14.4 Kbs fax modems, it will fax at
+    14.4 Kbs with other 14.4 Kbs fax devices (as of year-end 1996, about 30% of corporate fax
+    traffic in the US was transmitting at 14.4 Kbs) or drop down to 9.6 Kbs when faxing to
+    receive-end devices that only support that slower speed. If equipped with only 9.6 Kbs fax
+    modems, fax servers can transmit no faster than 9.6 Kbs, regardless of whether receive-end
+    fax machines can transmit at 14.4 Kbs or not.<br>
+    <br>
+    Although not nearly as widely known about or understood as transmission speed, fax
+    compression methods can lengthen or reduce fax phone call times more dramatically than
+    transmission speed, more often. That is, compression is used to &quot;squeeze down&quot;
+    the amount of data to be faxed prior to transmission; the less data that needs to be
+    faxed, the more quickly the fax phone call can be completed. Virtually all fax machines
+    and computer-based fax systems used today are Group 3 (G/3) devices, which all use the
+    mandatory standard G/3 compression method, Modified Huffman (MH) &#150; which is less
+    efficient than two other optional G/3 compression methods, Modified Read (MR) and Modified
+    Modified Read (MMR). Table 1 below shows fax page transmission times depending on
+    combinations of transmission speed plus the three different compression methods. Notably,
+    the 9.6/MR combination can send a page in just 15 seconds, while the 14.4/MH combination
+    results in a sending time that is 33% longer at 20 seconds per page, which indicates the
+    relative power of MR versus 14.4 Kbs transmission speed on overall fax phone call
+    duration.<br>
+    <br>
+    <br>
+    </small></p>
+    <div align="left"><table border="1" cellPadding="5" cellSpacing="0" width="350"
+    bgcolor="#F6F6F5">
+<TBODY>
+      <tr>
+        <td align="middle" colSpan="4"><p align="left"><small><b>Table 1</b><small><br>
+        <br>
+        </small></small><font size="2">Page Throughput By Transmission Speed + Compression Method</font><small>
+        (Estimated times to fax a benchmark page in seconds)</small></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td><small><b>MH</b></small></td>
+        <td><small><b>MR</b></small></td>
+        <td><small><b>MMR</b></small></td>
+      </tr>
+      <tr>
+        <td><small><b>9.6 Kbs</b></small></td>
+        <td><small>30</small></td>
+        <td><small>15</small></td>
+        <td><small>9</small></td>
+      </tr>
+      <tr>
+        <td><small><b>14.4 Kbs</b></small></td>
+        <td><small>20</small></td>
+        <td><small>10</small></td>
+        <td><small>6</small></td>
+      </tr>
+      <tr>
+        <td align="right" colSpan="4"><font size="1"><p align="right">Source: Davidson Consulting,
+        Burbank, CA, 1997 </font></td>
+      </tr>
+</TBODY>
+    </table>
+    </div><div align="left"><p><small><br>
+    </small></p>
+    <p><small>Moreover, the breakout of fax traffic handled by the US installed base of over
+    20 million fax machines in 1996, as shown in Table 2, is still dominated by MR fax devices
+    with a 52% share of traffic, and by MR and/or MMR units, which generated 75% of all 1996
+    US-based fax traffic.<br>
+    <br>
+    </small></p>
+    </div><div align="left"></div><div align="left"><table border="1" cellPadding="5"
+    cellSpacing="0" width="350" bgcolor="#F6F6F5">
+<TBODY>
+      <tr>
+        <td align="middle" colSpan="4"><p align="left"><small><b>Table 2</b><br>
+        <br>
+        </small><font size="2">Volume of 1996 US Fax Traffic By Speed + Compression</font><small><br>
+        (Plus modes supported and seconds-per-page by mode)</small></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td vAlign="top"><small><b>% of Traffic</b></small></td>
+        <td><small><b>Modes &amp; Per-Page Speeds for 14.4/MH Units</b></small></td>
+        <td><small><b>Modes &amp; Per-Page Speeds for 14.4/MMR Units</b></small></td>
+      </tr>
+      <tr>
+        <td vAlign="top"><small><b>9.6/MH </b></small></td>
+        <td vAlign="top"><small>21%</small></td>
+        <td><small>9.6/MH<br>
+        30 seconds</small></td>
+        <td><small>9.6/MH<br>
+        30 seconds</small></td>
+      </tr>
+      <tr>
+        <td vAlign="top"><small><b>9.6/MR</b></small></td>
+        <td vAlign="top"><small>52%</small></td>
+        <td><small>9.6/MH<br>
+        30 seconds</small></td>
+        <td><small>9.6/MR<br>
+        15 seconds</small></td>
+      </tr>
+      <tr>
+        <td vAlign="top"><small><b>9.6/MMR</b></small></td>
+        <td vAlign="top"><small>5%</small></td>
+        <td><small>9.6/MH<br>
+        30 seconds</small></td>
+        <td><small>9.6/MMR<br>
+        9 seconds</small></td>
+      </tr>
+      <tr>
+        <td vAlign="top"><small><b>14.4/MH</b></small></td>
+        <td vAlign="top"><small>4%</small></td>
+        <td><small>14.4/MH<br>
+        20 seconds</small></td>
+        <td><small>14.4/MH<br>
+        20 seconds</small></td>
+      </tr>
+      <tr>
+        <td><small><b>14.4/MR</b></small></td>
+      </tr>
+      <tr>
+        <td vAlign="top"><small><b>14.4/MMR</b></small></td>
+        <td vAlign="top"><small>18%</small></td>
+        <td><small>14.4/MH<br>
+        20 seconds</small></td>
+        <td><small>14.4/MMR<br>
+        6 seconds</small></td>
+      </tr>
+      <tr>
+        <td align="right" colSpan="4"><font size="1"><p align="right">Source: Davidson Consulting,
+        Burbank, CA, 1997 </font></td>
+      </tr>
+</TBODY>
+    </table>
+    </div><div align="left"><p><small>If Table 2 data is used as a reference for an installed
+    base of devices to which a 14.4 Kbs/MH fax server line and a 14.4 Kbs/MMR fax server line
+    each transmit 100 four-page faxes per day, what takes the MH system 4 hours per day to
+    process will take only two-and-three-fourths hours with an MMR system. This translates,
+    for example, into an 11-line 14.4/MMR system supporting the same volume of traffic as a
+    16-line 14.4/MH system, despite having 32% fewer lines. Typically, intelligent fax boards
+    (fax modem cards with on-board microprocessors) supporting mid-volume or higher systems
+    are 14.4/MMR devices, while most Class 1 and Class 2 fax modems are 14.4/MH devices.<br>
+    <br>
+    </small></p>
+    <table border="1" cellPadding="5" cellSpacing="0" width="401" bgcolor="#F6F6F5">
+<TBODY>
+      <tr>
+        <td align="middle" colSpan="4"><p align="left"><small><b>Table 3</b><br>
+        <br>
+        </small><font size="2">Daily Utilization in Minutes, 14.4/MH Vs 14.4/MMR</font><small><br>
+        (All per-call times include identical handshaking and retraining overhead time)</small></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td vAlign="top"><small><b>% of Traffic</b></small></td>
+        <td><small><b>Modes &amp; Per-Page Speeds for 14.4/MH Units</b></small></td>
+        <td><small><b>Modes &amp; Per-Page Speeds for 14.4/MMR Units</b></small></td>
+      </tr>
+      <tr>
+        <td vAlign="top"><small><b>9.6/MH</b></small></td>
+        <td vAlign="top"><small>21%</small></td>
+        <td><small>152 seconds/call<br>
+        3192 seconds total</small></td>
+        <td><small>152 seconds/call<br>
+        3192 seconds total</small></td>
+      </tr>
+      <tr>
+        <td vAlign="top"><small><b>9.6/MR</b></small></td>
+        <td vAlign="top"><small>52%</small></td>
+        <td><small>152 seconds/call<br>
+        7904 seconds total</small></td>
+        <td><small>92 seconds/call<br>
+        4784 seconds total</small></td>
+      </tr>
+      <tr>
+        <td vAlign="top"><small><b>9.6/MMR</b></small></td>
+        <td vAlign="top"><small>5%</small></td>
+        <td><small>152 seconds/call<br>
+        760 seconds total</small></td>
+        <td><small>68 seconds/call<br>
+        340 seconds total</small></td>
+      </tr>
+      <tr>
+        <td vAlign="top"><small><b>14.4/MH</b></small></td>
+        <td vAlign="top"><small>4%</small></td>
+        <td><small>112 seconds/call<br>
+        448 seconds total</small></td>
+        <td><small>112 seconds/call<br>
+        448 seconds total</small></td>
+      </tr>
+      <tr>
+        <td vAlign="top"><small><b>14.4/MMR</b></small></td>
+        <td vAlign="top"><small>18%</small></td>
+        <td><small>112 seconds/call<br>
+        2016 seconds total</small></td>
+        <td><small>56 seconds/call<br>
+        1008 seconds total</small></td>
+      </tr>
+      <tr>
+        <td vAlign="top"><small><b>Totals</b></small></td>
+        <td vAlign="center">&nbsp;</td>
+        <td><small>14,320 seconds total<br>
+        4 hours approx./day</small></td>
+        <td><small>9,772 seconds total<br>
+        2.75 hours approx./day</small></td>
+      </tr>
+      <tr>
+        <td align="right" colSpan="4"><font size="1"><p align="right">Source: Davidson Consulting,
+        Burbank, CA, 1997 </font></td>
+      </tr>
+</TBODY>
+    </table>
+    <p><small>Meanwhile, intelligent fax boards may offer additional throughput advantages
+    over 'Class' modems relative to (a) more efficient bit-stuffing (see the Davidson
+    Consulting publication, Hidden Fax Board Costs &amp; Secrets to Savings), and (b) their
+    on-board microprocessors tend to handle image-conversion and other associated overhead
+    processing tasks more efficiently (for example, on-the-fly) than Class 2 modems &#150;
+    with the less efficient Class modem/host-related processing potentially causing delays in
+    between fax phone calls and thereby taking yet more time overall to complete series of fax
+    jobs.<br>
+    <br>
+    </small><font size="2"><b>How Much Queuing Delay Is Tolerable?</b></font><small><br>
+    <br>
+    With outbound faxes, fax servers whose phone lines are already busy handling fax calls can
+    manage additional fax job submissions by storing them in memory (for example, on a hard
+    drive), where they are &quot;queued&quot; and then, as phone lines become free,
+    sequentially relayed to the fax server's phone lines for transmission. Due to this kind of
+    capability, it is possible, for example, to have a 2-line fax server support 100 active
+    users. If we assume that each active user submits two 2-minute fax jobs per hour during
+    every hour of an eight-hour day, here's what happens: </small></p>
+    </div><div align="left"><ul>
+      <li><small>At the end of the first hour, assuming 120 minutes of faxes have been processed
+        (60 minutes times 2 lines), 80 minutes of the total of 200 minutes of fax jobs submitted
+        will still be queued up. A fax job initiated right at the end of the first hour, then,
+        won't actually be transmitted until after 40 minutes has passed, because the fax server
+        will have to work through the 80 minutes of queued jobs first, which it will do in 40
+        minutes due to its two phone lines. </small></li>
+      <li><small>Each successive hour throughout the day, the length of queue delays will double.
+        At the end of two hours, the delay will be 80 minutes; after three hours, a two-hour delay
+        will exist. At the end of eight hours, a 5-hour-and-20-minute delay will exist. And, about
+        5 hours and 20 minutes after closing time, the last of the queued faxes would finally be
+        delivered. </small></li>
+    </ul>
+    <p><small>There are situations where it is acceptable for faxes to be delivered after
+    considerable delays (for example, where next-day delivery suffices). If the fax server is
+    installed in a region, such as in an underdeveloped country, where phone lines are very
+    expensive to install or it may require months or even years to get additional phone lines
+    installed, then it may be understandable for a fax server to be equipped with so few phone
+    lines relative to its traffic volume. But Davidson Consulting, while allowing that such
+    situations can be understandable, does not ever recommend under-powering fax servers in
+    this manner. Here's why: </small></p>
+    </div><div align="left"><ul>
+      <li><small>Faxes often involve documents that drive business transactions; delaying faxes
+        risks losing business represented by those transactional documents. </small></li>
+      <li><small>Delayed fax deliveries can create negative impressions in the minds of trading
+        partners. </small></li>
+      <li><small>Delayed faxes can interrupt the work processes of a company's own workforce,
+        lowering worker productivity by repeatedly causing workflow to be disjointed and high
+        numbers of tasks to be pending for longer than necessary periods of time. </small></li>
+    </ul>
+    <font size="2"><b><p>Special Considerations Relative to Receiving Faxes</b></font><small><br>
+    <br>
+    Some fax servers are used predominately or totally to send outbound faxes; assessing the
+    number of lines they need simply involves figuring out how many lines are necessary to
+    handle peak-hour traffic and to maintain queue delays within tolerable limits. Having
+    outbound-only fax server phone lines highly utilized most of the time is a goal, not a
+    problem.<br>
+    <br>
+    When fax servers also receive faxes, the situation changes. Fax lines cannot be highly
+    utilized and be ready to receive faxes. It's one or the other: </small></p>
+    </div><div align="left"><ul>
+      <li><small>If a fax line is busy 75% of the time, most inbound fax calls will initially
+        receive busy signals and unacceptably high numbers of calls &#150; <i><b>more than
+        one-third</b></i> &#150; will not be received, even if they automatically redial three
+        times. </small></li>
+      <li><small>In order for fax server phone lines to be ready to receive faxes, they cannot be
+        busy almost all the time or even most of the time. A single fax server line used for
+        reception should be free to receive calls more than half the time during all fax-reception
+        time periods. </small></li>
+    </ul>
+    <p><small>With multi-line fax servers, important considerations include: </small></p>
+    </div><ul align="left">
+      <li><p align="left"><small>That adequate percentages of lines (for example, 25% to 50%) be
+        free to receive faxes at any given time. </small></p>
+      </li>
+      <li><p align="left"><small>In many cases, to prevent outbound fax broadcasts and the like
+        from monopolizing all of a fax server's phone lines, it can make sense to dedicate some
+        lines solely to receiving faxes. For one, this allows the company to fine-tune queue
+        delays on outbound faxes without diminishing the ability to receive faxes efficiently. On
+        the other hand, the overall efficiency with which a fax server can expedite the sum total
+        of all fax calls passing through it is greater when most or all lines can be used for both
+        sending and receiving. </small></p>
+      </li>
+    </ul>
+    <ul>
+    </ul>
+    <p align="left"><small>It is strongly recommended that all but the very lowest-volume fax
+    servers, when used to receive as well as send faxes, be equipped with at least two lines
+    so faxes can be received even while others are being transmitted outbound.<br>
+    <br>
+    Direct Inward Dialing (DID), which is the most widely used form of automated inbound
+    routing (whereby faxes received at a fax server are automatically routed to LAN-based
+    inboxes of individual recipients), creates an additional consideration because DID lines
+    are receive-only.<br>
+    <br>
+    </small><font size="2"><b>Conclusions</b></font><small> </small></p>
+    <ul align="left">
+      <li><p align="left"><small>A general rule of thumb is 7 to 25 fax users per line (needs may
+        vary; see <a
+        href="http://64.4.22.250/cgi-bin/linkrd?_lang=EN&amp;lah=cc9b32426d32f37863bfb022805b7f3c&amp;lat=998199488&amp;hm___action=http%3a%2f%2fwww%2ebrooktrout%2ecom%2fwhitepapers%2fhtml_pages%2fhow_buy%2ehtml%23thumb"
+        target="_blank"><font color="#006699">Rules of Thumb....</font></a> for details). </small></p>
+      </li>
+      <li><p align="left"><small>Only analysis of site-specific factors can really begin to zero
+        in on the number of lines needed &#150; and even those efforts can miss the mark a bit due
+        to poor information up front (for example, extrapolating volume from fax machine log
+        printouts isn't exactly a science) and some not uncommon post-installation surprises,
+        usually involving extra usage generated spontaneously by the very introduction of the fax
+        server resource. </small></p>
+      </li>
+      <li><p align="left"><small>Surprises can always happen (without it being anyone's fault, but
+        merely a potentially unpredictable situation), so buyers need to understand that
+        post-installation adjustments may have to be made. </small></p>
+      </li>
+      <li><p align="left"><small>Having &quot;too many&quot; lines may or may not be a problem,
+        but having too few lines almost always has negative consequences. </small></p>
+      </li>
+      <li><p align="left"><small>In the end, it is critical that buyers have a firm grasp of fax
+        phone line issues, in part because one less than optimal way to sell fax servers is to
+        keep the initial bid price low by specifying fax servers that are under-equipped with
+        lines. That sales tactic can win bids, but then do a disservice to buyers who get less
+        than expected performance at the budgeted price and are left with the dilemma of either
+        going over budget, taking out the fax server and starting over again, or settling for
+        subpar performance for meeting their fax dissemination needs, which translates into subpar
+        performance in meeting customer service needs. </small></p>
+      </li>
+    </ul>
+    </div><p><font face="Arial" size="1"><a href="#top">Back to the top</a></font><br>
+    <strong><br>
+    <small>Other Whitepapers</small><br>
+    <br>
+    <small><a href="w2.htm">Why &amp; How to Buy Intelligent Fax Boards (IT&nbsp; focus)</a><br>
+    <a href="w3.htm">Security Concerns: Can My Fax Boards Be Hacked Into?</a><br>
+    <a href="w4.htm">Using TR114 ISDN Boards in a Euro-ISDN Environment</a></strong><br>
+    <br>
+    </small><font size="2" face="Arial"><br>
+    </font></td>
+  </tr>
+</table>
+</center></div>
+</body>
+</html>

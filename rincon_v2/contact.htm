@@ -1,0 +1,262 @@
+<HTML>
+<HEAD>
+<LINK href="includes/rincon.css" type=text/css rel=stylesheet>
+<TITLE>Rincon &gt; Contact Us</TITLE>
+</HEAD>
+<SCRIPT language="javascript">
+<!--
+	function check(enquiry)
+	{
+		if (enquiry.realname.value == '')
+		{
+		    alert("Please Enter Your Name!");
+		    enquiry.realname.focus();
+		    return false;
+		}
+			if (enquiry.CompanyName.value == '')
+		{
+		    alert("Please Enter Your Company Name!");
+		    enquiry.CompanyName.focus();
+		    return false;
+		}
+			if (enquiry.PhoneNumber.value == '')
+		{
+		    alert("Please Enter Your Business Phone!");
+		    enquiry.PhoneNumber.focus();
+		    return false;
+		}
+			if (enquiry.FaxNumber.value == '')
+		{
+		    alert("Please Enter Your Fax Number!");
+		    enquiry.FaxNumber.focus();
+		    return false;
+		}
+			if (enquiry.email.value == '')
+		{
+		    alert("Please Enter Your E-Mail Address!");
+		    enquiry.email.focus();
+		    return false;
+		}
+			if (enquiry.CustType.value == '')
+		{
+		    alert("Please Select An Option!");
+		    enquiry.CustType.focus();
+		    return false;
+		}
+			if	(
+			(enquiry.Interests[0].checked == false) && 
+			(enquiry.Interests[1].checked == false) && 
+			(enquiry.Interests[2].checked == false) && 
+			(enquiry.Interests[3].checked == false) && 
+			(enquiry.Interests[4].checked == false) && 
+			(enquiry.Interests[5].checked == false)
+				)
+		{
+		    alert("Please Select Atleast One Product Of Interest!");
+		    enquiry.Interests[0].focus();
+		    return false;
+		}
+					
+		return true;
+	}
+//-->
+</SCRIPT>
+<BODY>
+<TABLE width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+  <TR> 
+    <TD class="pad15"><IMG src="images/rincon_logo.gif" alt="Rincon India Solutions Pvt. Ltd." width="192" height="49" border="0"></TD>
+    <TD colspan="4" class="links"><IMG src="images/bullet_low.gif" width="25" height="9"><A class="menu" href="index.htm">Home</A><IMG src="images/bullet_low.gif" width="25" height="9"><A class="menu" href="about.htm">About 
+      Us</A><IMG src="images/bullet_low.gif" width="25" height="9"><A class="menu" href="products.htm">Products</A><IMG src="images/bullet_hi.gif" width="25" height="9">Contact 
+      Us<BR> <BR> <A href="mailto:hrd@rincon.co.in?subject=My%20Resume">Careers</A></TD>
+  </TR>
+  <TR> 
+    <TD width="222" height="20" bgcolor="#2F5B79">&nbsp; </TD>
+    <TD width="116" bgcolor="#5FA7C9">&nbsp;</TD>
+    <TD width="239" bgcolor="#A9CFE2">&nbsp;</TD>
+    <TD width="31" bgcolor="#013554">&nbsp;</TD>
+    <TD width="162" bgcolor="#0270B0">&nbsp;</TD>
+  </TR>
+</TABLE>
+<TABLE width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+  <TR> 
+    <TD class="borders"> <H1>Contact Us</H1>
+      <TABLE width="450" border="0" align="center" cellpadding="5" cellspacing="0">
+        <TR> 
+          <TD colspan="2"> <CENTER>
+              <STRONG>Rincon India Solutions Pvt. Ltd.</STRONG><BR>
+              P. O. Box 26607, 30-32/384, Telang Road, Mumbai 400 019, INDIA.</CENTER></TD>
+        </TR>
+        <TR> 
+          <TD width="50%"> <CENTER>
+              Tel:&nbsp; +91 22 24010041<BR>
+              Fax: +91 22 24021590 </CENTER></TD>
+          <TD> <CENTER>
+              Website: <A href="http://www.rincon.co.in">www.rincon.co.in</A><BR>
+              E-Mail: <A href="mailto:sales@rincon.co.in">sales@rincon.co.in</A></CENTER></TD>
+        </TR>
+        <TR> 
+          <TD colspan="2"><BR> <HR> <CENTER>
+              <STRONG> <BR>
+              Thank you for your interest in our products. <BR>
+              </STRONG> To find out more about them, please&nbsp;complete this 
+              brief questionnaire. <BR>
+              <BR>
+              Fields marked with an <FONT color="#FF0000"><STRONG>*</STRONG></FONT> 
+              are mandatory. 
+            </CENTER></TD>
+        </TR>
+      </TABLE>
+      <FORM name="Feedback" method="post" action="../cgi-bin/formmail/FormMail.pl" onSubmit="return check(this)">
+        <INPUT type="hidden" name="recipient" value="feedback@rincon.co.in">
+        <INPUT type="hidden" name="subject" value="Feedback">
+        <INPUT type="hidden" name="redirect" value="http://www.rincon.co.in/thankyou.htm">
+        <TABLE width="500" border="0" align="center" cellpadding="5" cellspacing="0">
+          <TR valign="top"> 
+            <TD colspan="3"><STRONG>1.&nbsp; Contact information:</STRONG></TD>
+          </TR>
+          <TR valign="top"> 
+            <TD> <DIV align="right"><FONT color="#FF0000"></FONT>Name<FONT color="#FF0000"><STRONG>*</STRONG></FONT><FONT color="#FF0000"></FONT></DIV></TD>
+            <TD colspan="2"> <INPUT name="realname" type="text" id="realname" size="20" maxlength="256"> 
+            </TD>
+          </TR>
+          <TR valign="top"> 
+            <TD> <DIV align="right">Title</DIV></TD>
+            <TD colspan="2"> <INPUT type="text" size="30" name="Title" maxlength="256"> 
+            </TD>
+          </TR>
+          <TR valign="top"> 
+            <TD> <DIV align="right">Company<FONT color="#FF0000"><STRONG>*</STRONG></FONT><FONT color="#FF0000"></FONT></DIV></TD>
+            <TD colspan="2"> <INPUT name="CompanyName" type="text" id="CompanyName" size="50" maxlength="256"> 
+            </TD>
+          </TR>
+          <TR valign="top"> 
+            <TD> <DIV align="right">Street Address</DIV></TD>
+            <TD colspan="2"> <INPUT type="text" size="50" maxlength="256" name="Street"> 
+            </TD>
+          </TR>
+          <TR valign="top"> 
+            <TD>&nbsp; </TD>
+            <TD colspan="2"> <INPUT type="text" size="50" name="Street2"> </TD>
+          </TR>
+          <TR valign="top"> 
+            <TD> <DIV align="right">City</DIV></TD>
+            <TD colspan="2"> <INPUT type="text" size="20" maxlength="256" name="City">
+            </TD>
+          </TR>
+          <TR valign="top"> 
+            <TD> <DIV align="right">Zip/Postal Code</DIV></TD>
+            <TD colspan="2"> <INPUT type="text" size="10" maxlength="12" name="ZipCode">
+            </TD>
+          </TR>
+          <TR valign="top"> 
+            <TD> <DIV align="right">Business Phone<FONT color="#FF0000"><STRONG>*</STRONG></FONT><FONT color="#FF0000"></FONT></DIV></TD>
+            <TD colspan="2"> <INPUT type="text" size="20" name="PhoneNumber" maxlength="25"> 
+            </TD>
+          </TR>
+          <TR valign="top"> 
+            <TD> <DIV align="right">Fax<FONT color="#FF0000"><STRONG>*</STRONG></FONT><FONT color="#FF0000"></FONT></DIV></TD>
+            <TD colspan="2"> <INPUT type="text" size="20" name="FaxNumber" maxlength="25"> 
+            </TD>
+          </TR>
+          <TR valign="top"> 
+            <TD> <DIV align="right">Email<FONT color="#FF0000"><STRONG>*</STRONG></FONT><FONT color="#FF0000"></FONT></DIV></TD>
+            <TD colspan="2"> <INPUT name="email" type="text" id="email" size="30" maxlength="256"> 
+            </TD>
+          </TR>
+          <TR valign="top"> 
+            <TD colspan="3"></TD>
+          </TR>
+          <TR valign="top"> 
+            <TD colspan="3"><STRONG>2.&nbsp; You are a/an<FONT color="#FF0000"><STRONG>*</STRONG></FONT><FONT color="#FF0000"></FONT>&nbsp; 
+              </STRONG> 
+              <SELECT size="1" name="CustType">
+                <OPTION selected>Please select</OPTION>
+                <OPTION value="End User">End User</OPTION>
+                <OPTION value="Reseller">Reseller</OPTION>
+                <OPTION value="Consultant">Consultant</OPTION>
+                <OPTION value="Press">Press</OPTION>
+                <OPTION value="Other">Other</OPTION>
+              </SELECT> <INPUT name="CustType_Other" type="text" id="CustType_Other" value="If Other, please specify" size="30"> 
+            </TD>
+          </TR>
+          <TR valign="top"> 
+            <TD colspan="3"><STRONG>3.&nbsp; No. of users on your network &nbsp; 
+              </STRONG> <SELECT
+            name="Users" size="1">
+                <OPTION selected>Please select</OPTION>
+                <OPTION value="Less than 50">Less than 50</OPTION>
+                <OPTION value="Between 51-250">Between 51-250</OPTION>
+                <OPTION value="Between 251-500">Between 251-500</OPTION>
+                <OPTION value="Between 501-999">Between 501-999</OPTION>
+                <OPTION value="More than 1000">More than 1000</OPTION>
+              </SELECT> </TD>
+          </TR>
+          <TR valign="top"> 
+            <TD height="38" colspan="3"><STRONG>4.&nbsp; Does your company use 
+              any of the following applications?</STRONG><BR>
+              (Check all that apply)</TD>
+          </TR>
+          <TR valign="top"> 
+            <TD></TD>
+            <TD> <INPUT type="checkbox" name="ApplicationUsing" value="Baan">
+              Baan<BR> <INPUT type="checkbox" name="ApplicationUsing" value="FileNet">
+              FileNET<BR> <INPUT type="checkbox" name="ApplicationUsing" value="Oracle">
+              Oracle</TD>
+            <TD> <INPUT type="checkbox" name="ApplicationUsing" value="PeopleSoft">
+              PeopleSoft<BR> <INPUT type="checkbox" name="ApplicationUsing" value="SAP">
+              SAP<BR> <INPUT type="checkbox" name="ApplicationUsing" value="Siebel">
+              Siebel</TD>
+          </TR>
+          <TR valign="top"> 
+            <TD colspan="3"><STRONG>5.&nbsp; Which e-mail program does your company 
+              currently use?</STRONG></TD>
+          </TR>
+          <TR valign="top"> 
+            <TD height="24"></TD>
+            <TD height="24" colspan="2"> <SELECT size="1"
+            name="EmailProgram">
+                <OPTION selected>Please select</OPTION>
+                <OPTION value="MS Mail">MS Mail</OPTION>
+                <OPTION value="Exchange">Exchange</OPTION>
+                <OPTION value="Notes">Lotus Notes</OPTION>
+                <OPTION value="CC.Mail">Lotus cc:Mail</OPTION>
+                <OPTION value="Groupwise">Novell GroupWise</OPTION>
+                <OPTION value="SMTP/POP3">SMTP/POP3</OPTION>
+              </SELECT> </TD>
+          </TR>
+          <TR valign="top"> 
+            <TD colspan="3"><STRONG>6.&nbsp; Products of Interest<FONT color="#FF0000"><STRONG>*</STRONG></FONT><FONT color="#FF0000"></FONT> 
+              </STRONG>(Check all that apply)</TD>
+          </TR>
+          <TR valign="top"> 
+            <TD></TD>
+            <TD> <INPUT name="Interests" type="checkbox" value="RightFax">
+              RightFax<BR> <INPUT name="Interests" type="checkbox" value="FaxCore">
+              FaxCore <BR> <INPUT name="Interests" type="checkbox" value="Zetafax">
+              Zetafax </TD>
+            <TD> <INPUT name="Interests" type="checkbox" value="Aviator">
+              Aviator<BR> <INPUT name="Interests" type="checkbox" value="ArcMentor">
+              ArcMentor <BR> <INPUT name="Interests" type="checkbox" value="Brooktrout">
+              Brooktrout </TD>
+          </TR>
+          <TR valign="top"> 
+            <TD colspan="3"><STRONG>7.&nbsp; Any additional comments:</STRONG><BR> 
+              <TEXTAREA rows="3" name="Notes" cols="80"></TEXTAREA> </TD>
+          </TR>
+          <TR valign="top"> 
+            <TD colspan="3"> <DIV align="left"> 
+                <INPUT type="submit" value="Submit" name="B1">
+                &nbsp; 
+                <INPUT type="reset" value="Reset" name="B2">
+              </DIV></TD>
+          </TR>
+        </TABLE>
+      </FORM></TD>
+  </TR>
+  <TR> 
+    <TD colspan="2" class="footer"><A href="#top">Top</A></TD>
+  </TR>
+</TABLE>
+<BR>
+</BODY>
+</HTML>
