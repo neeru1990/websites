@@ -1,0 +1,229 @@
+<HTML>
+<HEAD>
+<TITLE>Quotation Request</TITLE>
+<LINK href="includes/jal.css" type=text/css rel=stylesheet>
+<STYLE type="text/css">
+<!--
+.style1 {
+	color: #6F9F13;
+	font-weight: bold;
+}
+-->
+</STYLE>
+</HEAD>
+<SCRIPT language="javascript">
+<!--
+	function start(enquiry)
+	{
+		enquiry.ACT_qty.disabled = false
+		enquiry.HIPS_PVC_qty.disabled = false
+		enquiry.RONDO_qty.disabled = false
+	}
+	
+	function check(enquiry)
+	{	
+		if (enquiry.realname.value == '')
+		{
+		    alert("Please Enter Your Name!");
+		    enquiry.realname.focus();
+		    return false;
+		}
+		if (enquiry.email.value == '')
+		{
+		    alert("Please Enter Your E-Mail ID!");
+		    enquiry.email.focus();
+		    return false;
+		}	
+		if (enquiry.Organization.value == '')
+		{
+		    alert("Please Enter Your Organization!");
+		    enquiry.Organization.focus();
+		    return false;
+		}	
+		if (enquiry.Phone.value == '')
+		{
+		    alert("Please Enter Your Phone Number!");
+		    enquiry.Phone.focus();
+		    return false;
+		}
+		if	(
+			(enquiry.Products[0].checked == false) && 
+			(enquiry.Products[1].checked == false) && 
+			(enquiry.Products[2].checked == false)
+			)
+		{
+		    alert("Please Select Atleast One Product!");
+		    enquiry.Products[0].focus();
+		    return false;
+		}
+		else
+		{
+			if ((enquiry.Products[0].checked == true) && (enquiry.ACT_qty.value == ''))
+			{
+				alert("Please Select The Desired Quantity For Aluminum Collapsible Tubes!");
+				enquiry.ACT_qty.focus();
+			  	return false;
+			}
+			if ((enquiry.Products[1].checked == true) && (enquiry.HIPS_PVC_qty.value == ''))
+			{
+				alert("Please Select The Desired Quantity For HIPS/PVC Trays!");
+				enquiry.HIPS_PVC_qty.focus();
+		  		return false;
+			}
+			if ((enquiry.Products[2].checked == true) && (enquiry.RONDO_qty.value == ''))
+			{
+				alert("Please Select The Desired Quantity For Paper Rondo Trays!");
+				enquiry.RONDO_qty.focus();
+			  	return false;
+			}
+				
+			if (enquiry.Products[0].checked == false)
+				enquiry.ACT_qty.disabled = true;
+			else
+				enquiry.ACT_qty.disabled = false;
+
+			if (enquiry.Products[1].checked == false)
+				enquiry.HIPS_PVC_qty.disabled = true;
+			else
+				enquiry.HIPS_PVC_qty.disabled = false;
+
+			if (enquiry.Products[2].checked == false)
+				enquiry.RONDO_qty.disabled = true;
+			else
+				enquiry.RONDO_qty.disabled = false;
+		}
+		
+	return true;
+	}
+//-->
+</SCRIPT>
+<BODY> 
+<SCRIPT language=JavaScript src="includes/menu_array.js" type=text/javascript></SCRIPT> 
+<SCRIPT language=JavaScript src="includes/mmenu.js" type=text/javascript></SCRIPT> 
+<TABLE width="100%" border="0" align="center" cellpadding="0" cellspacing="0"> 
+  <TR> 
+    <TD bgcolor="#4B6181" class="pad15"><IMG src="images/logo_jal.gif" alt="Jal Packaging" width="162" height="26"></TD> 
+    <TD width="200" bgcolor="#4B6181" class="pad15"> <DIV align="right"> 
+        <SCRIPT language=JavaScript src="includes/date.js" type=text/javascript></SCRIPT> 
+      </DIV></TD> 
+  </TR> 
+  <TR> 
+    <TD height="22" colspan="2" background="images/horz_lines.gif">&nbsp;</TD> 
+  </TR> 
+</TABLE> 
+<TABLE width="100%" border="0" align="center" cellpadding="0" cellspacing="0"> 
+  <TR> 
+    <TD valign="top" class="matter"> <H1>Quotation Request</H1> 
+      <P>Required fields are in <STRONG><FONT color="#6F9F13">Green</FONT></STRONG>.</P> 
+      <FORM method="post" action="http://202.71.129.35/cgi-bin/FormMail.pl" name="feedback"
+		onReset="start(this)" onSubmit="return check(this)"> 
+        <INPUT type="hidden" name="recipient" value="feedback@jalpackaging.com"> 
+        <INPUT type="hidden" name="subject" value="Feedback From JalPackaging.com"> 
+        <INPUT type="hidden" name="redirect" value="http://www.jalpackaging.com/thanku.htm"> 
+        <TABLE width="420" border="0" cellspacing="0" cellpadding="5"> 
+          <TR> 
+            <TD width="80" class="style1">Name</TD> 
+            <TD width="320"> <INPUT name="realname" type="text" id="realname" size="30"></TD> 
+          </TR> 
+          <TR> 
+            <TD class="style1">E-Mail ID</TD> 
+            <TD><INPUT name="email" type="text" id="email" size="30"></TD> 
+          </TR> 
+          <TR> 
+            <TD class="style1">Organization</TD> 
+            <TD><INPUT name="Organization" type="text" id="Organization" size="30"></TD> 
+          </TR> 
+          <TR> 
+            <TD class="style1">Phone</TD> 
+            <TD><INPUT name="Phone" type="text" id="Phone"></TD> 
+          </TR> 
+          <TR> 
+            <TD>Fax</TD> 
+            <TD><INPUT name="Fax" type="text" id="Fax"></TD> 
+          </TR> 
+          <TR> 
+            <TD valign="top">Address</TD> 
+            <TD><TEXTAREA name="Address" cols="32" rows="2" id="Address"></TEXTAREA></TD> 
+          </TR> 
+          <TR> 
+            <TD valign="top" class="style1">Products</TD> 
+            <TD><TABLE width="100%" cellspacing="0" cellpadding="2"> 
+                <TR> 
+                  <TD width="193"> 
+                    <INPUT name="Products" type="checkbox" id="Products" value="Aluminium Collapsible Tubes">
+ 				Aluminum Collapsible Tubes</TD> 
+                  <TD width="97"> <SELECT name="ACT_qty"> 
+                      <OPTION selected>- Select Quantity -</OPTION> 
+                      <OPTION value="1,000 to 5,000">1,000 to 5,000</OPTION> 
+                      <OPTION value="5,000 to 10,000">5,000 to 10,000</OPTION> 
+                      <OPTION value="10,000 to 15,000">10,000 to 15,000</OPTION> 
+                      <OPTION value="15,000 to 20,000">15,000 to 20,000</OPTION> 
+                      <OPTION value="More than 20,000">More than 20,000</OPTION> 
+                    </SELECT> </TD> 
+                </TR> 
+                <TR> 
+                  <TD><INPUT name="Products" type="checkbox" id="Products" value="HIPS/PVC Trays"> 
+                    HIPS/PVC Trays</TD> 
+                  <TD><SELECT name="HIPS_PVC_qty"> 
+                      <OPTION selected>- Select Quantity -</OPTION> 
+                      <OPTION value="1,000 to 5,000">1,000 to 5,000</OPTION> 
+                      <OPTION value="5,000 to 10,000">5,000 to 10,000</OPTION> 
+                      <OPTION value="10,000 to 15,000">10,000 to 15,000</OPTION> 
+                      <OPTION value="15,000 to 20,000">15,000 to 20,000</OPTION> 
+                      <OPTION value="More than 20,000">More than 20,000</OPTION> 
+                    </SELECT></TD> 
+                </TR> 
+                <TR> 
+                  <TD><INPUT name="Products" type="checkbox" id="Products" value="Paper Rondo Trays"> 
+                    Paper Rondo Trays</TD> 
+                  <TD><SELECT name="RONDO_qty"> 
+                      <OPTION selected>- Select Quantity -</OPTION> 
+                      <OPTION value="1,000 to 5,000">1,000 to 5,000</OPTION> 
+                      <OPTION value="5,000 to 10,000">5,000 to 10,000</OPTION> 
+                      <OPTION value="10,000 to 15,000">10,000 to 15,000</OPTION> 
+                      <OPTION value="15,000 to 20,000">15,000 to 20,000</OPTION> 
+                      <OPTION value="More than 20,000">More than 20,000</OPTION> 
+                    </SELECT></TD> 
+                </TR> 
+              </TABLE></TD> 
+          </TR> 
+          <TR> 
+            <TD colspan="2">Additional Comments</TD> 
+          </TR> 
+          <TR> 
+            <TD colspan="2"><TEXTAREA name="Comments" cols="77" rows="3" id="Comments"></TEXTAREA></TD> 
+          </TR> 
+          <TR> 
+            <TD> <INPUT type="submit" value="SUBMIT"> </TD> 
+            <TD><INPUT type="reset" value="RESET"></TD> 
+          </TR> 
+        </TABLE> 
+      </FORM></TD> 
+    <TD width="170" valign="top" bgcolor="#F3F5F8" class="right-pannel"> <STRONG> Registered Office</STRONG><BR>
+  13/14, New Islam Mills Complex,<BR>
+  Mahadev Palav Marg, <BR>
+  Lower Parel (E), Currey Rd., <BR>
+  Mumbai - 400 012. INDIA.
+  <P><STRONG>Phone<BR>
+  </STRONG>(+91 22) 2470 7418 / 4412</P>
+  <P><STRONG>Fax<BR>
+    (</STRONG>+91 22) 2470 4691</P>
+  <P><STRONG>E-Mail<BR>
+  </STRONG><A href="mailto:info@jalpackaging.com">info@jalpackaging.com</A> </P>
+  <HR>
+  <STRONG>Factory</STRONG><BR>
+  Plot No. B-3, Dewan &amp; Sons'<BR>
+  Udyognagar, Survey No. 47/2,<BR>
+  Opp. Simrone Pharma Ltd.,<BR>
+  Vevoor, Palghar - 401 404. INDIA.
+  <P><STRONG>Telefax</STRONG><BR>
+    (+91 952525) 254178</P></TD>
+  </TR> 
+</TABLE> 
+<TABLE width="100%" border="0" cellspacing="0" cellpadding="0"> 
+  <TR> 
+    <TD class="homelinks"> <A href="index.htm">Home</A>&nbsp;&nbsp; |&nbsp;&nbsp; <A href="act.htm">Products</A>&nbsp;&nbsp; |&nbsp;&nbsp; <A href="feedback.htm">Feedback</A></TD> 
+  </TR> 
+</TABLE> 
+</BODY>
+</HTML>

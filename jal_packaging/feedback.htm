@@ -1,0 +1,119 @@
+<HTML>
+<HEAD>
+<TITLE>Feedback</TITLE>
+<LINK href="includes/jal.css" type=text/css rel=stylesheet>
+</HEAD>
+<SCRIPT language="javascript">
+<!--
+	function check(enquiry)
+	{
+		if (enquiry.realname.value == '')
+		{
+		    alert("Please Enter Your Name!");
+		    enquiry.realname.focus();
+		    return false;
+		}
+		if (enquiry.email.value == '')
+		{
+		    alert("Please Enter Your E-Mail ID!");
+		    enquiry.email.focus();
+		    return false;
+		}	
+		if (enquiry.Comments.value == '')
+		{
+		    alert("Please Enter Your Suggestions, Comments & Queries!");
+		    enquiry.Comments.focus();
+		    return false;
+		}		
+	return true;
+	}
+//-->
+</SCRIPT>
+<BODY>
+<SCRIPT language=JavaScript src="includes/menu_array.js" type=text/javascript></SCRIPT>
+<SCRIPT language=JavaScript src="includes/mmenu.js" type=text/javascript></SCRIPT>
+<TABLE width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+  <TR> 
+    <TD bgcolor="#4B6181" class="pad15"><IMG src="images/logo_jal.gif" alt="Jal Packaging" width="162" height="26"></TD>
+    <TD width="200" bgcolor="#4B6181" class="pad15"> <DIV align="right"> 
+        <SCRIPT language=JavaScript src="includes/date.js" type=text/javascript></SCRIPT>
+      </DIV></TD>
+  </TR>
+  <TR> 
+    <TD height="22" colspan="2" background="images/horz_lines.gif">&nbsp;</TD>
+  </TR>
+</TABLE>
+<TABLE width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+  <TR> 
+    <TD valign="top" class="matter"> <H1>Feedback</H1>
+      <P>Required fields are in <STRONG><FONT color="#6F9F13">Green</FONT></STRONG>.</P>
+      <FORM method="post" action="http://202.71.129.35/cgi-bin/FormMail.pl" name="feedback" onSubmit="return check(this)">
+        <INPUT type="hidden" name="recipient" value="feedback@jalpackaging.com">
+        <INPUT type="hidden" name="subject" value="Feedback From JalPackaging.com">
+        <INPUT type="hidden" name="redirect" value="http://www.jalpackaging.com/thanku.htm">
+        <TABLE width="400" border="0" cellspacing="0" cellpadding="5">
+          <TR> 
+            <TD width="80"><STRONG><FONT color="#6F9F13">Name</FONT></STRONG></TD>
+            <TD width="300"> 
+            <INPUT name="realname" type="text" id="realname" size="30"></TD>
+          </TR>
+          <TR> 
+            <TD><STRONG><FONT color="#6F9F13">E-Mail ID</FONT></STRONG></TD>
+            <TD><INPUT name="email" type="text" id="email" size="30"></TD>
+          </TR>
+          <TR> 
+            <TD>Organization</TD>
+            <TD><INPUT name="Organization" type="text" id="Organization" size="30"></TD>
+          </TR>
+          <TR> 
+            <TD>Phone</TD>
+            <TD><INPUT name="Phone" type="text" id="Phone"></TD>
+          </TR>
+          <TR> 
+            <TD>Fax</TD>
+            <TD><INPUT name="Fax" type="text" id="Fax"></TD>
+          </TR>
+          <TR> 
+            <TD valign="top">Address</TD>
+            <TD><TEXTAREA name="Address" cols="32" rows="2" id="Address"></TEXTAREA></TD>
+          </TR>
+          <TR> 
+            <TD colspan="2"><STRONG><FONT color="#6F9F13">Suggestions, Comments 
+              &amp; Queries</FONT></STRONG></TD>
+          </TR>
+          <TR> 
+            <TD colspan="2"><TEXTAREA name="Comments" cols="50" rows="4" id="Comments"></TEXTAREA></TD>
+          </TR>
+          <TR> 
+            <TD> <INPUT type="submit" value="SUBMIT"> </TD>
+            <TD><INPUT type="reset" value="RESET"></TD>
+          </TR>
+        </TABLE>
+      </FORM></TD>
+    <TD width="170" valign="top" bgcolor="#F3F5F8" class="right-pannel"> <STRONG> 
+      Registered Office</STRONG><BR>
+      13/14, New Islam Mills Complex,<BR>
+      Mahadev Palav Marg, <BR>
+      Lower Parel (E), Currey Rd., <BR>
+      Mumbai - 400 012. INDIA.
+      <P><STRONG>Phone<BR>
+        </STRONG>(+91 22) 2470 7418 / 4412</P>
+      <P><STRONG>Fax<BR>
+        (</STRONG>+91 22) 2470 4691</P>
+      <P><STRONG>E-Mail<BR>
+      </STRONG><A href="mailto:info@jalpackaging.com">info@jalpackaging.com</A> </P>
+      <HR>      <STRONG>Factory</STRONG><BR>
+      Plot No. B-3, Dewan &amp; Sons'<BR>
+      Udyognagar, Survey No. 47/2,<BR>
+      Opp. Simrone Pharma Ltd.,<BR>
+      Vevoor, Palghar - 401 404. INDIA.
+      <P><STRONG>Telefax</STRONG><BR>
+        (+91 952525) 254178</P></TD></TR>
+</TABLE>
+<TABLE width="100%" border="0" cellspacing="0" cellpadding="0">
+  <TR>
+    <TD class="homelinks"> <A href="index.htm">Home</A>&nbsp;&nbsp; |&nbsp;&nbsp; <A href="act.htm">Products</A>&nbsp;&nbsp; |&nbsp;&nbsp; <A href="quote.htm">Quotation Request</A></TD>
+  </TR>
+</TABLE>
+</BODY>
+</HTML>

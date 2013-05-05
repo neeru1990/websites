@@ -1,0 +1,96 @@
+BODY	{
+	font-family: Helvetica, Tahoma, Arial, Verdana, sans-serif;
+	margin: 0px;
+	color: #333333;
+	background-COLOR: #FFFFFF;
+
+	scrollbar-track-color: #FFFFFF;
+	scrollbar-arrow-color: #80B816;
+	scrollbar-face-color: #FFFFFF;
+
+	scrollbar-shadow-color: #DDDDDD;
+	scrollbar-highlight-color: #80B816;
+	scrollbar-3dlight-color: #FFFFFF;
+	scrollbar-darkshadow-color: #80B816;
+	}
+	
+A:link, A:visited	{
+	text-decoration: none;
+	color: #6F9F13;
+	}
+A:active{
+	text-decoration: none;
+	color: #CCCCCC;
+	}
+A:hover	{
+	color: #000000;
+	}
+
+P, UL, TD{
+	line-height: 15px;
+	font-size: 12px;
+	}
+P, UL	{
+	vertical-align: top;
+	text-align: justify;
+	}
+
+HR	{
+	width: 90%;
+	height: 1px;
+	color: #DDDDDD;
+	}
+H1	{
+	font-size: 15px;
+	color: #4B6181;
+	}
+
+INPUT, SELECT, TEXTAREA
+	{
+	font-family: Arial, Verdana, Tahoma, Helvetica, sans-serif;
+	font-size: 12px;
+	}
+
+/******************************************************************/
+
+.trebuchet_font, TD.homelinks, TD.pad15
+	{
+	font-family: "Trebuchet MS", Arial, Verdana, Tahoma, Helvetica, sans-serif;
+	font-weight: bold;
+	}
+
+.right-pannel
+	{
+	padding: 15px;
+	font-family: "Trebuchet MS", Arial, Verdana, Tahoma, Helvetica, sans-serif;	
+	font-size: 11px;
+	}
+
+TD.pad15{
+	padding: 15px;
+	color: #FFFFFF;
+	}
+
+TD.matter, TD.bg
+	{
+	padding: 15px;
+	border-right: 1px solid #DBE1EA;
+	}
+TD.bg
+	{
+	border-top: 1px solid #DBE1EA;
+	border-bottom: 1px solid #DBE1EA;
+	}
+
+
+TD.copyright, TD.homelinks
+	{
+	padding: 10px;
+	text-align: center;
+	}
+TD.homelinks
+	{
+	color: #AAAAAA;
+	border-top: 1px solid #DBE1EA;
+	border-bottom: 5px solid #4B6181;
+	}
