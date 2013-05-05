@@ -1,0 +1,104 @@
+A:link, A:visited {
+	text-decoration: none;
+	color: #666666;
+	}
+A:active {
+	color: #8CA7C8;
+	}
+A:hover {
+	color: #000000;
+	 }
+BODY 	{
+	margin: 0px;
+	background-color: #FFFFFF;
+	font-family: Verdana, "Trebuchet MS", Arial, Tahoma, sans-serif;
+	color: #333333;
+	}
+P	{
+	font-size: 11px;
+	line-height: 15px;
+        text-align: justify;
+	}
+UL 	{
+	font-size: 11px;
+	list-style-type: none;
+	}
+H1	{
+	font-size: 14px;
+	color: #4B719E;
+	}
+
+/*******************************************************************************/
+
+TD.logo {
+	background-color: #65707C;
+	padding: 15px;
+	}
+TD.bg	{
+	border-top: 1px solid #FFFFFF;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 12px;
+	letter-spacing: 1px;
+	word-spacing: 3px;
+	vertical-align: top;
+	padding-top: 13px;
+	padding-left: 100px;
+	}
+TD.matter{
+	padding: 25px;
+	}
+TD.links, TD.scroll{
+	vertical-align: top;
+	padding-top: 5px;
+	line-height: 18px;
+	background-repeat: no-repeat;
+	background-position: right;
+	}
+TD.links{
+	background-image: url(../home/barvt.jpg);
+	}
+TD.scroll{
+	background-image: url(../home/copyright.gif);
+	}
+
+/*******************************************************************************/
+
+TD.orange, TD.blue, TD.green, TD.yellow
+	{
+	background-color: #65707C;
+	border-right: 1px solid #FFFFFF;
+	color: #FFFFFF;
+	font-size: 11px;
+	font-variant: small-caps;
+	font-weight: bold;
+	letter-spacing: 2px;
+	line-height: 18px;
+	text-indent: 25px;
+	}	
+TD.orange{
+	border-top: 3px solid #FF9966;
+	}
+TD.blue	{
+	border-top: 3px solid #72B6DE;
+	}
+TD.green	{
+	border-top: 3px solid #66CC66;
+	}
+TD.yellow	{
+	border-top: 3px solid #FFCC00;
+	border-right: 0px;
+	}
+
+A.orange:hover {
+	list-style-image: url(../home/bullet_orange.gif);
+		 }		 
+A.blue:hover {
+	list-style-image: url(../home/bullet_blue.gif);
+ 		 }		 
+A.green:hover {
+	list-style-image: url(../home/bullet_green.gif);
+		 }
