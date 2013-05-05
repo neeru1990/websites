@@ -1,0 +1,269 @@
+<!-- Why are you reading this?? What do you hope to find here? -->
+<!-- Site designed and developed by Pushkar Modi -->
+<HTML>
+<HEAD>
+<TITLE>Feedback Form ::: Dicelords Interactive :::</TITLE>
+<LINK rel="stylesheet" type="text/css" href="../scripts/links.css">
+<LINK rel="stylesheet" type="text/css" href="../scripts/scrollbar.css">
+<SCRIPT language="JavaScript" src="../scripts/resize.js"></SCRIPT>
+<SCRIPT language="JavaScript" src="../scripts/noselect.js"></SCRIPT>
+<SCRIPT language="JavaScript">
+<!--
+function MM_callJS(jsStr) { //v2.0
+  return eval(jsStr)
+}
+//-->
+</SCRIPT>
+</HEAD>
+<SCRIPT language="javascript">
+<!--
+	function check(enquiry)
+	{
+		if (enquiry.realname.value == '')
+		{
+		    alert("Please Enter Your Full Name!");
+		    enquiry.realname.focus();
+		    return false;
+		}
+
+		if (enquiry.email.value == '')
+		{
+		    alert("Please Enter Your Email Address!");
+		    enquiry.email.focus();
+		    return false;
+		}
+
+		if (enquiry.DateOfBirth.value == '')
+		{
+		    alert("Please Enter Your Date Of Birth!");
+		    enquiry.DateOfBirth.focus();
+		    return false;
+		}
+
+		if (enquiry.Occupation.value == '')
+		{
+		    alert("Please Enter Your Occupation!");
+		    enquiry.Occupation.focus();
+		    return false;
+		}
+
+		
+		if (enquiry.Country.value == '')
+		{
+		    alert("Please Enter Your Country!");
+		    enquiry.Country.focus();
+		    return false;
+		}
+
+		if (enquiry.Rating.value == '')
+		{
+		    alert("Please Enter The Overall Rating!");
+		    enquiry.Rating.focus();
+		    return false;
+		}
+
+		if ((enquiry.Rating.value < 0.0) || (enquiry.Rating.value > 10.0))
+		{
+		    alert("Please Enter A Number Between 1 & 10!");
+		    enquiry.Rating.focus();
+		    return false;
+		}
+
+
+		if (enquiry.HowDidYouHearAboutUs.value == '')
+		{
+		    alert("Please Enter 'How did you hear about us?' field!");
+		    enquiry.HowDidYouHearAboutUs.focus();
+		    return false;
+		}
+
+		return true;
+	}
+//-->
+</SCRIPT>
+
+<BODY bgcolor="#FFFFFF" text="#000000" link="#00CC99" vlink="#00CC99" alink="#009999">
+<SCRIPT language="JavaScript" src="../scripts/norightclick.js"></SCRIPT>
+<CENTER>
+  <TABLE width="500" border="0">
+    <TR> 
+      <TD colspan="2"> <DIV align="center"><FONT face="Verdana, Arial, Helvetica, sans-serif" size="2"><IMG src="../imgs/feedback.gif" width="351" height="100"><BR>
+          </FONT><FONT face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#009999"><A href="quote.htm">Quotation 
+          Request</A> </FONT><FONT face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#009999"> 
+          | <A href="#" onClick="MM_callJS('window.close()')">Close This Window</A></FONT><FONT face="Verdana, Arial, Helvetica, sans-serif" size="2"><BR>
+          <BR>
+          </FONT></DIV></TD>
+    </TR>
+    <TR> 
+      <TD colspan="2"> <P><FONT color="#009999" face="Verdana, Arial, Helvetica, sans-serif" size="2"><B>All 
+          the information received will be for internal use only and treated with 
+          the utmost respect and privacy.</B></FONT></P>
+        <P><B><FONT color="#009999" face="Verdana, Arial, Helvetica, sans-serif" size="2">Fields 
+          marked with '*' are mandatory.</FONT></B><FONT color="#009999" face="Verdana, Arial, Helvetica, sans-serif" size="2"><BR>
+          <BR>
+          </FONT></P></TD>
+    </TR>
+    <TR> 
+      <TD colspan="2"> 
+	<FORM method="post" action="http://202.71.129.35/cgi-bin/FormMail.pl" name="feedback" onSubmit="return check(this)">
+          <FONT face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+          <INPUT type=hidden name="recipient" value="feedback@dicelords.com">
+          <INPUT type=hidden name="subject" value="Feedback from dicelords.com">
+          <INPUT type=hidden name="redirect" value="http://www.dicelords.com/pages/fthanks.htm">
+          </FONT> 
+          <TABLE border="0" align="center" width="450" cellspacing="0" cellpadding="5">
+            <TR align="left" valign="top"> 
+              <TD colspan="5"><B><FONT color="#00CC99" face="Verdana, Arial, Helvetica, sans-serif" size="2">Full 
+                Name*</FONT></B></TD>
+              <TD> <B><FONT face="Verdana, Arial, Helvetica, sans-serif" color="#999999" size="2"> 
+                <INPUT type="text" name="realname" size="30">
+                </FONT></B></TD>
+            </TR>
+            <TR align="left" valign="top"> 
+              <TD colspan="5"><B><FONT color="#00CC99" face="Verdana, Arial, Helvetica, sans-serif" size="2">E-Mail*</FONT></B></TD>
+              <TD> <B><FONT face="Verdana, Arial, Helvetica, sans-serif" color="#999999" size="2"> 
+                <INPUT type="text" name="email" size="30">
+                </FONT></B></TD>
+            </TR>
+            <TR align="left" valign="top"> 
+              <TD colspan="5"><B><FONT color="#00CC99" face="Verdana, Arial, Helvetica, sans-serif" size="2">Date 
+                Of Birth* </FONT></B><FONT color="#00CC99" face="Verdana, Arial, Helvetica, sans-serif" size="1">(dd/mm/yyyy)</FONT></TD>
+              <TD> <B><FONT face="Verdana, Arial, Helvetica, sans-serif" color="#999999" size="2"> 
+                <INPUT type="text" name="DateOfBirth" size="30">
+                </FONT></B></TD>
+            </TR>
+            <TR align="left" valign="top"> 
+              <TD colspan="5"><B><FONT color="#00CC99" face="Verdana, Arial, Helvetica, sans-serif" size="2">Occupation*</FONT></B></TD>
+              <TD> <B><FONT face="Verdana, Arial, Helvetica, sans-serif" color="#999999" size="2"> 
+                <INPUT type="text" name="Occupation" size="30">
+                </FONT></B></TD>
+            </TR>
+            <TR align="left" valign="top"> 
+              <TD colspan="5"><B><FONT face="Verdana, Arial, Helvetica, sans-serif" color="#00CC99" size="2">Company 
+                Name</FONT></B></TD>
+              <TD> <B><FONT face="Verdana, Arial, Helvetica, sans-serif" color="#999999" size="2"> 
+                <INPUT type="text" name="CompanyName" size="30">
+                </FONT></B></TD>
+            </TR>
+            <TR align="left" valign="top"> 
+              <TD colspan="5"><B><FONT face="Verdana, Arial, Helvetica, sans-serif" color="#00CC99" size="2">Website</FONT></B></TD>
+              <TD> <B><FONT face="Verdana, Arial, Helvetica, sans-serif" color="#999999" size="2"> 
+                <INPUT type="text" name="Website" size="30">
+                </FONT></B></TD>
+            </TR>
+            <TR align="left" valign="top"> 
+              <TD colspan="5"><B><FONT face="Verdana, Arial, Helvetica, sans-serif" color="#00CC99" size="2">Country*</FONT></B></TD>
+              <TD> <P><B><FONT face="Verdana, Arial, Helvetica, sans-serif" color="#999999" size="2"> 
+                  <INPUT type="text" name="Country" size="30">
+                  <BR>
+                  </FONT></B></P></TD>
+            </TR>
+            <TR align="left" valign="top"> 
+              <TD height="20" colspan="5"><B><FONT color="#00CC99" face="Verdana, Arial, Helvetica, sans-serif" size="2">What 
+                did you like the most about this site?<BR>
+                </FONT> </B></TD>
+              <TD rowspan="2"><B><FONT color="#999999" face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+                How can we improve?<BR>
+                <BR>
+                <TEXTAREA name="HowCanWeImprove" cols="25" rows="2"></TEXTAREA>
+                </FONT> </B></TD>
+            </TR>
+            <TR align="left" valign="top"> 
+              <TD width="95"> <B><FONT color="#999999" face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+                <INPUT type="radio" name="Colours" value="Liked">
+                Colours </FONT></B></TD>
+              <TD width="95"> <B><FONT color="#999999" face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+                <INPUT type="radio" name="Layout" value="Liked">
+                Layout </FONT></B></TD>
+              <TD width="95"><B><FONT color="#999999" face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+                <INPUT type="radio" name="Content" value="Liked">
+                Content </FONT></B></TD>
+              <TD width="95"> <B><FONT color="#999999" face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+                <INPUT type="radio" name="Loadtime" value="Liked">
+                Loadtime</FONT></B></TD>
+              <TD width="95"> <B><FONT color="#999999" face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+                <INPUT type="radio" name="Graphics" value="Liked">
+                Graphics </FONT></B></TD>
+            </TR>
+            <TR align="left" valign="top"> 
+              <TD height="24" colspan="5"><B><FONT color="#00CC99" face="Verdana, Arial, Helvetica, sans-serif" size="2">What 
+                did you not like about this site?<BR>
+                </FONT> </B></TD>
+              <TD rowspan="2"><B><FONT color="#999999" face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+                Where did we go wrong?<BR>
+                <BR>
+                <TEXTAREA name="Where did we go wrong?" cols="25" rows="2"></TEXTAREA>
+                </FONT> </B></TD>
+            </TR>
+            <TR align="left" valign="top"> 
+              <TD width="95"> <B><FONT color="#999999" face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+                <INPUT type="radio" name="Colours" value="Disliked">
+                Colours </FONT></B></TD>
+              <TD width="95"> <B><FONT color="#999999" face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+                <INPUT type="radio" name="Layout" value="Disliked">
+                Layout </FONT></B></TD>
+              <TD width="95"><B><FONT color="#999999" face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+                <INPUT type="radio" name="Content" value="Disliked">
+                Content </FONT></B></TD>
+              <TD width="95"> <B><FONT color="#999999" face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+                <INPUT type="radio" name="Loadtime" value="Disliked">
+                Loadtime</FONT></B></TD>
+              <TD width="95"> <B><FONT color="#999999" face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+                <INPUT type="radio" name="Graphics" value="Disliked">
+                Graphics </FONT></B></TD>
+            </TR>
+            <TR align="left" valign="top"> 
+              <TD colspan="5"><B><FONT color="#00CC99" face="Verdana, Arial, Helvetica, sans-serif" size="2"><BR>
+                Brief description of any problems you may have had while visiting 
+                the site.</FONT></B></TD>
+              <TD><B><FONT face="Verdana, Arial, Helvetica, sans-serif" size="2"><BR>
+                <TEXTAREA name="Problems" cols="25"></TEXTAREA>
+                </FONT></B></TD>
+            </TR>
+            <TR align="left" valign="top"> 
+              <TD colspan="5"><B><FONT color="#00CC99" face="Verdana, Arial, Helvetica, sans-serif" size="2">Any 
+                other suggestions or comments.</FONT></B></TD>
+              <TD> <P> <B><FONT face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+                  <TEXTAREA name="Comments" cols="25"></TEXTAREA>
+                  </FONT></B></P></TD>
+            </TR>
+            <TR align="left" valign="top"> 
+              <TD colspan="5"><B><FONT face="Verdana, Arial, Helvetica, sans-serif" color="#00CC99" size="2"><BR>
+                What would you rate this site overall, on a scale of 1 to 10?*</FONT></B></TD>
+              <TD><B><FONT face="Verdana, Arial, Helvetica, sans-serif" color="#999999" size="2"> 
+                <BR>
+                <INPUT type="text" name="Rating" size="3" maxlength="3">
+                example: 9.5</FONT></B></TD>
+            </TR>
+            <TR align="left" valign="top"> 
+              <TD colspan="5"><B><FONT color="#00CC99" face="Verdana, Arial, Helvetica, sans-serif" size="2">Where 
+                did you hear about us?*</FONT></B></TD>
+              <TD> <B><FONT face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+                <INPUT type="text" name="HowDidYouHearAboutUs" size="30">
+                </FONT></B></TD>
+            </TR>
+          </TABLE>
+          <FONT face="Verdana, Arial, Helvetica, sans-serif" size="2"><BR>
+          </FONT> <table border="0" cellspacing="0" cellpadding="0" align="center"> 
+          <TR> 
+            <TD width="135" align="left" valign="top"> <FONT face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+              <INPUT type="image" border="0" src="../imgs/submit.gif" alt="Submit Feedback Form" width="120" height="20" >
+              </FONT></TD>
+            <TD width="135" align="left" valign="top"> <FONT face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+              <A href="javascript:document.feedback.reset()"><IMG src="../imgs/reset.gif" border="0" alt="Reset Form" width="120" height="20" ></A> 
+              </FONT></TD>
+          </TR>
+        </FORM>
+  </TABLE>
+  <BR>
+  <DIV align="center"><FONT face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#009999"><A href="quote.htm">Quotation 
+    Request</A> </FONT><FONT face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#009999"> 
+    | <A href="#" onClick="MM_callJS('window.close()')">Close This Window</A></FONT> 
+    <FONT face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#009999">|</FONT> 
+    <FONT face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#009999"> 
+    <A href="#top"> Back To The Top</A> </FONT></DIV>
+  <HR color="#00cc99" noshade size="1"></td>
+  </tr> </table> 
+</CENTER>
+</BODY>
+</HTML>
