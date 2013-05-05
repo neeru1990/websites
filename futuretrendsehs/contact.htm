@@ -1,0 +1,128 @@
+<HTML><HEAD><TITLE>FutureTrendsEHS &gt; Contact Us</TITLE><LINK rel=stylesheet type="text/css" href="scripts/future.css" title=default><META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<SCRIPT language=JavaScript>
+<!--
+function check(enquiry)
+	{
+		if (enquiry.realname.value == '')
+		{
+		    alert("Please Enter Your Full Name!");
+		    enquiry.realname.focus();
+		    return false;
+		}
+
+		if (enquiry.email.value == '')
+		{
+		    alert("Please Enter Your Email Address!");
+		    enquiry.email.focus();
+		    return false;
+		}
+
+		if (enquiry.Organization.value == '')
+		{
+		    alert("Please Enter Your Organization Name!");
+		    enquiry.Organization.focus();
+		    return false;
+		}
+		
+		if (enquiry.HowSoonWillYouRequireConsultingService.value == '')
+		{
+			alert("Please select an option!");
+			enquiry.HowSoonWillYouRequireConsultingService.focus();
+			return false;
+		}
+		
+		return true;
+	}
+//-->
+</SCRIPT>
+</HEAD>
+<BODY><BR>
+<TABLE width=770 border=0 align=center cellpadding=0 cellspacing=0>
+  <TR> 
+    <TD colspan="2" valign=top>&nbsp;</TD>
+  </TR>
+  <TR> 
+    <TD valign=top class="vr"> <FORM method=post action="http://www.futuretrendsehs.com/cgi-bin/FormMail.pl" name=feedback onSubmit="return check(this)">
+        <INPUT type=hidden name=recipient value="staff@futuretrendsehs.com">
+        <INPUT type=hidden name=subject value="Website Feedback">
+        <INPUT type=hidden name=redirect value="http://www.futuretrendsehs.com/thankyou.htm">
+        <TABLE width=325 border=0 align=center cellpadding=5 cellspacing=0>
+          <TR valign=top> 
+            <TD height=29 colspan=2><IMG src="images/feedback.gif" width=92 height=20><BR>
+              Fields Marked with an * are mandatory<BR> <BR></TD>
+          </TR>
+          <TR> 
+            <TD width=201 height=25>Name*</TD>
+            <TD width=124 height=25><INPUT name=realname type=text id=realname size=23></TD>
+          </TR>
+          <TR> 
+            <TD height=25>E-Mail*</TD>
+            <TD height=25><INPUT name=email type=text id=email size=23></TD>
+          </TR>
+          <TR> 
+            <TD height=25>Organization*</TD>
+            <TD height=25><INPUT type=text name=Organization size=23></TD>
+          </TR>
+          <TR> 
+            <TD height=25>Address</TD>
+            <TD height=25><TEXTAREA name=Address rows=2 cols=22></TEXTAREA></TD>
+          </TR>
+          <TR> 
+            <TD height=25>Phone Number</TD>
+            <TD height=25><INPUT type=text name=PhoneNumber size=23></TD>
+          </TR>
+          <TR> 
+            <TD height=25>Fax Number</TD>
+            <TD height=25><INPUT type=text name=FaxNumber size=23></TD>
+          </TR>
+          <TR> 
+            <TD height=30>How soon will you require consulting services?*</TD>
+            <TD height=30><SELECT name=HowSoonWillYouRequireConsultingService size=1>
+                <OPTION selected>Choose One</OPTION>
+                <OPTION value="This month">This month</OPTION>
+                <OPTION value="1-6 months">1-6 months</OPTION>
+                <OPTION value="7-12 months">7-12 months</OPTION>
+                <OPTION value="After a year">After a year</OPTION>
+              </SELECT></TD>
+          </TR>
+          <TR> 
+            <TD height=30>Did you find this site useful?*</TD>
+            <TD height=30><INPUT name=DidYouFindThisSiteUseful type=radio value=Yes checked>
+              Yes 
+              <INPUT type=radio name=DidYouFindThisSiteUseful value=No>
+              No</TD>
+          </TR>
+          <TR> 
+            <TD height=30>Suggestions or comments</TD>
+            <TD height=30><TEXTAREA name=SuggestionsOrComments cols=22 rows=2></TEXTAREA></TD>
+          </TR>
+          <TR> 
+            <TD height=30>&nbsp;</TD>
+            <TD height=30><INPUT type=submit value=Submit> <INPUT type=reset name=Reset value=Reset></TD>
+          </TR>
+        </TABLE>
+      </FORM></TD>
+    <TD valign=top><TABLE width="276" border="0" align="center" cellpadding="5" cellspacing="0">
+      <TR>
+        <TD><DIV align="left">
+          <P><IMG src="images/contact.gif" width=108 height=20></P>
+          <P><B>Offices</B><BR>
+            Houston, Texas<BR>
+            <STRONG style="font-weight: 400">Lake Charles, Louisiana</STRONG></P>
+          <P style="text-align: left"><STRONG>Phone<BR>
+            </STRONG>(888) 215-2040<BR>
+			(832) 578-1598</P>
+          <P><STRONG>Fax<BR>
+            </STRONG>(281) 754-4422</P>
+          <P><STRONG><B>E-Mail</B><BR>
+              </STRONG><A href="mailto:staff@futuretrendsehs.com">staff@FutureTrendsEHS.com</A><STRONG><BR>
+                  </STRONG></P>
+        </DIV></TD>
+      </TR>
+    </TABLE>    </TD>
+  </TR>
+  <TR> 
+    <TD colspan="2" valign=top>&nbsp;</TD>
+  </TR>
+</TABLE>
+</BODY></HTML>

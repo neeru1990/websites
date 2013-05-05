@@ -1,0 +1,26 @@
+BODY	{
+	BACKGROUND-COLOR: #003366;
+	MARGIN: 0px;
+	COLOR: #FFFFFF;
+	FONT-FAMILY: Verdana, Arial, Tahoma, Helvetica, sans-serif;
+	}
+
+TD.copyright {
+	PADDING: 5px;
+	LINE-HEIGHT: 12px;
+	FONT-SIZE: 9px;
+	}
+
+A:link, A:visited, A:active {
+	COLOR: #ffffff;
+	TEXT-DECORATION: none;
+	}
+A:hover {
+	COLOR: #5bb588;
+	TEXT-DECORATION: none;
+	}
+
+TD.bg	{
+	background-repeat: no-repeat;
+	background-position: center;
+	}
