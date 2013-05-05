@@ -1,0 +1,15 @@
+BODY	{
+	font-family: Verdana, Arial, Tahoma, Helvetica, sans-serif;
+	color: #FFFFFF;
+	}
+	
+TD, P	{
+	font-size: 11px;
+	}
+
+INPUT, SELECT, TEXTAREA
+	{
+	font-family: Verdana, Arial, Tahoma, Helvetica, sans-serif;
+	font-size: 10px;
+	background-color: #EEEEEE;
+	}

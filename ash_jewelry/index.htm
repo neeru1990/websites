@@ -1,0 +1,179 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>Ash-Jewelry.com</TITLE>
+<LINK href="includes/ash.css" type=text/css rel=stylesheet>
+<META http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</HEAD>
+<SCRIPT language="javascript">
+<!--
+	function check(enquiry)
+	{
+		if (enquiry.realname.value == '')
+		{
+		    alert("Please Enter Your Name!");
+		    enquiry.realname.focus();
+		    return false;
+		}
+		if (enquiry.Title.value == '')
+		{
+		    alert("Please Enter Your Title!");
+		    enquiry.Title.focus();
+		    return false;
+		}
+		if (enquiry.CompanyName.value == '')
+		{
+		    alert("Please Enter Your Company Name!");
+		    enquiry.CompanyName.focus();
+		    return false;
+		}
+		if (enquiry.Street.value == '')
+		{
+		    alert("Please Enter Your Address!");
+		    enquiry.Street.focus();
+		    return false;
+		}
+		if (enquiry.City.value == '')
+		{
+		    alert("Please Enter Your City!");
+		    enquiry.City.focus();
+		    return false;
+		}
+		if (enquiry.ZipCode.value == '')
+		{
+		    alert("Please Enter Your Zip Code!");
+		    enquiry.ZipCode.focus();
+		    return false;
+		}
+		if (enquiry.PhoneNumber.value == '')
+		{
+		    alert("Please Enter Your Phone Number!");
+		    enquiry.PhoneNumber.focus();
+		    return false;
+		}
+		if (enquiry.FaxNumber.value == '')
+		{
+		    alert("Please Enter Your Fax Number!");
+		    enquiry.FaxNumber.focus();
+		    return false;
+		}
+		if (enquiry.email.value == '')
+		{
+		    alert("Please Enter Your Email Address!");
+		    enquiry.email.focus();
+		    return false;
+		}
+		if (enquiry.CustType.value == '')
+		{
+		    alert("Please Select An Appropriate Option!");
+		    enquiry.CustType.focus();
+		    return false;
+		}
+		return true;
+	}
+//-->
+</SCRIPT>
+<BODY bgcolor="#333333" leftmargin="0" topmargin="0">
+<TABLE width="100%" border="0" cellpadding="0" cellspacing="0">
+  <TR> 
+    <TD><CENTER>
+        <BR>
+        <BR>
+        <BR>
+        <BR>
+        <IMG src="images/uc.jpg" alt="Ash Jewelry" width="500" height="500" border="0" usemap="#Form"> 
+        <BR>
+        <BR>
+        <BR>
+        <BR>
+        <HR width="500">
+        <BR>
+		<FORM method="post" action="http://202.71.129.35/cgi-bin/FormMail.pl" name="Inquiry" onSubmit="return check(this)">
+          <INPUT type=hidden name="recipient" value="info@ash-jewelry.com">
+          <INPUT type=hidden name="subject" value="Inquiry from ash-jewelry.com">
+          <INPUT type=hidden name="redirect" value="http://www.ash-jewelry.com/thanku.htm">
+          <A name="form"></A> 
+          <TABLE width="500" border="0" cellpadding="5" cellspacing="0">
+            <TR> 
+              <TD colspan="2">Please take a moment to fill in your details. All 
+                the fields are mandatory.<BR>
+                <BR>
+              </TD>
+            </TR>
+            <TR> 
+              <TD width="100">Name</TD>
+              <TD width="380"> <INPUT name="realname" type="text" id="realname" size="30"> 
+              </TD>
+            </TR>
+            <TR> 
+              <TD>Title</TD>
+              <TD> <INPUT type="text" name="Title" size="30"> </TD>
+            </TR>
+            <TR> 
+              <TD>Company</TD>
+              <TD> <INPUT type="text" name="CompanyName" size="30"> </TD>
+            </TR>
+            <TR> 
+              <TD>Street Address</TD>
+              <TD> <INPUT type="text" name="Street" size="40"> </TD>
+            </TR>
+            <TR> 
+              <TD></TD>
+              <TD> <INPUT type="text" name="Street2" size="40"> </TD>
+            </TR>
+            <TR> 
+              <TD>City</TD>
+              <TD> <INPUT type="text" size="20" maxlength="256" name="City"> </TD>
+            </TR>
+            <TR> 
+              <TD>Zip/Postal Code</TD>
+              <TD> <INPUT type="text" size="10" maxlength="12" name="ZipCode"> 
+              </TD>
+            </TR>
+            <TR> 
+              <TD>Business Phone</TD>
+              <TD> <INPUT type="text" name="PhoneNumber" size="15"> </TD>
+            </TR>
+            <TR> 
+              <TD>Fax</TD>
+              <TD> <INPUT type="text" name="FaxNumber" size="15"> </TD>
+            </TR>
+            <TR> 
+              <TD>Email</TD>
+              <TD> <INPUT name="email" type="text" id="email" size="30"> </TD>
+            </TR>
+            <TR> 
+              <TD>You are a/an</TD>
+              <TD> <SELECT size="1" name="CustType">
+                  <OPTION selected>Please select</OPTION>
+                  <OPTION value="Importer">Importer</OPTION>
+                  <OPTION value="Retailer">Retailer</OPTION>
+                  <OPTION value="Store-buyer">Store-buyer</OPTION>
+                  <OPTION value="Whole-saler">Whole-saler</OPTION>
+                  <OPTION value="Other">Other</OPTION>
+                </SELECT> </TD>
+            </TR>
+            <TR> 
+              <TD>&nbsp;</TD>
+              <TD> <INPUT type="submit" value="Submit"> <INPUT type="reset" value="Reset"> 
+              </TD>
+            </TR>
+          </TABLE>
+        </FORM>
+      </CENTER></TD>
+  </TR>
+</TABLE>
+<MAP name="Form" id="Form">
+  <AREA shape="rect" coords="15,372,131,390" href="#form">
+</MAP>
+<HR width="500">
+<BR>
+<TABLE width="500" border="0" align="center" cellpadding="0" cellspacing="0">
+  <TR>
+    <TD><DIV align="right">Copyright &copy; 2003 Ash Jewelry. All rights reserved.<BR>
+        Site powered by Dicelords Interactive.</DIV></TD>
+  </TR>
+</TABLE>
+<BR>
+</BODY>
+</HTML>
