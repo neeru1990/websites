@@ -1,0 +1,106 @@
+A:link, A:visited {
+	text-decoration: none;
+	color: #0099CC;
+	}
+A:active {
+	color: #000000;
+	}
+A:hover {
+	color: #004466;
+	 }
+BODY 	{
+	margin: 0px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	background-color: #FFFFFF;
+	font-family: Tahoma, Verdana, Arial, sans-serif;
+	color: #333333;
+	}
+P, LI, SELECT, TEXTAREA, TD
+	{
+	font-size: 12px;
+	line-height: 15px;
+	text-align: justify;
+	}
+INPUT{
+	font-size: 12px;
+	line-height: 15px;
+	}
+H4	{
+	font-size: 14px;
+	color: 0099CC;
+	}
+HR	{
+	color: 0099CC;
+	height: 1px;
+	}
+
+/*******************************************************************************/
+
+
+TD.menu
+	{
+	height: 120px;
+	text-align: right;
+	vertical-align: top;
+	padding-top: 52px;
+	padding-right: 30px;
+	font-size: 14px;
+	font-stretch: wider;
+	color: #FFFFFF;
+	}
+A.menu:link, A.menu:visited {
+	color: #FFFFFF;
+	}
+A.menu:hover {
+	color: #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+	}
+TD.footer
+	{
+	font-size: 10px;
+	padding-left: 20px;
+	padding-right: 20px;	
+	padding-top: 10px;
+	}
+SELECT.orderlist
+	{
+		width: 165px;
+	}
+	
+/********************************************************************************/
+
+TD.home, TD.tradition, TD.ordering, TD.testimonials, TD.chef, TD.disclaimer
+	{
+	padding: 20px;
+	}
+TD.home
+	{
+	border-left: 1px solid #99CC66;
+	border-bottom: 1px solid #99CC66;
+	border-right: 1px solid #99CC66;
+	}
+TD.tradition
+	{
+	border-left: 1px solid #AE6737;
+	border-bottom: 1px solid #AE6737;
+	border-right: 1px solid #AE6737;		
+	}
+TD.ordering
+	{
+	border-left: 1px solid #F49A2D;
+	border-bottom: 1px solid #F49A2D;
+	border-right: 1px solid #F49A2D;
+	}	
+TD.testimonials
+	{
+	border-left: 1px solid #E8C125;
+	border-bottom: 1px solid #E8C125;
+	border-right: 1px solid #E8C125;		
+	}
+TD.chef
+	{
+	border-left: 1px solid #934900;
+	border-bottom: 1px solid #934900;
+	border-right: 1px solid #934900;	
+	}
