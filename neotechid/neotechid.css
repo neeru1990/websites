@@ -1,0 +1,106 @@
+A:link, A:visited {
+	text-decoration: none;
+	color: #0088AA;
+	}
+	
+A:active {
+	color: #9CCD1C;
+	}
+	
+A:hover {
+	color: #9CCD1C;
+	}
+	
+BODY, P{
+	background-color: #FFFFFF;
+	font-family: Verdana, Arial, Tahoma, sans-serif;
+	color: #333333;
+	font-size: 11px;
+	line-height: 16px;
+	}
+	
+P	{
+	padding-top: 5px;
+	padding-bottom: 5px;	
+    text-align: justify;
+	}
+	
+OL	{
+	list-style: inside decimal;
+	}
+	
+UL	{
+	list-style: inside square;
+	}
+	
+LI
+	{
+	list-style: inherit;
+	}
+	
+H5	{
+	font-weight: bold;
+	}
+
+H6	{
+	padding-top: 10px;
+	}
+	
+.high_title
+ 	{
+	padding-top: 5px;
+	font-variant: small-caps;
+	font-weight: bold;
+	}
+	
+.downloads
+{
+	background: #EEEEEE;
+	border-bottom: 5px solid #EEEEEE;
+	border-left:  5px solid #EEEEEE;
+}
+
+/*******************************************************************************/
+
+TD.content{
+	padding: 10px;
+	padding-left: 15px;
+}
+
+TD.highlights {
+	padding: 10px;
+	padding-right: 15px;
+	border-right: 1px dotted #CCCCCC;
+	vertical-align: top;
+	width: 250px;
+}
+
+TD.logo	{
+	padding-bottom: 10px;
+}
+
+TD.header, TD.footer {
+	font-size: 9px;
+	vertical-align: center;
+	padding: 5px;
+	background-color: #FFFFFF;		
+	}
+
+TD.footer {
+	border-top: 1px dotted #9CCD1C;
+	padding-bottom: 10px;
+	}
+
+/*******************************************************************************/
+
+TD.legal {
+	line-height: 15px;
+	padding: 20px;
+	}
+	
+HR.legal {
+	height: 1px;
+	color: #EEEEEE;
+	}
+	
+/*******************************************************************************/
