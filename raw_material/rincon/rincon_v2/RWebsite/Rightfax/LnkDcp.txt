@@ -1,0 +1,49 @@
+
+RightFax Enterprise & Network Fax  
+RightFax offers unrivalled enterprise fax performance from the desktop, giving users the flexibility to send any document from any application, delivering maximum user productivity to all your employees no matter their primary work application.  
+
+Universal Information Exchange / Production Fax  
+The RightFax Universal Information Exchange system is a full production-level, e-document delivery solution designed to support the rigors and requirements of critical volume document delivery and receipt.  
+
+Datasheet: RightFax IP Plus Connector & Services  
+RightFax IP Plus Connector & Services offers you an alternative delivery method so you can create a hybrid fax solution that combines the control and flexibility of your existing RightFax server with the virtual capacity and high-volume delivery of the Captaris MediaLinq outbound fax network.  
+
+Datasheet: RightFax Universal Information Exchange  
+Automated, Immediate and Low-Cost Delivery of Business-Critical Information From Virtually Any Application 
+
+RightFax Secure E-mail Delivery  
+Deliver Your Critical Business Documents with RightFax SecureDocs Digital Encryption and Certified Delivery Technology 
+
+
+Overview: RightFax Family of Products  
+This document describes the RightFax family of products for complete e-document delivery solutions. 
+
+Overview: RightFax Top Ten List  
+  
+
+RightFax Integration: IP Plus FAQ  
+  
+
+RightFax Integration: Hewlett Packard FAQ  
+  
+
+RightFax Integration: Oracle CRM FAQ  
+RightFax extends world-leading e-document delivery solutions to Oracle's CRM Applications. 
+
+RightFax Integration: BAAN IV C3 FAQ  
+  
+
+CommercePath End-of-Life Implications  
+  
+
+RightFax Integration: Filenet FAQ  
+  
+
+RightFax Integration: Lotus FAQ  
+  
+
+RightFax Integration: Microsoft FAQ  
+  
+
+RightFax Integration: Xerox FAQ  
+  

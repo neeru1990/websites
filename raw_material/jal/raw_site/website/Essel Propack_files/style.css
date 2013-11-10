@@ -1,0 +1,72 @@
+.BodyText {
+	FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.ArticlePage {
+	FONT-SIZE: 8pt; COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.ArticleHead {
+	FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.SubHead {
+	FONT-SIZE: 10pt; COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.BottomNavi {
+	FONT-SIZE: 8pt; COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: underline
+}
+.Location {
+	FONT-SIZE: 8pt; COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+BODY {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; BACKGROUND-IMAGE: url(../../images/extra_space.gif); COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff
+}
+.CopyRight {
+	FONT-SIZE: 8pt; COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.Search {
+	FONT-SIZE: 10pt; COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+A.Link {
+	COLOR: #000000
+}
+A.VLink {
+	COLOR: #000000
+}
+A.Active {
+	COLOR: #000000
+}
+.tditem {
+	FONT-SIZE: 8pt; COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.Pagging {
+	FONT-SIZE: 8pt; COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.HeadName {
+	FONT-WEIGHT: lighter; FONT-SIZE: 11pt; TEXT-TRANSFORM: capitalize; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.ArticleLink {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.PageHead {
+	FONT-WEIGHT: bolder; FONT-SIZE: 10pt; COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.ArticlePage {
+	FONT-WEIGHT: bolder; FONT-SIZE: 10pt; COLOR: #f8810e; FONT-FAMILY: Arial, Helvetica, sans-sarif
+}
+.header {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: white; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.texthead {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.text {
+	FONT-SIZE: 9pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.imgtext {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.getreadyfont {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #0000cc; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.mappath {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Verdana
+}

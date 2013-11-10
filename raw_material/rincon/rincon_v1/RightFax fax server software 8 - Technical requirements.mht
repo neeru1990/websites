@@ -1,0 +1,1088 @@
+From: <Saved by Microsoft Internet Explorer 5>
+Subject: RightFax fax server software - Technical requirements
+Date: Mon, 1 Oct 2001 19:34:14 +0530
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	boundary="----=_NextPart_000_0000_01C14AB0.0DC81340";
+	type="text/html"
+X-MimeOLE: Produced By Microsoft MimeOLE V5.00.2919.6600
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01C14AB0.0DC81340
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.rightfax.com/products/requirements.htm
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>RightFax fax server software - Technical =
+requirements</TITLE><!-- #BeginTemplate "/Templates/RightFax.dwt" -->
+<META content=3Dtext/html;charset=3DISO-8859-1 =
+http-equiv=3Dcontent-type><!-- #BeginEditable "doctitle" -->
+<META=20
+content=3D"RightFax fax server software - fax servers for network fax, =
+production fax, and Internet fax that integrate with all your business =
+applications enterprise-wide."=20
+name=3Ddescription>
+<META=20
+content=3D"RightFax, RightFAX, right fax, fax server, fax servers, =
+network fax, production fax, internet fax, fax software, faxing =
+software, electronic fax, electronic faxing, erp fax, erp faxing, =
+windows nt, Windows NT, Windows 2000, fax from email, fax to email, =
+email to fax, SAP, Oracle, Baan, PeopleSoft, Outlook, Exchange, Lotus =
+Notes, EDI, electrocnic document delivery, e-document, edocument, =
+Captaris, captaris, AVT, Rightfax, CommercePath"=20
+name=3Dkeywords><!-- #EndEditable --><LINK=20
+href=3D"http://www.rightfax.com/captaris.css" rel=3Dstylesheet>
+<SCRIPT src=3D"http://www.rightfax.com/submenu.js"></SCRIPT>
+
+<META content=3D"MSHTML 5.00.2919.6307" name=3DGENERATOR></HEAD>
+<BODY aLink=3D#000000 bgColor=3D#ffffff leftMargin=3D0 link=3D#cc9900 =
+topMargin=3D0=20
+vLink=3D#999999 marginheight=3D"0" marginwidth=3D"0"><!-- here's where =
+the drop down menus get writen by JavaScript -->
+<SCRIPT src=3D"http://www.rightfax.com/submenudivs.js"></SCRIPT>
+<A name=3Dtop></A>
+<TABLE border=3D0 cellPadding=3D0 cellSpacing=3D0>
+  <TBODY>
+  <TR>
+    <TD><A href=3D"http://www.captaris.com/"=20
+      onmouseover=3D"allOff(); hideMenus()"><IMG align=3Dtop=20
+      alt=3D"Captaris. Business within your reach." border=3D0 =
+height=3D75=20
+      src=3D"http://www.rightfax.com/images/subLogoCaptaris.gif" =
+width=3D402></A></TD>
+    <TD noWrap vAlign=3Dtop><A=20
+      href=3D"http://www.rightfax.com/captaris/solutions.html"=20
+      onmouseover=3D"hiLiteOn('solutions'); =
+toggleMenu('menuSolutions')"><IMG=20
+      align=3Dtop border=3D0 height=3D23 name=3Dsolutions=20
+      src=3D"http://www.rightfax.com/images/subBtnSolutions.gif" =
+width=3D60></A><A=20
+      href=3D"http://www.rightfax.com/captaris/products.html"=20
+      onmouseover=3D"hiLiteOn('products'); =
+toggleMenu('menuProducts')"><IMG=20
+      align=3Dtop border=3D0 height=3D23 name=3Dproducts=20
+      src=3D"http://www.rightfax.com/images/subBtnProducts.gif" =
+width=3D61></A><A=20
+      href=3D"http://www.rightfax.com/captaris/services.html"=20
+      onmouseover=3D"hiLiteOn('services'); =
+toggleMenu('menuServices')"><IMG=20
+      align=3Dtop border=3D0 height=3D23 name=3Dservices=20
+      src=3D"http://www.rightfax.com/images/subBtnServices.gif" =
+width=3D57></A><A=20
+      href=3D"http://www.rightfax.com/products/requirements.htm#"=20
+      onmouseover=3D"allOff(); hideMenus()"><IMG align=3Dtop border=3D0 =
+height=3D20=20
+      src=3D"http://www.rightfax.com/images/spacer.gif"=20
+width=3D20></A></TD></TR></TBODY></TABLE>
+<TABLE border=3D0 cellPadding=3D0 cellSpacing=3D0 width=3D"100%">
+  <TBODY>
+  <TR>
+    <TD vAlign=3Dtop width=3D164>
+      <TABLE border=3D0 cellPadding=3D0 cellSpacing=3D0 width=3D164>
+        <TBODY>
+        <TR>
+          <TD bgColor=3D#336699><!-- Product name graphic --><A=20
+            href=3D"http://www.rightfax.com/default.htm"><IMG =
+alt=3DRightFax=20
+            border=3D0 height=3D45=20
+            src=3D"http://www.rightfax.com/images/subLogoRightfax.gif"=20
+            width=3D164></A> <!-- Start left menu --><!-- #BeginEditable =
+"right_navigation" --><!-- #BeginLibraryItem =
+"/library/MainNav-Products&Solutions.lbi" -->
+            <TABLE border=3D0 cellPadding=3D2 cellSpacing=3D0 =
+width=3D175>
+              <TBODY>
+              <TR>
+                <TD width=3D11><IMG border=3D0 height=3D8=20
+                  src=3D"http://www.rightfax.com/images/spacer.gif" =
+width=3D11></TD>
+                <TD width=3D3><IMG border=3D0 height=3D3=20
+                  src=3D"http://www.rightfax.com/images/whiteSquare.gif" =
+
+                width=3D3></TD>
+                <TD class=3DsubmenuSection width=3D144><FONT =
+color=3D#ffffff><A=20
+                  href=3D"http://www.rightfax.com/products/"><B>Products =
+&amp;=20
+                  Solutions</B></A></FONT></TD></TR>
+              <TR>
+                <TD width=3D11><IMG border=3D0 height=3D8=20
+                  src=3D"http://www.rightfax.com/images/spacer.gif" =
+width=3D11></TD>
+                <TD width=3D3><IMG border=3D0 height=3D3=20
+                  src=3D"http://www.rightfax.com/images/spacer.gif" =
+width=3D3></TD>
+                <TD class=3Dsubmenu width=3D144><FONT color=3D#ffffff><A =
+
+                  =
+href=3D"http://www.rightfax.com/demo/">Demo</A></FONT></TD></TR>
+              <TR>
+                <TD width=3D11><IMG border=3D0 height=3D8=20
+                  src=3D"http://www.rightfax.com/images/spacer.gif" =
+width=3D11></TD>
+                <TD width=3D3><IMG border=3D0 height=3D3=20
+                  src=3D"http://www.rightfax.com/images/spacer.gif" =
+width=3D3></TD>
+                <TD class=3Dsubmenu width=3D144><FONT color=3D#ffffff><A =
+
+                  =
+href=3D"http://www.rightfax.com/contact/sales.htm">Sales</A></FONT></TD><=
+/TR>
+              <TR>
+                <TD width=3D11><IMG border=3D0 height=3D8=20
+                  src=3D"http://www.rightfax.com/images/spacer.gif" =
+width=3D11></TD>
+                <TD width=3D3><IMG border=3D0 height=3D3=20
+                  src=3D"http://www.rightfax.com/images/spacer.gif" =
+width=3D3></TD>
+                <TD class=3Dsubmenu width=3D144><FONT color=3D#ffffff><A =
+
+                  =
+href=3D"http://www.rightfax.com/support/">Support</A></FONT></TD></TR>
+              <TR>
+                <TD width=3D11><IMG border=3D0 height=3D8=20
+                  src=3D"http://www.rightfax.com/images/spacer.gif" =
+width=3D11></TD>
+                <TD width=3D3><IMG border=3D0 height=3D3=20
+                  src=3D"http://www.rightfax.com/images/spacer.gif" =
+width=3D3></TD>
+                <TD class=3Dsubmenu width=3D144><FONT color=3D#ffffff><A =
+
+                  =
+href=3D"http://www.rightfax.com/training/">Training</A></FONT></TD></TR>
+              <TR>
+                <TD width=3D11><IMG border=3D0 height=3D8=20
+                  src=3D"http://www.rightfax.com/images/spacer.gif" =
+width=3D11></TD>
+                <TD width=3D3><IMG border=3D0 height=3D3=20
+                  src=3D"http://www.rightfax.com/images/spacer.gif" =
+width=3D3></TD>
+                <TD class=3Dsubmenu width=3D144><FONT color=3D#ffffff><A =
+
+                  href=3D"http://www.rightfax.com/pressroom/">Press=20
+                Room</A></FONT></TD></TR>
+              <TR>
+                <TD width=3D11><IMG border=3D0 height=3D8=20
+                  src=3D"http://www.rightfax.com/images/spacer.gif" =
+width=3D11></TD>
+                <TD width=3D3><IMG border=3D0 height=3D3=20
+                  src=3D"http://www.rightfax.com/images/spacer.gif" =
+width=3D3></TD>
+                <TD class=3Dsubmenu width=3D144><FONT color=3D#ffffff><A =
+
+                  href=3D"http://www.rightfax.com/casestudies/">Case=20
+                  Studies</A></FONT></TD></TR>
+              <TR>
+                <TD width=3D11><IMG border=3D0 height=3D8=20
+                  src=3D"http://www.rightfax.com/images/spacer.gif" =
+width=3D11></TD>
+                <TD width=3D3><IMG border=3D0 height=3D3=20
+                  src=3D"http://www.rightfax.com/images/spacer.gif" =
+width=3D3></TD>
+                <TD class=3Dsubmenu width=3D144><FONT color=3D#ffffff><A =
+
+                  =
+href=3D"http://www.rightfax.com/events/">Events</A></FONT></TD></TR>
+              <TR>
+                <TD width=3D11><IMG border=3D0 height=3D8=20
+                  src=3D"http://www.rightfax.com/images/spacer.gif" =
+width=3D11></TD>
+                <TD width=3D3><IMG border=3D0 height=3D3=20
+                  src=3D"http://www.rightfax.com/images/spacer.gif" =
+width=3D3></TD>
+                <TD class=3Dsubmenu width=3D144><FONT color=3D#ffffff><A =
+
+                  href=3D"http://www.rightfax.com/alliances/">Strategic=20
+                  Alliances</A></FONT></TD></TR>
+              <TR>
+                <TD width=3D11><IMG border=3D0 height=3D8=20
+                  src=3D"http://www.rightfax.com/images/spacer.gif" =
+width=3D11></TD>
+                <TD width=3D3><IMG border=3D0 height=3D3=20
+                  src=3D"http://www.rightfax.com/images/spacer.gif" =
+width=3D3></TD>
+                <TD class=3Dsubmenu width=3D144><FONT color=3D#ffffff><A =
+
+                  =
+href=3D"http://www.captaris.com/partnerships/">Partnerships</A></FONT></T=
+D></TR>
+              <TR>
+                <TD width=3D11><IMG border=3D0 height=3D8=20
+                  src=3D"http://www.rightfax.com/images/spacer.gif" =
+width=3D11></TD>
+                <TD width=3D3><IMG border=3D0 height=3D3=20
+                  src=3D"http://www.rightfax.com/images/spacer.gif" =
+width=3D3></TD>
+                <TD class=3Dsubmenu width=3D144><FONT color=3D#ffffff><A =
+
+                  href=3D"http://www.rightfax.com/corp/">About=20
+                RightFax</A></FONT></TD></TR>
+              <TR>
+                <TD width=3D11><IMG border=3D0 height=3D8=20
+                  src=3D"http://www.rightfax.com/images/spacer.gif" =
+width=3D11></TD>
+                <TD width=3D3><IMG border=3D0 height=3D3=20
+                  src=3D"http://www.rightfax.com/images/spacer.gif" =
+width=3D3></TD>
+                <TD class=3Dsubmenu width=3D144><FONT color=3D#ffffff><A =
+
+                  href=3D"http://www.rightfax.com/contact/">Contact=20
+                  RightFax</A></FONT></TD></TR></TBODY></TABLE><!-- =
+#EndLibraryItem --><!-- #EndEditable --><!-- end left menu =
+--><BR></TD></TR></TBODY></TABLE>
+      <P></P><!--#include virtual=3D"/library_files/Search -- =
+Omnibridge.html" -->
+      <TABLE border=3D0 cellPadding=3D0 cellSpacing=3D15 width=3D154>
+        <TBODY>
+        <TR>
+          <TD height=3D97 vAlign=3Dtop><!-- Atomz.com Search HTML for =
+RightFAX -->
+            <FORM action=3Dhttp://search.atomz.com/search/ =
+method=3Dget><FONT=20
+            size=3D2>Search RightFax</FONT> <INPUT name=3Dsp-a =
+type=3Dhidden=20
+            value=3D00061f90-sp00000000> <INPUT name=3Dsp-q size=3D10> =
+<BR><INPUT=20
+            alt=3D"Search RightFAX" border=3D0 height=3D16 name=3Dimage=20
+            src=3D"http://www.rightfax.com/images/subBtnSearch.gif" =
+type=3Dimage=20
+            value=3DSearch width=3D45>=20
+            <P><FONT size=3D2><A=20
+            href=3D"http://www.rightfax.com/search2.htm">Advanced =
+Search</A><BR><A=20
+            href=3D"http://www.rightfax.com/sitemap/">Site =
+Map</A></FONT><FONT=20
+            size=3D1><A=20
+            =
+href=3D"http://www.rightfax.com/search2.htm"><BR></A>&nbsp;</FONT>=20
+            </P></FORM>
+            <P align=3Dcenter><!-- #BeginEditable "LeftArea" --><SPAN=20
+            class=3Drightmenu><FONT=20
+          size=3D2></FONT></SPAN><!-- #EndEditable =
+--></P></TD></TR></TBODY></TABLE>
+      <P></P></TD>
+    <TD vAlign=3Dtop width=3D20><IMG border=3D0 height=3D20=20
+      src=3D"http://www.rightfax.com/images/spacer.gif" width=3D20></TD>
+    <TD vAlign=3Dtop><BR><BR><!-- section title --><SPAN =
+class=3Dsectionhead><!-- #BeginEditable "PAGE%20TITLE" -->TECHNICAL=20
+      REQUIREMENTS <!-- #EndEditable --></SPAN>
+      <TABLE border=3D0 cellPadding=3D0 cellSpacing=3D0 width=3D"100%">
+        <TBODY>
+        <TR height=3D2>
+          <TD bgColor=3D#cc9900 height=3D2><IMG border=3D0 height=3D2=20
+            src=3D"http://www.rightfax.com/images/spacer.gif"=20
+        width=3D20></TD></TR></TBODY></TABLE><BR>
+      <TABLE border=3D0 cellPadding=3D0 cellSpacing=3D0 width=3D"96%">
+        <TBODY>
+        <TR>
+          <TD vAlign=3Dtop width=3D"100%"><!-- start page content =
+--><!-- #BeginEditable "MAIN%20TEXT" -->
+            <UL>
+              <LI><FONT face=3DArial size=3D2><A=20
+              =
+href=3D"http://www.rightfax.com/products/requirements.htm#FaxServer">Netw=
+ork=20
+              and enterprise fax server requirements</A></FONT>=20
+              <LI><FONT face=3DArial size=3D2><A=20
+              =
+href=3D"http://www.rightfax.com/products/requirements.htm#Production">Pro=
+duction=20
+              fax system requirements</A></FONT>=20
+              <LI><FONT face=3DArial size=3D2><A=20
+              =
+href=3D"http://www.rightfax.com/products/requirements.htm#client">Client =
+
+              requirements</A></FONT>=20
+              <LI><FONT face=3DArial size=3D2><A=20
+              =
+href=3D"http://www.rightfax.com/products/requirements.htm#FaxBoard">Fax=20
+              board requirements</A></FONT>=20
+              <LI><FONT face=3DArial size=3D2><A=20
+              =
+href=3D"http://www.rightfax.com/products/requirements.htm#PhoneLine">Phon=
+e=20
+              line requirements</A></FONT> </LI></UL>
+            <P><FONT face=3DArial size=3D2><B><A name=3DFaxServer><FONT=20
+            color=3D#336699>RightFax</FONT></A><FONT color=3D#336699> =
+Fax Server=20
+            Requirements</FONT></B></FONT></P>
+            <P><FONT face=3DArial size=3D2>The computer designated as =
+the RightFax=20
+            server must meet or exceed the following =
+specifications:</FONT>=20
+            <UL>
+              <LI><FONT face=3DArial size=3D2>Windows NT Server v4.0 =
+Service Pack 6=20
+              or greater.</FONT>=20
+              <LI><FONT face=3DArial size=3D2>Pentium II 233 MHz =
+processor.</FONT>=20
+              <LI><FONT face=3DArial size=3D2>128 MB of RAM. More RAM =
+may be needed=20
+              if the server will also run other services such as SQL =
+Server, SMS=20
+              or Microsoft Exchange.</FONT>=20
+              <LI><FONT face=3DArial size=3D2>1 GB hard drive or larger. =
+More disk=20
+              space may be needed depending on a number of factors, =
+including=20
+              how long users are allowed to keep old faxes in the =
+system. The=20
+              RightFax software itself requires about 150 MB of disk =
+space, but=20
+              consider that each fax image (page) stored by RightFax =
+consumes an=20
+              average of 35 KB. If disk storage space is a problem, =
+users should=20
+              be encouraged to delete their faxes after reading or =
+printing=20
+              them.</FONT>=20
+              <LI><FONT face=3DArial size=3D2>VGA adapter and monitor. =
+This is=20
+              required for Windows NT.</FONT>=20
+              <LI><FONT face=3DArial size=3D2>Network interface card. =
+The RightFax=20
+              server must be connected to the local area network via a =
+network=20
+              interface card. RightFax will work on most popular LAN =
+topologies=20
+              and is compatible with most manufacturers' network =
+interface=20
+              cards. Any networking protocol supported by Microsoft =
+networking=20
+              may be used:&nbsp; NetBEUI, TCP/IP or SPX.</FONT>=20
+              <LI><FONT face=3DArial size=3D2>Microsoft Internet =
+Explorer 5 (or=20
+              higher). If it is not already installed on the RightFax =
+server=20
+              machine, Internet Explorer will be installed as part of =
+the=20
+              RightFax server installation.</FONT>=20
+              <LI><FONT face=3DArial size=3D2>CD-ROM drive.</FONT> =
+</LI></UL>
+            <P><FONT face=3DArial size=3D2><A=20
+            =
+href=3D"http://www.rightfax.com/products/servers.htm">Additional=20
+            network and enterprise fax server =
+information.</A></FONT></P>
+            <P align=3Dright><A=20
+            =
+href=3D"http://www.rightfax.com/products/requirements.htm#top"><FONT=20
+            face=3DArial size=3D1>Return to Top</FONT></A>=20
+            <P><B><FONT face=3DArial size=3D2><A name=3DProduction><FONT =
+
+            color=3D#336699>RightFax</FONT></A><FONT color=3D#336699> =
+Production=20
+            System Requirements</FONT></FONT></B>=20
+            <UL>
+              <LI><FONT face=3DArial size=3D2>RightFax Enterprise Server =
+v7.0 or=20
+              higher.</FONT>=20
+              <LI><FONT face=3DArial size=3D2>Windows NT Server v4.0 or =
+greater,=20
+              with Service Pack 5.0 or higher (installed on all =
+servers).</FONT>=20
+
+              <LI><FONT face=3DArial size=3D2>Pentium 266 MHz processor =
+or=20
+              equivalent.</FONT>=20
+              <LI><FONT face=3DArial size=3D2>256 MB RAM or =
+greater.</FONT>=20
+              <LI><FONT face=3DArial size=3D2>4 GB of uncompressed =
+usable hard drive=20
+              space in a fault-tolerant disk configuration.</FONT>=20
+              <LI><FONT face=3DArial size=3D2>Software or hardware RAID =
+level 1=20
+              minimum.</FONT>=20
+              <LI><FONT face=3DArial size=3D2>Appropriate number and =
+type (PCI or=20
+              ISA) of full-length expansion slots.</FONT>=20
+              <LI><FONT face=3DArial size=3D2>Network interface card. =
+The RightFax=20
+              server must be connected to the local area network via a =
+network=20
+              interface card. RightFax will work on most popular LAN =
+topologies=20
+              and is compatible with most manufacturers' network =
+interface=20
+              cards. Any networking protocol supported by Microsoft =
+networking,=20
+              including NetBEUI, TCP/IP or SPX, may be used.</FONT>=20
+              <LI><FONT face=3DArial size=3D2>CD-ROM.</FONT>=20
+              <LI><FONT face=3DArial size=3D2>SVGA display card with =
+monitor=20
+              settings of at least 800 x 600 dpi resolution and 256=20
+              colors.</FONT>=20
+              <LI><FONT face=3DArial size=3D2>33.6 Kbps or faster modem =
+(required=20
+              for production technical support).</FONT>=20
+              <LI><FONT face=3DArial size=3D2>Microsoft Internet =
+Explorer 5 (or=20
+              higher) must be installed on the server.&nbsp; If Internet =
+
+              Explorer is not already installed on the RightFax server =
+machine,=20
+              it will be installed as part of the RightFax server=20
+              installation.</FONT>=20
+              <LI><FONT face=3DArial size=3D2>pcANYWHERE 32 v8.0 =
+(required for=20
+              production technical support).</FONT>=20
+              <LI><FONT face=3DArial size=3D2>Local administrator rights =
+to all=20
+              RightFax servers.</FONT> </LI></UL>
+            <P><FONT face=3DArial size=3D2><A=20
+            =
+href=3D"http://www.rightfax.com/products/production.htm">Additional=20
+            production fax system information.</A></FONT></P>
+            <P align=3Dright><A=20
+            =
+href=3D"http://www.rightfax.com/products/requirements.htm#top"><FONT=20
+            face=3DArial size=3D1>Return to Top</FONT></A>=20
+            <P><FONT face=3DArial size=3D2><B><A name=3Dclient><FONT=20
+            color=3D#336699>Client</FONT></A><FONT color=3D#336699>=20
+            Requirements</FONT></B></FONT></P>
+            <P><FONT face=3DArial size=3D2>The client computer must meet =
+or exceed=20
+            the following operating system specifications:</FONT>=20
+            <P><FONT color=3D#336699 size=3D2>Windows NT 4.0 =
+Workstation</FONT>=20
+            <UL>
+              <LI><FONT size=3D2>Windows NT Workstation v4.0 Service =
+Pack 6 or=20
+              later with at least 32 MB memory.</FONT> </LI></UL>
+            <P><FONT color=3D#336699 size=3D2>Windows 95/98</FONT>=20
+            <UL>
+              <LI><FONT size=3D2>Must have NetBEUI, IPX/SPX or TCP/IP=20
+              installed.</FONT>=20
+              <LI><FONT size=3D2>Must be bound to the Client for =
+Microsoft=20
+              Networks, possibly in addition to a NetWare =
+network.</FONT>=20
+              <LI><FONT size=3D2>Minimum requirements for the operating=20
+              system.</FONT> </LI></UL>
+            <P><FONT color=3D#336699 size=3D2>Windows 2000 =
+Professional</FONT>=20
+            <UL>
+              <LI><FONT size=3D2>Minimum requirements for the operating=20
+              system.</FONT> </LI></UL>
+            <P><FONT color=3D#336699 size=3D2>Windows XP</FONT>=20
+            <UL>
+              <LI><FONT size=3D2>Minimum requirements for the operating=20
+              system.</FONT> </LI></UL>
+            <P><FONT face=3DArial size=3D2><B><A name=3DFaxBoard><FONT=20
+            color=3D#336699>RightFax</FONT></A><FONT color=3D#336699> =
+Fax Board=20
+            Requirements</FONT></B></FONT></P>
+            <P><FONT face=3DArial size=3D2>RightFax supports <A=20
+            href=3D"http://www.brooktrout.com/" =
+target=3D_blank>Brooktrout</A> and=20
+            <A href=3D"http://www.dialogic.com/" target=3D_blank>Intel =
+Dialogic</A>=20
+            fax boards only. At least one fax board must be installed in =
+the=20
+            machine where the fax server software is running.</FONT></P>
+            <P><FONT face=3DArial size=3D2><B><A=20
+            =
+href=3D"http://www.rightfax.com/support/v72/faxboard.pdf">RightFax Fax=20
+            Board Guide</A></B> </FONT><FONT face=3DArial size=3D1>(1.2 =
+MB=20
+            PDF)</FONT>=20
+            <P><FONT face=3DArial size=3D2><A=20
+            =
+href=3D"http://www.rightfax.com/products/faxboard.htm">Additional fax=20
+            board information.</A></FONT>=20
+            <P><FONT face=3DArial size=3D2><B><A name=3DPhoneLine><FONT=20
+            color=3D#336699>RightFax</FONT></A><FONT color=3D#336699> =
+Phone Line=20
+            Requirements</FONT></B></FONT>=20
+            <P><FONT face=3DArial size=3D2>RightFax can use several =
+types of phone=20
+            lines: loop-start (regular analog phone lines), Direct =
+Inward Dial=20
+            (DID), Integrated Services Digital Network (ISDN), and =
+several types=20
+            of digital lines.</FONT>=20
+            <P align=3Dright><A=20
+            =
+href=3D"http://www.rightfax.com/products/requirements.htm#top"><FONT=20
+            face=3DArial size=3D1>Return to Top</FONT></A>=20
+            <P>&nbsp;</P>
+            <P><BR><!-- #EndEditable --><!-- end page content =
+--></P></TD>
+          <TD vAlign=3Dtop width=3D20><IMG border=3D0 height=3D20=20
+            src=3D"http://www.rightfax.com/images/spacer.gif" =
+width=3D20></TD>
+          <TD class=3Drightmenu noWrap vAlign=3Dtop><!-- start right =
+menu --><!-- #BeginEditable "left_navigation" --><!-- #BeginLibraryItem =
+"/library/SubMenu-Products&Solutions.lbi" -->
+            <TABLE border=3D0 cellPadding=3D0 cellSpacing=3D0 =
+width=3D190>
+              <TBODY>
+              <TR>
+                <TD width=3D1>&nbsp;</TD>
+                <TD class=3Drightmenu noWrap width=3D189><FONT =
+size=3D2><A=20
+                  =
+href=3D"http://www.rightfax.com/products/features.htm">What's=20
+                  New in RightFax 8.0?</A> </FONT></TD></TR>
+              <TR>
+                <TD width=3D1><IMG height=3D20 src=3D"" width=3D1></TD>
+                <TD class=3Drightmenu noWrap width=3D189><FONT =
+size=3D2><A=20
+                  =
+href=3D"http://www.rightfax.com/products/servers.htm">Network=20
+                  &amp; Enterprise Fax</A></FONT></TD></TR>
+              <TR>
+                <TD width=3D1>&nbsp;</TD>
+                <TD class=3Drightmenu noWrap width=3D189><FONT =
+size=3D2><A=20
+                  =
+href=3D"http://www.rightfax.com/products/production.htm">Production=20
+                  Fax &amp; e-Doc Delivery</A></FONT></TD></TR>
+              <TR>
+                <TD width=3D1><IMG height=3D20 src=3D"" width=3D1></TD>
+                <TD class=3Drightmenu noWrap width=3D189><FONT =
+size=3D2><A=20
+                  =
+href=3D"http://www.rightfax.com/products/internet.htm">Internet=20
+                  Fax Services</A></FONT></TD></TR>
+              <TR>
+                <TD width=3D1>&nbsp;</TD>
+                <TD class=3Drightmenu noWrap width=3D189><FONT =
+size=3D2><A=20
+                  =
+href=3D"http://www.rightfax.com/products/modules.htm">Add-On=20
+                  Modules &amp; Connectors</A></FONT></TD></TR>
+              <TR>
+                <TD width=3D1>&nbsp;</TD>
+                <TD class=3Drightmenu noWrap width=3D189><FONT =
+size=3D2><A=20
+                  =
+href=3D"http://www.rightfax.com/products/faxboard.htm">Fax=20
+                  Boards</A></FONT></TD></TR>
+              <TR>
+                <TD width=3D1>&nbsp;</TD>
+                <TD class=3Drightmenu noWrap width=3D189><FONT =
+size=3D2><A=20
+                  =
+href=3D"http://www.rightfax.com/support/implementation.htm">Implementatio=
+n=20
+                  Sevices</A></FONT></TD></TR>
+              <TR>
+                <TD width=3D1>&nbsp;</TD>
+                <TD class=3Drightmenu noWrap width=3D189><FONT =
+size=3D2><A=20
+                  =
+href=3D"http://www.rightfax.com/products/requirements.htm">Technical=20
+                  Requirements</A></FONT></TD></TR>
+              <TR>
+                <TD width=3D1><FONT size=3D2></FONT></TD>
+                <TD class=3Drightmenu noWrap width=3D189><FONT =
+size=3D2><A=20
+                  =
+href=3D"http://www.rightfax.com/support/win2000.htm">Windows=20
+                  2000 Certification</A></FONT></TD></TR>
+              <TR>
+                <TD width=3D1>&nbsp;</TD>
+                <TD class=3Drightmenu noWrap width=3D189><FONT =
+size=3D2><A=20
+                  =
+href=3D"http://www.rightfax.com/support/docs.htm">Product=20
+                  Documentation</A></FONT></TD></TR>
+              <TR>
+                <TD width=3D1>&nbsp;</TD>
+                <TD class=3Drightmenu noWrap width=3D189><FONT =
+size=3D2><A=20
+                  href=3D"http://www.rightfax.com/savings/">Fax Savings=20
+                  Calculator</A></FONT></TD></TR>
+              <TR>
+                <TD width=3D1>&nbsp;</TD>
+                <TD class=3Drightmenu noWrap width=3D189><FONT =
+size=3D2><A=20
+                  =
+href=3D"http://www.rightfax.com/products/retired.htm">Retired=20
+                  Products</A></FONT></TD></TR></TBODY></TABLE><!-- =
+#EndLibraryItem -->
+            <P>&nbsp;</P><!-- #EndEditable --><!-- end right menu =
+--></TD></TR></TBODY></TABLE>
+      <P></P>
+      <TABLE border=3D0 cellPadding=3D0 cellSpacing=3D0 width=3D"96%">
+        <TBODY>
+        <TR>
+          <TD><!-- start bottom menu --><!-- #BeginLibraryItem =
+"/library/BottomNav.lbi" -->
+            <P><FONT size=3D1><A =
+href=3D"http://www.rightfax.com/products/">Products=20
+            &amp; Solutions</A> | <A=20
+            href=3D"http://www.rightfax.com/demo/">Demo</A> | <A=20
+            href=3D"http://www.rightfax.com/contact/sales.htm">Sales</A> =
+| <A=20
+            href=3D"http://www.rightfax.com/support/">Support</A> | <A=20
+            href=3D"http://www.rightfax.com/training/">Training</A> | <A =
+
+            href=3D"http://www.rightfax.com/pressroom/">Press Room</A> | =
+<A=20
+            href=3D"http://www.rightfax.com/casestudies/">Case =
+Studies</A> | <A=20
+            href=3D"http://www.rightfax.com/events/">Events</A> | <A=20
+            href=3D"http://www.rightfax.com/alliances/">Strategic =
+Alliances</A> |=20
+            <A =
+href=3D"http://www.captaris.com/partnerships/">Partnerships</A> |=20
+            <A href=3D"http://www.rightfax.com/corp/">About RightFax</A> =
+| <A=20
+            href=3D"http://www.rightfax.com/contact/">Contact=20
+            RightFax</A></FONT></P>
+            <P><FONT size=3D1>Copyright =A9 2001 Captaris</FONT></P><!-- =
+#EndLibraryItem =
+--></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><!-- #EndTemplate =
+--></BODY></HTML>
+
+------=_NextPart_000_0000_01C14AB0.0DC81340
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.rightfax.com/images/subLogoCaptaris.gif
+
+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
+ja1sZ0vb2mIhCAA7
+
+------=_NextPart_000_0000_01C14AB0.0DC81340
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.rightfax.com/images/subBtnSolutions.gif
+
+R0lGODlhPAAXALMAAP////H0+N/n783a5rzN3aq/1ZmyzIelw8yZAHmbvGSLsVJ9qUFwoDNmmf4B
+AgAAACH5BAUUAA4ALAAAAAA8ABcAAAT/EMhJq704a4q2/2DWhWSpjWaqomobsm58yvRc3xWM113A
+NA1FILM4ZAIDQGBB4AGAhwMw01hgAg2DkskTNIyAwmIIOCwS5CpAoF1rE9WmQSARK5LugGKBJyyK
+Fh1ACwUUPwY/EmoGDXSMAj9fXlpSBwoNSYxZUwRBUlYcAJ1AX6INhVgJT1aPAI+Ta1lPCooNrg1y
+jYx3dDkTA3C4ravEra+yk7AAC7bGjQCRpRwCCr0DWQW4irSLz8dak6m1t47PAgEFP70TWAwDkM8N
+DAJwdGrZCdeNXtWwPwPZtDhjI4nZhWykwPgA0oTYMiD1HlaTBeCStIFlSOG5IGDdjo8gCEOKHEmy
+ZMgIADs=
+
+------=_NextPart_000_0000_01C14AB0.0DC81340
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.rightfax.com/images/subBtnProducts.gif
+
+R0lGODlhPQAXALMAAP////H0+N/n783a5rzN3aq/1ZmyzIelw3mbvGSLsVJ9qUFwoDNmmf4BAgAA
+AAAAACH5BAUUAA0ALAAAAAA9ABcAAATpEMhJq7046827/2AojmRpnmiqrmzrvrAaKLSCiIQSfMEQ
+CgyGYhEMGRgCT4Bh+DElCKTAMCsACoqETzKwHZAAQzI8NmSTUQUBkFMcNsAmIDoNMr+HBMMHXHyl
+T3EACgwHRABEhQQMCV8KGkBCRAthjBKWAEVRUIBNggw3VwCCR1pjGZE0b5VJgoMMrxJHAoJxrhKu
+iYWQTxSzAEuhRXoSX7SBTEurVq4CAQVEpxa3smCIewVPiwgDQc4MCwJETUEDescJdQcChLxyE78S
+ervFQXQAf19NM0Frrwn47GyJQbCgwYMIEyoEEQEAOw==
+
+------=_NextPart_000_0000_01C14AB0.0DC81340
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.rightfax.com/images/subBtnServices.gif
+
+R0lGODlhOQAXALMAAP////H0+N/n783a5rzN3aq/1ZmyzIelw8yZAHmbvGSLsVJ9qUFwoDNmmf4B
+AgAAACH5BAUUAA4ALAAAAAA5ABcAAATzEIFJq7046w0k/2BoeWJpXuSplunqcu0ro3ONxfaM529M
+NMDEirAI9CwCoEHRUKiIRlfL0BhMEouJQLEgTAyCg8JgoIAF5etCqOV61QrrpDUIvgGBxrpRBiob
+RgUNaIMAfw14egl8hnwMhR0XB34NXosTDAyNUQ0HAJkAVAI/XqMAl5+aQAUCUZEYBEyIC5SIehRM
+eQWhg6IVtJQAP35RLUQUk1uIFbcTdUxfg4JWptAWAQOTWRiCCgJ1iD8Jz4bbE0BOvAKGDEnhDeNN
+jQPiGrJAb1R6Rs0Tk/mFwAGKtg+AgEfwPghYx6Ohw4cQI0qc6CICADs=
+
+------=_NextPart_000_0000_01C14AB0.0DC81340
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.rightfax.com/images/spacer.gif
+
+R0lGODlhFAAUAIAAADNmmTNmmSH5BAUUAAAALAAAAAAUABQAAAIRhI+py+0Po5y02ouz3rz7rxUA
+Ow==
+
+------=_NextPart_000_0000_01C14AB0.0DC81340
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.rightfax.com/images/subLogoRightfax.gif
+
+R0lGODlhpAAtAPcAAAAAADMAAGYAAJkAAMwAAP8AAAAzADMzAGYzAJkzAMwzAP8zAABmADNmAGZm
+AJlmAMxmAP9mAACZADOZAGaZAJmZAMyZAP+ZAADMADPMAGbMAJnMAMzMAP/MAAD/ADP/AGb/AJn/
+AMz/AP//AAAAMzMAM2YAM5kAM8wAM/8AMwAzMzMzM2YzM5kzM8wzM/8zMwBmMzNmM2ZmM5lmM8xm
+M/9mMwCZMzOZM2aZM5mZM8yZM/+ZMwDMMzPMM2bMM5nMM8zMM//MMwD/MzP/M2b/M5n/M8z/M///
+MwAAZjMAZmYAZpkAZswAZv8AZgAzZjMzZmYzZpkzZswzZv8zZgBmZjNmZmZmZplmZsxmZv9mZgCZ
+ZjOZZmaZZpmZZsyZZv+ZZgDMZjPMZmbMZpnMZszMZv/MZgD/ZjP/Zmb/Zpn/Zsz/Zv//ZgAAmTMA
+mWYAmZkAmcwAmf8AmQAzmTMzmWYzmZkzmcwzmf8zmQBmmTNmmWZmmZlmmcxmmf9mmQCZmTOZmWaZ
+mZmZmcyZmf+ZmQDMmTPMmWbMmZnMmczMmf/MmQD/mTP/mWb/mZn/mcz/mf//mQAAzDMAzGYAzJkA
+zMwAzP8AzAAzzDMzzGYzzJkzzMwzzP8zzABmzDNmzGZmzJlmzMxmzP9mzACZzDOZzGaZzJmZzMyZ
+zP+ZzADMzDPMzGbMzJnMzMzMzP/MzAD/zDP/zGb/zJn/zMz/zP//zAAA/zMA/2YA/5kA/8wA//8A
+/wAz/zMz/2Yz/5kz/8wz//8z/wBm/zNm/2Zm/5lm/8xm//9m/wCZ/zOZ/2aZ/5mZ/8yZ//+Z/wDM
+/zPM/2bM/5nM/8zM///M/wD//zP//2b//5n//8z//////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAHgALAAAAACkAC0A
+QAj/APEIHEiwoMGDCBMqXMiwocOHECNKnEixosWLGDNq3Mixo8eNeUKKHEmypMhr11aFXIVSJCmT
+JUm1hIny5cqZMHPq3MmzJ0wLFH3qRKkyj7Vr1kJCS5lH5jWRLK+9dDqyZkirN59CvQYtJCurMq0B
+Iiq0rNmRQCeeXcu2rdu3bNN+nEu3rt27ePPq/Qi3r9+/gHvKjQgXpWGuIpeqLIXT6VSsjq9K3XpY
+a0hSXy0vRdk18NvBED37HGtZtGnPoPeqXs26tevXsGPLnk27tu3buHOrPc27t2+0Qd9W5gpIMiue
+VHMWp3zY5u/AqR0WZpqHsVbFlw9vfnwtM1lAm6FB/3sZlWTUo9dKGZe8/PnO6A2nq1yaVCnTpZ0l
+c686OQ/WPOWNtNRxkYWEXnvuvRecW2RJlhR2eZBWE1g4+defdYgFmBhnjrFUlFHdJajgbr8hJZ5h
+IqboE3wMWeDiizDGKOOMNNZo44045qjjjjzSqNuPQAYp5JBEFmnkkUgmqeSSTDbp5JNQRilQj1RW
+aeWVWGYJ44IqdunlT1yyRcqYYyJYCjQIwpScT2SS+eVnYa7F2SqZdQahTmuW9F9Uq/T54ZtrsbiQ
+fNlNVsoqzgEIjXp9FlodK4tSxgqiAFZ4GaSUhgTIKuo11SmgIQmqEKFOHZcHhA1u1xRnXuG0p6Wk
+dJQaYIfpgSqSqAlNZ42q9qn0VX4W7ndSf69yJV5nUWXmHIq23hrnWWQViN1X9em3amlYFTtScgV6
+ByyouCJE6LUvocpVrIYJa62F4zFaoVOHphtspdek+WW4B8E15rbLAZJoUzZBlui+IgFSinMEb2sT
+wfY2mwe+Brn36amIOawixAVJvFmIFneJMUEdh8zbx1KWzFBAADs=
+
+------=_NextPart_000_0000_01C14AB0.0DC81340
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.rightfax.com/images/whiteSquare.gif
+
+R0lGODlhFAAUAJEAAP////////4BAgAAACH5BAQUAP8ALAAAAAAUABQAAAIRhI+py+0Po5y02ouz
+3rz7rxUAOw==
+
+------=_NextPart_000_0000_01C14AB0.0DC81340
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.rightfax.com/images/subBtnSearch.gif
+
+R0lGODlhLQAQAMQAAP////z58Pnz4Pbs0PLmwO/fsOzZoOnTkObMgOLGcN+/YNy5UNmzQNasMNKm
+IM+fEMyZAP4BAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAUU
+ABEALAAAAAAtABAAAAW2ICCOZGmeaAqtbOu+cCzPdG3feM4qAiAguhcCaHMEGhDHQBFsDW8NwWPl
+cECiAMO0MQAEFpCDAbBY9AgPRKHHpB0ChYQVIkAaEmFgggAhaB8BDA8ECwhSDQE2DwtvCwwBBAQD
+fBCFkX0MEAyUK08QADQKeCsLBAwDDKlIkUN8ppqUD2lEoDNGYA8GBxCBEAZAAA65rpm8mQa/tDUL
+XQFalWdTCF4HApgrWGietU3d3t/g4eLjLyEAOw==
+
+------=_NextPart_000_0000_01C14AB0.0DC81340
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.rightfax.com/captaris.css
+
+BODY {
+	FONT-FAMILY: Arial, Geneva, Helvetica, Swiss, SunSans-Regular
+}
+P {
+	FONT-FAMILY: Arial, Geneva, Helvetica, Swiss, SunSans-Regular
+}
+TD {
+	FONT-FAMILY: Arial, Geneva, Helvetica, Swiss, SunSans-Regular
+}
+.sectionHead {
+	COLOR: #369; FONT-FAMILY: "Arial Black", "Geneva Bold", "Helvetica =
+Bold", "Swiss Bold", "SunSans-Regular Bold"; LETTER-SPACING: 3px
+}
+.submenu A:link {
+	COLOR: #9cf; TEXT-DECORATION: none
+}
+.submenu {
+	COLOR: #fff; FONT-SIZE: 12px
+}
+.submenu A:active {
+	COLOR: #9cf; TEXT-DECORATION: none
+}
+.submenu A:visited {
+	COLOR: #9cf; TEXT-DECORATION: none
+}
+.submenu A:hover {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+.submenuSection A:link {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+.submenuSection {
+	COLOR: #fff; FONT-SIZE: 12px
+}
+.submenuSection A:active {
+	COLOR: #9cf; TEXT-DECORATION: none
+}
+.submenuSection A:visited {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+.submenuSection A:hover {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+.rightmenu {
+	LINE-HEIGHT: 130%
+}
+.topmenu {
+	FONT-SIZE: 12px; LINE-HEIGHT: 140%
+}
+.topmenu A:link {
+	COLOR: #369; TEXT-DECORATION: none
+}
+.topmenu A:active {
+	COLOR: #000; TEXT-DECORATION: none
+}
+.topmenu A:visited {
+	COLOR: #369; TEXT-DECORATION: none
+}
+.topmenu A:hover {
+	COLOR: #000; TEXT-DECORATION: none
+}
+.main_block {
+	COLOR: #fff; FONT-FAMILY: "Arial","Helvetica"; FONT-SIZE: 11px; =
+LINE-HEIGHT: 150%; TEXT-DECORATION: none
+}
+A:link {
+	COLOR: #c90
+}
+A:visited {
+	COLOR: #999
+}
+A:active {
+	COLOR: #000
+}
+A:hover {
+	COLOR: #960
+}
+#menuSolutions {
+	LEFT: 377px; POSITION: absolute; TOP: 18px; VISIBILITY: hidden
+}
+#menuProducts {
+	LEFT: 441px; POSITION: absolute; TOP: 18px; VISIBILITY: hidden
+}
+#menuServices {
+	LEFT: 375px; POSITION: absolute; TOP: 18px; VISIBILITY: hidden; WIDTH: =
+230px
+}
+
+------=_NextPart_000_0000_01C14AB0.0DC81340
+Content-Type: application/x-javascript
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.rightfax.com/submenu.js
+
+=0A=
+if (document.images){=0A=
+	=0A=
+	solutionsOff =3D new Image()=0A=
+	solutionsOff.src =3D "/images/subBtnSolutions.gif"=0A=
+	solutionsOn =3D new Image()=0A=
+	solutionsOn.src =3D "/images/subBtnSolutions_f2.gif"=0A=
+	=0A=
+	productsOff =3D new Image()=0A=
+	productsOff.src =3D "/images/subBtnProducts.gif"=0A=
+	productsOn =3D new Image()=0A=
+	productsOn.src =3D "/images/subBtnProducts_f2.gif"=0A=
+	=0A=
+	servicesOff =3D new Image()=0A=
+	servicesOff.src =3D "/images/subBtnServices.gif"=0A=
+	servicesOn =3D new Image()=0A=
+	servicesOn.src =3D "/images/subBtnServices_f2.gif"=0A=
+	}=0A=
+	=0A=
+	function hiLiteOn(imgName){=0A=
+		if (document.images){=0A=
+			document [imgName].src =3D eval(imgName + "On.src")=0A=
+			allOff(imgName)=0A=
+			}=0A=
+		}=0A=
+=0A=
+// initialize variables=0A=
+position =3D "down" =0A=
+timerID =3D null=0A=
+openMenu =3D null=0A=
+menuID =3D null=0A=
+=0A=
+=0A=
+//Switch off highlight on buttons called by name=0A=
+function allOff(img){=0A=
+	if(img !=3D "solutions"){=0A=
+		window.document.solutions.src =3D solutionsOff.src=0A=
+		//alert("allOff img !=3D solutions")=0A=
+	}=0A=
+	if(img !=3D "products"){=0A=
+		window.document.products.src =3D productsOff.src=0A=
+		//alert("allOff img !=3D products ")=0A=
+	}=0A=
+	if(img !=3D "services"){=0A=
+		window.document.services.src =3D servicesOff.src=0A=
+		//alert("allOff img !=3D services ")=0A=
+	}=0A=
+	=0A=
+}=0A=
+=0A=
+//Show drop-down menu called by name=0A=
+//If browser is Netscape 4 or higher, begin timer to hide menu after 4 =
+seconds=0A=
+function toggleMenu(menuID){=0A=
+	openMenu =3D menuID		=0A=
+	if(document.all){=0A=
+		document.all(openMenu).style.visibility =3D "visible"		=0A=
+	}else if(document.layers){=0A=
+		clearTimeout(timerID)=0A=
+			document.layers[openMenu].visibility =3D "visible" =0A=
+			timerID =3D setTimeout("hideAllMenus()", 8000)=0A=
+	}=0A=
+	hideMenus()	=0A=
+}=0A=
+=0A=
+//Function to hide all menus=0A=
+function hideAllMenus(){=0A=
+	if (document.layers){=0A=
+		document.menuSolutions.visibility =3D "hidden"=0A=
+		document.menuProducts.visibility =3D "hidden"=0A=
+		document.menuServices.visibility =3D "hidden"=0A=
+		allOff("null")=0A=
+	} =0A=
+	openMenu =3D null=0A=
+}=0A=
+=0A=
+//Function to hide only the visible menu=0A=
+function hideMenus(){=0A=
+	if(document.all){=0A=
+		if (openMenu !=3D "menuSolutions"){=0A=
+			menuSolutions.style.visibility =3D "hidden"=0A=
+		}=0A=
+		if (openMenu !=3D "menuProducts"){=0A=
+			menuProducts.style.visibility =3D "hidden"=0A=
+		}=0A=
+		if (openMenu !=3D "menuServices"){=0A=
+			menuServices.style.visibility =3D "hidden"=0A=
+		}=0A=
+=0A=
+	}else if(document.layers){=0A=
+		if (openMenu !=3D "menuSolutions"){=0A=
+			document.menuSolutions.visibility =3D "hidden"=0A=
+		}=0A=
+		if (openMenu !=3D "menuProducts"){=0A=
+			document.menuProducts.visibility =3D "hidden"=0A=
+		}=0A=
+		if (openMenu !=3D "menuServices"){=0A=
+			document.menuServices.visibility =3D "hidden"=0A=
+		}=0A=
+	}=0A=
+	openMenu =3D null=0A=
+}
+------=_NextPart_000_0000_01C14AB0.0DC81340
+Content-Type: application/x-javascript
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.rightfax.com/submenudivs.js
+
+if (document.layers || document.all){
+
+//Solutions menu dropdown
+document.write("<div id=3D'menuSolutions'><table border=3D'0' =
+cellpadding=3D'5' cellspacing=3D'0'><tr>")
+document.write("<td class=3D'topmenu' valign=3D'top'><a href=3D'#' =
+onmouseover=3D'allOff(); hideMenus()'><img src=3D'/images/spacer.gif' =
+width=3D'11' height=3D'135' border=3D'0'></a></td>")
+document.write("<td class=3D'topmenu' valign=3D'top' =
+bgcolor=3D'#ffffff'>")
+
+//Solution links go here
+document.write("<a href=3D'http://www.rightfax.com'>e-Document delivery =
+(servers)</a><br>")
+document.write("<a href=3D'http://www.medialinq.com'>e-Document delivery =
+(outsource)</a><br>")
+document.write("<a href=3D'http://www.medialinq.com'>Email/fax broadcast =
+(outsource)</a><br>")
+document.write("<a href=3D'http://www.infinite.com'>Mobile =
+business</a><br>")
+document.write("<a href=3D'http://www.rightfax.com'>Network =
+faxing</a><br>")
+document.write("<a href=3D'http://www.rightfax.com'>Production =
+faxing</a><br>")
+document.write("<a href=3D'http://www.captaris.com/ctg/'>Unified =
+messaging</a><br>")
+document.write("<a =
+href=3D'http://www.infinite.com/captaris/wapg.html'>Wireless =
+infrastructure</a><br>")
+document.write("<a =
+href=3D'http://www.captaris.com/ctg/solutions_and_products/three_ways_to_=
+shop/solution_call_management.html'>Call management</a><br>")
+document.write("<a =
+href=3D'http://www.captaris.com/ctg/solutions_and_products/three_ways_to_=
+shop/solution_interactive_voice_response.html'>Interactive voice =
+response</a>")
+//------------------
+
+document.write("</td><td class=3D'topmenu' valign=3D'top'><a href=3D'#' =
+onmouseover=3D'allOff(); hideMenus()'><img src=3D'/images/spacer.gif' =
+width=3D'11' height=3D'135' border=3D'0'></a></td>")
+document.write("</tr></table>")
+document.write("<a href=3D'#' onmouseover=3D'allOff(); hideMenus()'><img =
+src=3D'/images/spacer.gif' width=3D'214' height=3D'14' =
+border=3D'0'></a></div>")
+
+
+//Products menu dropdown
+document.write("<div id=3D'menuProducts'><table border=3D'0' =
+cellpadding=3D'5' cellspacing=3D'0'><tr>")
+document.write("<td class=3D'topmenu' valign=3D'top'><a href=3D'#' =
+onmouseover=3D'allOff(); hideMenus()'><img src=3D'/images/spacer.gif' =
+width=3D'11' height=3D'86' border=3D'0'></a></td>")
+document.write("<td class=3D'topmenu' valign=3D'top' =
+bgcolor=3D'#ffffff'>")
+
+//Product links go here
+document.write("<a =
+href=3D'http://www.captaris.com/ctg/'>CallXpress</a><br>")
+document.write("<a href=3D'http://www.infinite.com'>Infinite</a><br>")
+document.write("<a href=3D'http://www.medialinq.com'>MediaLinq =
+Services</a><br>")
+document.write("<a =
+href=3D'http://www.captaris.com/omnibridge/'>OmniBridge</a><br>")
+document.write("<a href=3D'http://www.rightfax.com'>RightFax</a>")
+//-------------------
+
+document.write("</td><td class=3D'topmenu' valign=3D'top'><a href=3D'#' =
+onmouseover=3D'allOff(); hideMenus()'><img src=3D'/images/spacer.gif' =
+width=3D'11' height=3D'86' border=3D'0'></a></td>")
+document.write("</tr></table>")
+document.write("<a href=3D'#' onmouseover=3D'allOff(); hideMenus()'><img =
+src=3D'/images/spacer.gif' width=3D'163' height=3D'15' =
+border=3D'0'></a></div>")
+
+
+//Services menu dropdown
+document.write("<div id=3D'menuServices'><div align=3D'right'><table =
+border=3D'0' cellpadding=3D'5' cellspacing=3D'0'><tr>")
+document.write("<td class=3D'topmenu' align=3D'right' valign=3D'top'><a =
+href=3D'#' onmouseover=3D'allOff(); hideMenus()'><img =
+src=3D'/images/spacer.gif' width=3D'13' height=3D'22' =
+border=3D'0'></a></td>")
+document.write("<td class=3D'topmenu' align=3D'right' valign=3D'top' =
+bgcolor=3D'#ffffff'>")
+
+//Service links go here
+document.write("<a href=3D'http://www.medialinq.com'>MediaLinq =
+Services</a>")
+//-------------------
+
+document.write("</td><td class=3D'topmenu' align=3D'right' =
+valign=3D'top'><a href=3D'#' onmouseover=3D'allOff(); hideMenus()'><img =
+src=3D'/images/spacer.gif' width=3D'13' height=3D'17' =
+border=3D'0'></a></td>")
+document.write("</tr></table>")
+document.write("<a href=3D'#' onmouseover=3D'allOff(); hideMenus()'><img =
+src=3D'/images/spacer.gif' width=3D'171' height=3D'15' =
+border=3D'0'></a></div></div>")
+
+}
+------=_NextPart_000_0000_01C14AB0.0DC81340--

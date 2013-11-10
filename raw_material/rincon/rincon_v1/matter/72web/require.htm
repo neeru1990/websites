@@ -1,0 +1,129 @@
+<html>
+<head>
+<title>RightFAX Technical Product Requirements</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#FFFFFF">
+<table border="0" cellpadding="6" cellspacing="6" width="420">
+  <tr>
+          <td valign="top" align="left" width="425"> <b><font face="Arial" size="2"><a name="Top">RightFAX</a> Technical
+            Product Requirements</font></b>
+            <ul>
+              <li><font face="Arial" size="2"><a href="#FaxServer">Fax server
+                requirements</a></font></li>
+              <li><font face="Arial" size="2"><a href="#Production">Production
+                system requirements</a></font></li>
+              <li><font face="Arial" size="2"><a href="#FaxBoard">Fax board
+                requirements</a></font></li>
+              <li><font face="Arial" size="2"><a href="#PhoneLine">Phone line
+                requirements</a></font></li>
+            </ul>
+            <hr>
+            <p><font face="Arial" size="2"><b><a name="FaxServer">RightFAX</a>
+            Fax Server Requirements</b></font></p>
+            <p><font size="2" face="Arial">The computer designated as the
+            RightFAX server must meet or exceed the following specifications:</font>
+            <ul>
+              <li><font size="2" face="Arial">Windows NT Server v4.0 or greater.</font></li>
+              <li><font size="2" face="Arial">Pentium 90 MHz processor or
+                equivalent. Pentium
+                200 MHz or faster is strongly recommended for optimal speed.</font></li>
+              <li><font size="2" face="Arial">64 MB of RAM. More RAM may be
+                needed if the server will also run other services, such as SQL
+                Server, SMS or Microsoft Exchange.</font></li>
+              <li><font size="2" face="Arial">540 MB hard drive or better. More
+                disk space may be needed depending on a number of factors,
+                including how long users are allowed to keep old faxes in the
+                system. The RightFAX software itself requires 150 MB of disk
+                space, but consider that each fax image (page) stored by
+                RightFAX consumes an average of 35 KB. If disk storage space is
+                a problem, users should be encouraged to delete their faxes
+                after reading or printing them.</font></li>
+              <li><font size="2" face="Arial">VGA adapter and monitor. This is
+                required for Windows NT.</font></li>
+              <li><font size="2" face="Arial">Network interface card. The
+                RightFAX server must be connected to the local area network via
+                a network interface card. RightFAX will work on most popular LAN
+                topologies and is compatible with most manufacturers' network
+                interface cards. Any networking protocol supported by Microsoft
+                networking may be used:&nbsp; NetBEUI, TCP/IP or SPX.</font></li>
+              <li><font size="2" face="Arial">Microsoft Internet Explorer 5 (or
+                higher) must be installed on the server. If it is not already
+                installed on the RightFAX server machine, Internet Explorer will
+                be installed as part of the RightFAX server installation.</font></li>
+            </ul>
+            <p><a href="#top"><font face="Arial" size="2">Top of page</font></a>
+          </td>
+  </tr>
+  <tr>
+          <td valign="top" align="left" width="425"> 
+            <hr>
+            <p><b><font face="Arial" size="2"><a name="Production">RightFAX</a>
+            Production System Requirements</font></b>
+            <ul>
+              <li><font size="2" face="Arial">RightFAX Enterprise Server v7.0 or
+                higher.</font></li>
+              <li><font size="2" face="Arial">Windows NT Server v4.0 or greater,
+                with Service Pack 5.0 or higher (installed on all servers).</font></li>
+              <li><font size="2" face="Arial">Pentium 266 MHz processor or
+                equivalent.</font></li>
+              <li><font size="2" face="Arial">256 MB RAM or greater.</font></li>
+              <li><font size="2" face="Arial">4 GB of uncompressed usable hard
+                drive space in a fault-tolerant disk configuration.</font></li>
+              <li><font size="2" face="Arial">Software or hardware RAID level 1
+                minimum.</font></li>
+              <li><font size="2" face="Arial">Appropriate number and type (PCI
+                or ISA) of full-length expansion slots.</font></li>
+              <li><font size="2" face="Arial">Network interface card. The
+                RightFAX server must be connected to the local area network via
+                a network interface card. RightFAX will work on most popular LAN
+                topologies and is compatible with most manufacturers' network
+                interface cards. Any networking protocol supported by Microsoft
+                networking, including NetBEUI, TCP/IP or SPX, may be used.</font></li>
+              <li><font size="2" face="Arial">CD-ROM.</font></li>
+              <li><font size="2" face="Arial">SVGA display card with monitor
+                settings of at least 800 x 600 dpi resolution and 256 colors.</font></li>
+              <li><font size="2" face="Arial">33.6 Kbps or faster modem
+                (required for production technical support).</font></li>
+              <li><font size="2" face="Arial">Microsoft Internet Explorer 5 (or
+                higher) must be installed on the server.&nbsp; If Internet
+                Explorer is not already installed on the RightFAX server
+                machine, it will be installed as part of the RightFAX server
+                installation.</font></li>
+              <li><font size="2" face="Arial">pcANYWHERE 32 v8.0 (required for
+                production technical support).</font></li>
+              <li><font size="2" face="Arial">Local administrator rights to all
+                RightFAX servers.</font></li>
+            </ul>
+            <p><a href="#top"><font face="Arial" size="2">Top of page<br>
+            </font></a>
+            <font face="Arial" size="2">&nbsp;</font>
+            <hr>
+            <p><font size="2" face="Arial"><b><a name="FaxBoard">RightFAX</a>
+            Fax Board Requirements</b></font></p>
+            <p><font size="2" face="Arial">RightFAX supports <a href="http://www.brooktrout.com/" target="_blank">Brooktrout</a>
+            and <a href="http://www.dialogic.com/" target="_blank">Dialogic</a>
+            fax boards only. At least one fax board must be installed in the
+            machine where the fax server software is running.</font></p>
+            <p><a href="#top"><font face="Arial" size="2">Top of page</font></a>
+            </p>
+            <hr>
+            <p><font size="2" face="Arial"><b><a name="PhoneLine">RightFAX</a>
+            Phone Line Requirements</b></font><p><font size="2" face="Arial">RightFAX
+            can use several types of phone lines: loop-start (regular analog
+            phone lines), Direct Inward Dial (DID), Integrated Services Digital
+            Network (ISDN), and several types of digital lines.</font>
+            <p><a href="#top"><font face="Arial" size="2">Top of page</font></a>
+          </td>
+  </tr>
+  <tr>
+    <td valign="top" align="left">
+      <hr>
+      <p><font face="Arial, Helvetica, sans-serif" size="2"><a href="default.htm">RightFAX 
+        Products and Solutions</a></font></p>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

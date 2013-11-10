@@ -1,0 +1,4 @@
+bluish grey - #65707C
+light blue -  #95C4DB
+dark blue  -  #6DA4C7
+darkest blue - #036CAE

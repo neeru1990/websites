@@ -1,0 +1,400 @@
+For the RightFAX section of the web site, we will need the following: (These are RightFAX rules which we must abide by)
+
+a) RightFAX logo
+b) Description of the RightFAX product Line ... Attached is the latest zip info on 7.2 from the web
+c) RightFAX Contact Information:
+Captaris — RightFAX Products & Solutions
+6303 E. Tanque Verde Rd., Suite, 120
+Tucson, AZ 85715 USA 
+Tel: 520.320.7000 
+Fax: 520.321.7456 
+d) Page must be linked to RightFAX site www.rightfax.com
+
+Besides these, we will be putting the following:
+ 
+1) Flash Demo for Lotus Notes, Exchange and Oracle (these can be accessed only after filling in the form)
+2) White papers and Information such as brochures (fill in the form ... no downloading ... we will send separately)
+3) Reference list ... I am thinking how about we putting just logos of all corporates ... a collage of these???
+4) Contact us
+ 
+Brooktrout:
+Here I think we make it simply datasheets of TR114 Loop and ISDN, TruFAX and Netaccess IRAS and MCI and MPM. Data sheets can be in HTML format as given on the web site. Also we must link to White Paper - Why and How to buy Intelligent Fax Cards 
+ 
+Unified Messaging - CallXpress is the product line there 
+ 
+Do we put a link for jobs? In that case let it straight go to hrd@rincon.net
+
+http://www.rightfax.com/lotus/fxdmigration/endusers.asp
+http://www.rightfax.com/demo/CD_request.asp
+
+------------------------
+
+
+Hi
+ 
+this mail contains:
+ 
+a) Mission Statement and About us for About US section of the site
+b) Services under RightFAX section
+c) CallXpress under Unified Messaging
+d) Brooktrout ISDN series info under Brooktrout
+ 
+More mails follow .... In case of any doubt call me on 9821139440 or at the office 4010041
+ 
+Manish
+ 
+ Our mission:
+To provide our customers a complete communication platform that will help them streamline and improve their communications and customer services
+
+
+About us:
+
+
+Rincon India Solutions Pvt. Ltd. aims to help businesses make the most of their communications and IT infrastructure. 
+
+
+Rincon is the Indian distributor of the premier computer based faxing product, RightFAX. Team Rincon has been involved in all aspects of computer based faxing for over five years and possesses the skill sets and experience that have come from dealing with this technology over this period. This experience includes faxing from all of the major LAN based network systems and integration with all of the current corporate messaging solutions such as Lotus Notes, Microsoft Exchange, SMTP/POP3 and others. Team Rincon has successfully customized RightFAX to cater to local needs and applications. Besides automated faxing, Team Rincon has developed the expertise for end-to-end imaging solutions for call center and other applications.
+
+
+In the present scenario, customers expect a swift response from their business partners. More than ever before, companies need to address how they manage their response in terms of fax, phone and email messages. Our unified messaging solutions can help ensure that important information reaches the right people, at the right time, wherever they are. Every fax, email or voice mail can be called up directly or remotely for fast and efficient processing.
+
+
+RightFAX Services:
+
+
+Our implementation service offers a team of highly-skilled engineers who are experts in the deployment, implementation and integration of RightFAX solutions. Implementation Services include installation and configuration, upgrades, configuration review, cover page and forms services and advanced integration services.
+
+
+Offerings include:
+
+Installation and Configuration Services
+
+Engineers perform installation and configuration of servers and modules in the RightFAX product line on site. 
+
+ 
+
+Upgrade and Maintenance Services
+
+Upgrade and maintenance services allow customers to keep their RightFAX servers at the most current software levels as well as implement new features and configurations. Services can include the addition of new fax boards to the server, upgrading server software to the current version, addition of software modules to the server and supplemental technical support. These services can be performed either by an onsite engineer, or remotely via phone and mail depending on customer requirements.
+
+ 
+
+Cover Pages and Forms Services
+
+This service provides customers with professional quality design and development of fax cover pages and forms. This service is provided on a remote basis only.
+
+
+CallXpress
+
+ 
+
+CallXpress is a leading independent provider of unified messaging for Lotus Notes and Microsoft Exchange customers. CallXpress unified messaging provides access to all messages—voice, fax and email—in one inbox, and makes them accessible from the telephone, cell phone, computer or the Internet.
+
+ 
+
+What is Unified Messaging?
+
+ 
+
+Unified Messaging is the ability to access all types of messages using the terminal of your choice—telephone and computer. Take control of your messages before your messages take control of you.
+
+ 
+
+Today's businesses are continually inundated with a multitude of ways to communicate information—voice mail, fax, and electronic mail. And chances are, your company uses all three. But as the pace of business increases, so does the number of all types of messages, until enough voice, fax, and email messages are processed that the technology actually slows you down.
+
+ 
+
+The need for efficient ways to communicate information has resulted in a number of different messaging mediums. Each message type has its own advantages and disadvantages and each requires a different terminal device for delivery and access—the telephone or computer. However, as the number of voice, fax, and email messages grows, so does the need for an improved way of managing them using a common set of management tools from a single terminal device.
+
+ 
+
+Captaris unified messaging applications allow you to access all of your messages—voice mail, fax and email—from the terminal device of your choice. You have more efficient access to your messages when you're in the office, and more flexible access when you're on the road. And that makes you more productive no matter where you are. 
+
+
+How does it work? 
+
+
+Unified messaging provides a single point of access to all three message types voice, fax, and email from virtually any communications device telephone, personal computer or Web browser through the Internet. In the user's familiar email inbox, a unique icon identifies each message type. This single point of access and control increases employee productivity while improving communications with both customers and co-workers. 
+
+When out of the office or on the road, users can access and manage all their messages through the Telephone User Interface (TUI). Using the TUI, an employee can dial into their unified messaging system from any telephone and be able to quickly and efficiently listen to and respond to any message waiting in their inbox. They will be able to access and manage all three-message types voice, fax, and email with just one phone call. The user can listen to their email messages using text-to-speech technology and respond to that email message with a voice message. The user can listen to the header of their fax message, forward that message to someone else, or even print it to the closest fax machine.
+
+
+When in the office or on the road with a laptop, the Graphical User Interface (GUI) allows users to view all their messages, voice, fax, and email from their desktop computer or by dialing into the network using an Internet connection. 
+
+
+Unified messaging provides professionals with more flexibility when traveling, improves employee productivity while in the office and on the road, and gives companies the competitive edge they're looking for.
+
+
+Benefits of Unified Messaging:
+
+
+In today's business environment, professionals are constantly bombarded with time and mission-critical information, most of which comes in the form of email, voice and fax messages. An employee's ability to handle and respond to these messages can mean the difference between a company that effectively communicates with its key audience, and one that is out of touch with those most critical to its success. 
+
+
+A recent study published in the Wall Street Journal found that the average employee sends and receives more than 200 messages per day. As a result, a substantial amount of their workday is spent managing this information, rather than using it to their advantage. As telecommuters, traveling and off-site employees become more common, companies are also struggling with the need to keep these "road warriors," or mobile professionals, informed and in touch.
+
+
+In order to maintain a competitive edge and help their employees be more productive, many companies are turning to unified messaging. This communications tool increases productivity, facilitates mobility, and gives companies the competitive advantage they are looking for.
+
+ 
+
+Features and Benefits for the Mobile Professional
+
+
+Some unified messaging products include specific features tailor-made for the "road warrior," but that benefits all users whether they are in or out of the office. One such feature captures a caller's ANI (caller ID) and enables the user to respond to a voice message with a live telephone call. This powerful feature allows an employee to retrieve messages from any telephone and with the press of a button, be directly connected to the person who left the message.
+
+
+Another unified messaging feature that caters to the mobile professional is the ability to send a voice reply to an email message. When using a telephone to retrieve messages, users can listen to an email message using text-to-speech, choose the reply option, and record a voice response. That voice message will be attached as a standard .wav file to a reply email message and sent to the original message sender. This feature allows the mobile worker to access and respond to email messages from any telephone, eliminating the need to have access to a computer in order to retrieve and respond to email messages.
+
+
+Anyone who has ever played "phone tag" will appreciate what is commonly known as the "Find Me, Follow Me" unified messaging feature. Find Me, Follow Me allows the user to determine the path a call will take to try to reach them. This feature can be customized to try any combination of different phone numbers in order to insure that important call is not missed.
+
+
+For example, if a user is going to be out of the office, but is waiting for an important call, he or she can specify that if no one picks up at the office, unified messaging will try his or her cell phone, then a pager, then home. If no one picks up at home, the caller will be transferred into voicemail. 
+
+
+Similar to Find Me, Follow Me is the unified messaging feature Short Message Service (SMS). With SMS, the user is notified on the alphanumeric display of their cell phone that they have a message waiting for them in their inbox. If it is an email message, a small amount of text, the sender and the time the message arrived is all included on the display. If it is a voice message, the user can view the caller ID and time the message was received. SMS notifies the user of a fax message by including the number of pages and the time the fax was received. Users can also specify that they only want SMS to notify them of a message if it is urgent or from a particular person such as their manager or team member.
+
+ 
+
+Return on Investment
+
+
+The increased productivity, time-savings and flexibility of unified messaging translate into valuable cost savings. A recent industry study published by Comgroup, an independent telecommunications consulting firm, and Captaris Corp. measured effects of unified messaging on time savings and productivity. The study found that by utilizing unified messaging, mobile users experienced a time savings gain of 70 percent when compared to the traditional means of checking messages. The first facet of the study compared users who were able to review and manage all of their voice, fax, and email messages over the telephone using unified messaging with those who check messages on the road the conventional way by calling in over the telephone to listen to voice messages; calling an assistant at the main office to send faxes to the nearest fax machine; and connecting to the Internet with a laptop computer to download and check emails. One important point to note is that with unified messaging, mobile employees always have access to all of their messages at anytime. However, with the traditional means of retrieving messages on the road, users must often rely on in-office personnel for some messaging tasks such as forwarding a fax.
+
+
+Office workers also gain significant and measurable time savings by having all voice, fax, and email messages displayed in a single interface. According to the study, users experienced a 53 percent time-savings using unified messaging to check all of their messages from within their familiar Lotus Notes and Microsoft Outlook interface, as opposed to the traditional means of checking voice messages over the telephone, fax messages at the fax machine, and emails at the desktop PC. 
+
+
+Perhaps the greatest time savings associated with unified messaging is realized through the desktop faxing application. Many employees spend a large part of their day, going back and forth between their desk and the central fax machine; standing in line to send a fax; checking on that fax to make sure it went through; or checking to see if the fax they are waiting for has arrived. The study found that deploying desktop faxing with a unified messaging system resulted in a 80 percent time savings compared to traditional means of sending a document from a stand-alone fax machine. 
+
+ 
+
+While some IT managers worry that they cannot afford to deploy unified messaging within their company, the study found that an average size system pays for itself in 68 business days.
+
+ 
+
+Ease of Administration 
+
+
+In addition to increased productivity, time and cost savings, unified messaging can also make the life of an IT administrator much easier. Having an open standards-based platform without a proprietary user interface is the key to any system administrator. Not only is the graphical environment familiar, the system is simple to manage because it's based upon standard systems the company already knows and owns. A complete unified messaging solution will also provide the end user with the choice of either client or server based unified messaging. With client based unified messaging, messages are stored on both the email and voice mail server. Where as with server based unified messaging, messages are collected in a universal store. There are advantages and disadvantages with each style of integration, however, the end user should be given a choice so that they can configure the system so that it is tailored to their needs. 
+
+
+Paramount to a successful messaging network is the ability to maintain up-to-date and accurate user data on each node in the network. Certain unified messaging solutions include a feature that eliminates this challenge by automatically synchronizing user and server data across the Internet. This enhancement dramatically reduces the maintenance tasks for the system administrator and ensures all users across all locations are able to seamlessly communicate as easily as if they were in the same location.
+
+
+Brooktrout:
+
+ 
+
+Brooktrout’s TR114 Series of intelligent fax and voice platforms have long been known as the "top of the line" for Computer Telephony applications. With advanced fax and voice features, complete scalability, rock solid reliability, and unparalleled support, it's no wonder why telecommunications and network providers worldwide depend upon our platforms for their most superior, mission critical projects. The TR Series is the platform of choice for advanced applications such as network faxing, broadcast fax services, fax-on-demand, and more. Our boards are available in models ranging from one analog to 16 digital ports, as well as Direct Inward Dialing (DID) models.
+
+ 
+
+TR114 series:
+
+ 
+
+TR114 series Brochure
+
+
+TR114 ISDN Series
+Universal Port Boards for Basic Rate ISDN
+
+Direct Connection to ISDN
+
+The TR114 ISDN Series multichannel Universal Port boards offers full fax and voice processing with an on-board ISDN interface. Integrated ISDN Basic Rate telephone interfaces allow direct connection to ISDN BRI telephone service. Software-controlled digital signal processors provide independent fax & voice processing on each channel. Products are available in both ISA and PCI form factors.
+
+ 
+
+Integrated ISDN Interface 
+
+The TR114 ISDN Series of boards include integrated, on-board ISDN line interfaces. Integrated interfaces allow TR114 boards to be directly connected to ISDN lines and eliminate the need for separate costly ISDN-to-analog conversion devices. ISDN enables network fax applications to support inbound fax routing. ISDN lines also offer the added advantages of improved performance and reliability.
+
+ 
+
+Advanced Fax Features
+
+The TR114 ISDN Series boards support advanced fax features including 14.4kbps transmission, MMR compression, Error Correction Mode, T.434 Binary File Transfer and Ultrafine resolution as well as high performance voice processing features such as outstanding talk-off and DTMF cut-through characteristics. The TR114 ISDN Series also offers reliable call processing integrating ISDN-reported call progress with advanced in-band call progress interpretation and reporting for ISDN-initiated calls which carry over or terminate on an analog phone network. 
+
+ 
+
+Inbound Fax Routing
+
+Subscription to Direct Dialing Inwards (DDI) or Multiple Subscriber Number (MSN) services on your ISDN BRI lines allow each user on a LAN to be assigned a personal fax phone number. Upon receipt of an inbound fax call, the fax recipient’s fax phone number is provided in the ISDN Called Party Number field. The Called Party Number information is then extracted by the TR114 ISDN board and passed to the fax server application allowing the received fax to be routed directly to the intended recipient more efficiently and reliably than other methods of inbound fax routing. Most network fax server applications developed for the TR114 already support inbound fax routing using Called Party Number information and will seamlessly support inbound routing with the TR114 ISDN Series boards connected directly to ISDN Basic Rate lines. 
+
+ 
+
+Application Programming Interface 
+
+The Fax and Voice Application Programming Interface (API) is a powerful tool for sophisticated application development. High-level functions permit programmers to quickly create applications. Lower level functions permit direct interactions with individual elements of fax and voice calls, such as the T.30 protocol.
+
+ 
+
+TR114 ISDN Series Technical Specifications
+
+Hardware Specifications
+
+Fax/Speech Channels/Board TR114+I2B 2 Channels P2B 2 Channels TR114+I4B 4 Channels P4B 4 Channels
+
+Processors (per channel) NS32FX164 Integrated CISC and DSP @25MHz
+
+Memory (per channel)
+2MB RAM 
+
+Host System Interface
+Interrupt: 3-7, 9-12, 14, 15 I/O addresses: 12,20 DMA channel: 8-bit, 0-3; 16-bit, 5-7 software selectable 
+
+Host System Interface (PCI) Interrupt: Assigned by Host I/O addresses: Assigned by Host DMA channel: None
+
+Downloadable Firmware
+Basic fax, Enhanced fax, Speech, Forms overlay 
+
+Downloadable Fonts
+8
+
+Self Diagnostics 
+
+ISDN Interfaces
+
+Basic Rate Line Interfaces TR114+I2B 1 BRI (So interface) TR114+I4B 2 BRI (So interface) TR114+P2B 1 BRI (So interface) TR114+P4B 2 BRI (So interface)
+
+Dialing and Call Progress Dialing Q.931
+
+Call Progress
+Q.931
+In band analog signals: Adaptive (S.I.T. detection included)
+
+Application Signalling 
+On board DTMF generation and detection 
+
+Speech Features
+
+ADPCM
+24 and 32kbps 
+
+PCM
+64kbps
+
+ 
+ 
+Specification Conformity 
+
+Safety: EN60950, EN41003, ETS300 047 EMI: EN55022 Immunity: EN50082-1 Telecom: Euro ISDN/DSS1 with French & German deltas, Switzerland CE Mark 
+
+Facsimile Features 
+
+ITU T.30 Compliant Transmission Protocols
+V.17, V.21, V.27, V.29, V.33
+
+Compression Formats
+T.4 (MH and MR), T.6 (MMR) 
+
+Bit Rate
+14.4 kbps Auto step-down to 12000, 9600, 7200, 4800, 2400bps 
+
+Error Correction Mode (ECM) Polling Normal, Turnaround 
+
+Binary File Transfer
+per T.434 Version 2.0 
+
+Resolution
+Fine, Normal, 300x300, Superfine (200x400), Ultrafine (400x400) 
+
+Image Width
+A4, A3, and B4 Width Conversion “on-the-fly” 
+
+Image Length
+Unlimited 
+
+Format Conversion “on-the-fly”
+
+ASCII PCX/DCX TIFF Class F MH, MR, MMR 
+
+Headers
+Multi-line, selectable font
+
+Forms Overlay 
+Up to 4 forms per channel 
+
+Physical and Environmental 
+
+Size
+Single full-size PC/AT™, ISA slot or single full-length PCI slot 
+
+Operating Requirements
+
+Temperature
+0°C-50°C 
+
+Humidity
+10%-95% (non-condensing)
+
+Power Requirements
++5Vdc, 5% +12Vdc, 5% -12Vdc, 5% TR114+I2B 1.58A .28A .28A TR114+I4B 2.25A .65A .65A TR114+P2B 1.08A 4mA 30mA TR114+P4B 1.9A 6mA 42mA
+
+ 
+
+Specifications subject to change without notice.
+  
+ 
+Specification Conformity 
+
+Safety: EN60950, EN41003, ETS300 047 EMI: EN55022 Immunity: EN50082-1 Telecom: Euro ISDN/DSS1 with French & German deltas, Switzerland CE Mark 
+
+Facsimile Features 
+
+ITU T.30 Compliant Transmission Protocols
+V.17, V.21, V.27, V.29, V.33
+
+Compression Formats
+T.4 (MH and MR), T.6 (MMR) 
+
+Bit Rate
+14.4 kbps Auto step-down to 12000, 9600, 7200, 4800, 2400bps 
+
+Error Correction Mode (ECM) Polling Normal, Turnaround 
+
+Binary File Transfer
+per T.434 Version 2.0 
+
+Resolution
+Fine, Normal, 300x300, Superfine (200x400), Ultrafine (400x400) 
+
+Image Width
+A4, A3, and B4 Width Conversion “on-the-fly” 
+
+Image Length
+Unlimited 
+
+Format Conversion “on-the-fly”
+
+ASCII PCX/DCX TIFF Class F MH, MR, MMR 
+
+Headers
+Multi-line, selectable font
+
+Forms Overlay 
+Up to 4 forms per channel 
+
+Physical and Environmental 
+
+Size
+Single full-size PC/AT™, ISA slot or single full-length PCI slot 
+
+Operating Requirements
+
+Temperature
+0°C-50°C 
+
+Humidity
+10%-95% (non-condensing)
+
+Power Requirements
++5Vdc, 5% +12Vdc, 5% -12Vdc, 5% TR114+I2B 1.58A .28A .28A TR114+I4B 2.25A .65A .65A TR114+P2B 1.08A 4mA 30mA TR114+P4B 1.9A 6mA 42mA
+
+ 
+
+Specifications subject to change without notice.
+ 
+

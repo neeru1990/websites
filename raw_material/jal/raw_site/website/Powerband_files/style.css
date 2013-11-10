@@ -1,0 +1,144 @@
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BACKGROUND-COLOR: #ffffff; spacing: 0px
+}
+BODY {
+	FONT-FAMILY: arial, helvetica, geneva, swiss, sunSans-regular
+}
+TABLE {
+	FONT-FAMILY: arial, helvetica, geneva, swiss, sunSans-regular
+}
+TR {
+	FONT-FAMILY: arial, helvetica, geneva, swiss, sunSans-regular
+}
+TD {
+	FONT-FAMILY: arial, helvetica, geneva, swiss, sunSans-regular
+}
+TH {
+	FONT-FAMILY: arial, helvetica, geneva, swiss, sunSans-regular
+}
+P {
+	FONT-FAMILY: arial, helvetica, geneva, swiss, sunSans-regular
+}
+H1 {
+	FONT-FAMILY: arial, helvetica, geneva, swiss, sunSans-regular
+}
+H2 {
+	FONT-FAMILY: arial, helvetica, geneva, swiss, sunSans-regular
+}
+H3 {
+	FONT-FAMILY: arial, helvetica, geneva, swiss, sunSans-regular
+}
+H4 {
+	FONT-FAMILY: arial, helvetica, geneva, swiss, sunSans-regular
+}
+H5 {
+	FONT-FAMILY: arial, helvetica, geneva, swiss, sunSans-regular
+}
+H6 {
+	FONT-FAMILY: arial, helvetica, geneva, swiss, sunSans-regular
+}
+A {
+	FONT-FAMILY: arial, helvetica, geneva, swiss, sunSans-regular
+}
+B {
+	FONT-FAMILY: arial, helvetica, geneva, swiss, sunSans-regular
+}
+I {
+	FONT-FAMILY: arial, helvetica, geneva, swiss, sunSans-regular
+}
+UL {
+	FONT-FAMILY: arial, helvetica, geneva, swiss, sunSans-regular
+}
+OL {
+	FONT-FAMILY: arial, helvetica, geneva, swiss, sunSans-regular
+}
+LI {
+	FONT-FAMILY: arial, helvetica, geneva, swiss, sunSans-regular
+}
+BODY {
+	FONT-SIZE: 12px
+}
+TABLE {
+	FONT-SIZE: 12px
+}
+TR {
+	FONT-SIZE: 12px
+}
+TD {
+	FONT-SIZE: 12px
+}
+P {
+	FONT-SIZE: 12px
+}
+A {
+	FONT-SIZE: 12px
+}
+B {
+	FONT-SIZE: 12px
+}
+I {
+	FONT-SIZE: 12px
+}
+UL {
+	FONT-SIZE: 12px
+}
+OL {
+	FONT-SIZE: 12px
+}
+LI {
+	FONT-SIZE: 12px
+}
+A:link {
+	COLOR: #646d68
+}
+A:visited {
+	COLOR: #646d68
+}
+A:active {
+	COLOR: #646d68
+}
+.footer {
+	FONT-SIZE: 10px! important
+}
+.footer A {
+	FONT-SIZE: 10px! important
+}
+.mini {
+	FONT-SIZE: 10px! important
+}
+.mini A {
+	FONT-SIZE: 10px! important
+}
+H1 {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-WEIGHT: bold; FONT-SIZE: 16px; PADDING-BOTTOM: 2px; MARGIN: 0px; PADDING-TOP: 2px; FONT-STYLE: normal; TEXT-ALIGN: center; spacing: 0px
+}
+H1.mainHead {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: 200; FONT-SIZE: 36px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; FONT-STYLE: italic; TEXT-ALIGN: left; spacing: 5px
+}
+TD.minigm {
+	FONT-SIZE: 10px; BACKGROUND-COLOR: #cccc99
+}
+HR {
+	COLOR: #999966
+}
+EM.reqfield {
+	COLOR: #336666; FONT-STYLE: normal
+}
+EM.ezupdate {
+	FONT-WEIGHT: 800; FONT-SIZE: 16px; COLOR: #0000cc; FONT-STYLE: normal; TEXT-DECORATION: none
+}
+.mini {
+	FONT-WEIGHT: bold; COLOR: #345a71
+}
+.smallest {
+	FONT-WEIGHT: 400; FONT-SIZE: 9px; WORD-SPACING: normal; VERTICAL-ALIGN: text-top; COLOR: #99afa2; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; LETTER-SPACING: normal; TEXT-ALIGN: justify
+}
+.footer {
+	LINE-HEIGHT: normal
+}
+.minigm {
+	FONT-SIZE: 10px
+}
+EM.ezupdate A {
+	FONT-WEIGHT: 800; FONT-SIZE: 16px; COLOR: #6699cc; FONT-STYLE: normal; TEXT-DECORATION: none
+}

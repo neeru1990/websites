@@ -1,0 +1,142 @@
+/* import css that would fail in NS4 */
+@import url(skipnetscape4.css);
+
+a { color: #336699; }
+
+a:hover {
+	border-bottom: 1px dashed red;
+	color: red;
+	text-decoration: none;
+}
+
+a.buynow { color: red; font-weight: bold; }
+
+html, body {
+	background-color: #fff;
+	color: #353535;
+}
+
+body {
+	margin-bottom: 0;
+	margin-left: 28px;
+	margin-right: 20px;	
+}
+
+body, div, th, td, form, p, li, ul, ol {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 12px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Trebuchet MS", Arial, sans-serif;
+	text-transform: uppercase;
+}
+
+code { font: 13px monospace; }
+
+div.contentbox { }
+div.navbar {
+	text-align: right;
+	margin-bottom: 0px;
+}
+
+div.navbar a { 
+	font-size: 11px; 
+	font-weight: bold;
+}
+
+h1.subhead {
+	color: #336699;
+	border-top: none;
+	background-color: #fff;	
+	font-size: 10px;
+	letter-spacing: 3px;
+	text-align: right;
+	text-transform: lowercase;
+	margin: 0;
+}
+
+h1 {
+	font-size: 140%;
+	border-top: 1px dashed #369;	
+	background-color: #e9f2f7;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+h1.homepage {margin-left: 150px; /* NS4 overlaps sidebar without this */ }
+
+h2 { font-size: 130%; }
+
+h3 { font-size: 110%; }
+
+h4 { font-size: 100%; }
+
+hr { color: #369; height: 1px; }
+
+input.button {
+	background: #C2D7EB;
+	/* NS4 can't see these borders */
+	border-bottom: 1px solid #336699;
+	border-left: 1px solid #336699;
+	border-right: 1px solid #336699;
+	border-top: 1px solid #336699;
+	color: #000000;
+	cursor: hand; /* for IE */
+	font: 11px Verdana, Arial, Helvetica, sans-serif;
+	padding: 4px 0;
+}
+
+span.menucmd {
+	background-color: #f6f6f6;
+	font-family: "Courier New", Courier, monospace;
+}
+
+span.styleselect, .keyword { font-weight: bold; }
+
+ul li {
+	/*list-style-image: url(/topstyle/img/linkarrowblue.gif);*/
+	list-style-type: square;
+}
+
+ul.featurelist {
+	list-style-position: inside;
+	text-align: left;
+}
+
+.box {
+	background: #f6f6f6;
+	border: 1px dotted #336699;
+	padding: 10px;
+}
+
+.copyright {
+	font-size: 10px;
+	padding-bottom: 12px;
+	padding-top: 12px;
+}
+
+.important { color: #800000; font-weight: bold; }
+
+/*  for atomz */
+.searchkeyword { background-color: #FFFF9D; }
+
+.subhead {
+	font-size: 15px;
+	font-style: italic;
+}
+
+#sidebar {
+	float: left;
+	border: 1px solid #369;
+	border-right: 4px solid #369;
+	border-bottom: 4px solid #369;		
+	width: 140px;
+	background-color: White; /* don't allow H1 to show through */
+	margin-top: -8px;
+	margin-right: 14px;
+	/* padding-top makes order link unclickable in NS4 */
+	padding-left: 14px;
+	padding-right: 14px;
+	padding-bottom: 14px;
+}

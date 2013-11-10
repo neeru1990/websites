@@ -1,0 +1,139 @@
+
+<HTML>
+<HEAD>
+<TITLE>Welcome to our site!</TITLE>
+<LINK rel="stylesheet" type="text/css" href="scrollbar.css">
+<SCRIPT language=JavaScript>
+
+<!-- 
+function scroll(seed){
+ var msg = "---   Welcome   to   www.dicelords.com   ---" 
+ var out = ":: Dicelords Interactive ::";
+ var c = 1;
+ if (seed > 100) {
+  seed--;
+  var cmd="scroll(" + seed + ")";
+  timerTwo=window.setTimeout(cmd,100);
+ } else if (seed <= 100 && seed > 0) {
+  for (c=0 ; c < seed ; c++) {
+   out+=" ";
+  }
+  out+=msg;
+  seed--;
+  var cmd="scroll(" + seed + ")";
+  window.status=out;
+  timerTwo=window.setTimeout(cmd,100);
+ } else if (seed <= 0) {
+  if (-seed < msg.length) {
+   out+=msg.substring(-seed,msg.length);
+   seed--;
+   var cmd="scroll(" + seed + ")";
+   window.status=out;
+   timerTwo=window.setTimeout(cmd,100);
+  } else {
+   window.status=" ";
+   timerTwo=window.setTimeout("scroll(100)",7);
+  }
+ }
+}
+timerONE=window.setTimeout('scroll(100)',50);
+// --> 
+</SCRIPT>
+<SCRIPT language=JavaScript>
+<!-- // 
+var dur = 10;
+var count = 0;
+var dir = 1;
+var speed = [8,4,2,1];
+var steps = 0;
+var dirs = [-1,1];
+function WindowShake() { 
+		if(navigator.userAgent.toLowerCase().indexOf("aol")!=-1) {
+  		// Sorry, this won't work with Aol. Please move along..
+		}
+		else {
+        IMM_startEffect('shake');
+        parent.window.moveBy(speed[steps]*dirs[dir=1-dir],0);
+        count++;
+        if (count < dur) { 
+setTimeout("WindowShake()",70/speed[steps]); 
+        } 
+        else if (steps<(speed.length-1)) { 
+                steps++; 
+                count=0; 
+                WindowShake(); 
+        } 
+        if (steps >= 4) {}
+}
+}
+// end of WindowShake() 
+// -->
+</SCRIPT>
+
+</HEAD>
+
+<BODY bgcolor="#FFFFFF" topmargin="0" leftmargin="0" onload="if(imm_pageLoaded){IMM_openForceResource('shakeScreen.ifr');WindowShake()}" 
+rightMargin=0 topMargin=0 marginwidth="0" marginheight="0"> 
+
+<SCRIPT id="TouchSense Base JavaScript" language=JavaScript><!-- Hide from non-scripting browsers 
+var imm_pageLoaded = false;
+var imm_alertUser = false;
+//-->
+</SCRIPT>
+
+<SCRIPT language=JavaScript title=PluginDetect><!-- Hide from non-scripting browsers 
+// INFORMATION-GATHERING AND PLUGIN DETECTION VARIABLES AND FUNCTIONS 
+var imm_onTouch = false; 
+var imm_usrAgt = navigator.userAgent.toLowerCase(); 
+var imm_isIE = (navigator.appName == "Microsoft Internet Explorer"); 
+var imm_isNN = (navigator.appName == "Netscape"); 
+var imm_isIE4plus = imm_isIE && (parseInt(navigator.appVersion) >= 4); 
+var imm_isNN45plus = imm_isNN && (parseFloat(navigator.appVersion) >= 4.5); 
+var imm_isNN6plus = imm_isNN && (parseFloat(navigator.appVersion) >= 5); 
+var imm_isWin98 = (imm_usrAgt.indexOf("win98")!=-1) || (imm_usrAgt.indexOf("windows 98")!=-1); 
+var imm_isWinME = ((imm_usrAgt.indexOf("win95")!=-1) && imm_isNN) || (imm_usrAgt.indexOf("windows 98")!=-1); 
+var imm_isWin2k = ((imm_usrAgt.indexOf("winnt")!=-1) && imm_isNN) || (imm_usrAgt.indexOf("windows nt 5.0")!=-1); 
+var imm_supportsImm = imm_isWin98 || imm_isWin2k || imm_isWinME; 
+var imm_NNMinPlugin = new Array(3, 2, 1, 2); 
+// Stop hiding --> 
+</SCRIPT>
+
+<SCRIPT language=JavaScript title=TouchSound><!-- Hide from non-scripting browsers 
+// TOUCH- AND SOUND-PLAYING VARIABLES AND FUNCTIONS 
+var imm_isNNsound = (navigator.plugins && navigator.plugins["LiveAudio"]); 
+var imm_isIEsound = (navigator.plugins && document.all);
+var imm_logoLoaded = false; 
+var imm_resourceFile; 
+function IMM_openForceResource(ifr_url) 
+{ 
+	if (imm_onTouch) { 
+		imm_resourceFile = document.ImmWeb.OpenForceResource(ifr_url); 
+	} 
+} 
+
+function IMM_startEffect(effectName) 
+{ 
+	if (imm_onTouch) { 
+		result = document.ImmWeb.StartEffect(effectName, imm_resourceFile); 
+	} 
+} 
+
+function IMM_stopEffect(effectName) 
+{ 
+	if (imm_onTouch) { 
+		result = document.ImmWeb.StopEffect(effectName, imm_resourceFile); 
+	} 
+} 
+
+imm_pageLoaded = true; 
+// Stop hiding --> 
+</SCRIPT>
+
+<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0"
+ WIDTH=760 HEIGHT=400>
+ <PARAM NAME=movie VALUE="intro.swf"> <PARAM NAME=quality VALUE=high> <PARAM NAME=scale VALUE=exactfit> <PARAM NAME=wmode VALUE=opaque> <PARAM NAME=bgcolor VALUE=#FFFFFF> <EMBED src="intro.swf" quality=high scale=exactfit wmode=opaque bgcolor=#FFFFFF  WIDTH=100% HEIGHT=100% TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash"></EMBED>
+</OBJECT>
+
+</BODY>
+</HTML>

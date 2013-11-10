@@ -1,0 +1,100 @@
+A:link, A:visited {
+	text-decoration: none;
+	color: #666666;
+	}
+A:active {
+	color: #8CA7C8;
+	}
+A:hover {
+	color: #000000;
+	 }
+BODY 	{
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #FFFFFF;
+	font-family: Verdana, "Trebuchet MS", Arial, Tahoma, sans-serif;
+	color: #333333;
+	}
+P, TD   {
+        text-align: justify;
+	font-size: 11px;
+	}
+h1	{
+	font-size: 14px;
+	color: #4B719E;
+	}
+UL {
+	list-style-type: none;
+	font-size: 11px;
+	}
+
+TD.logo{
+	background-color: #65707C;
+	padding-left: 15px;
+	padding-right: 100px;
+	background-image: url(../home/logo_bg.gif);
+	background-repeat: no-repeat;
+	background-position: right;
+	}	
+TD.punchline{
+	background-color: #BACADE;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 12px;
+	line-height: 20px;
+	letter-spacing: 1px;
+	word-spacing: 3px;
+	text-align: right;
+	padding-right: 15px;
+	}	
+
+
+A.orange:hover {
+	list-style-image: url(../home/bullet_orange.gif);
+		 }		 
+A.blue:hover {
+	list-style-image: url(../home/bullet_blue.gif);
+ 		 }		 
+A.yellow:hover {
+	list-style-image: url(../home/bullet_yellow.gif);
+		 }
+
+
+TD.about, TD.solutions, TD.information, TD.highlights
+	{
+ 	background-color: #65707C;
+	border-right: 1px solid #FFFFFF;
+	color: #FFFFFF;
+	font-size: 11px;
+	font-variant: small-caps;
+	font-weight: bold;
+	letter-spacing: 2px;
+	line-height: 18px;
+	text-indent: 25px;
+	}	
+TD.about{
+	border-top: 3px solid #FF9966;
+	border-left: 0px;
+	}
+TD.solutions	{
+	border-top: 3px solid #72B6DE;
+	}
+TD.information	{
+	border-top: 3px solid #FFCC00;
+	}
+TD.highlights	{
+	border-top: 3px solid #66CC66;
+	border-right: 0px;
+	}
+
+TD.links, TD.scroll{
+	vertical-align: top;
+	padding-top: 5px;
+	line-height: 18px;
+	}
+TD.links{
+	border-right: 1px solid #CCCCCC;
+	}

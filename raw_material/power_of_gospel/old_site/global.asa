@@ -1,0 +1,14 @@
+' *** Global.ASA for Power of Gospel
+' *** Simply remember the base home path
+
+<SCRIPT LANGUAGE="VBScript" RUNAT=Server>
+	Sub Session_OnStart
+		Dim strHome, strTemp
+		strHome = "http://" & Request.ServerVariables ("SERVER_NAME")
+		strTemp = Request.ServerVariables ("URL")
+		strTemp = Left (strTemp, InStrRev (strTemp, "/"))
+		strHome = strHome & strTemp
+		Session ("strHome") = strHome
+	End Sub
+</SCRIPT>
+

@@ -1,0 +1,457 @@
+<html>
+
+<head>
+
+<title>Quotation Request</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<style type="text/css">
+<!--
+td {  font: bold 9pt Arial, Helvetica, sans-serif; color: #464646}
+-->
+</style></head>
+
+<script language="javascript">
+<!--
+	function check(enquiry)
+	{
+		if (enquiry.A_ContactName.value == '')
+		{
+		    alert("Please Enter Your Name!");
+		    enquiry.A_ContactName.focus();
+		    return false;
+		}
+
+		if (enquiry.fromemail.value == '')
+		{
+		    alert("Please Enter Your Email Address!");
+		    enquiry.fromemail.focus();
+		    return false;
+		}
+
+		if (enquiry.E_Country.value == '')
+		{
+		    alert("Please Enter Your Country!");
+		    enquiry.E_Country.focus();
+		    return false;
+		}
+
+		if (enquiry.F_Industry.value == '')
+		{
+		    alert("Please Enter Your Industry!");
+		    enquiry.F_Industry.focus();
+		    return false;
+		}
+
+		if (enquiry.G_CompanySize.value == '')
+		{
+		    alert("Please Enter Your Company Size!");
+		    enquiry.G_CompanySize.focus();
+		    return false;
+		}
+	
+		if (enquiry.H_TargetMarket.value == '')
+		{
+		    alert("Please Enter Your Target Market!");
+		    enquiry.H_TargetMarket.focus();
+		    return false;
+		}
+
+		if (enquiry.I_CompanyDescription.value == '')
+		{
+		    alert("Please Enter Your Company Description!");
+		    enquiry.I_CompanyDescription.focus();
+		    return false;
+		}
+
+		if (enquiry.J_Requirements.value == '')
+		{
+		    alert("Please Enter Requirements!");
+		    enquiry.J_Requirements.focus();
+		    return false;
+		}
+		
+		if (enquiry.K_PurposeOfProject.value == '')
+		{
+		    alert("Please Enter Purpose of Project!");
+		    enquiry.K_PurposeOfProject.focus();
+		    return false;
+		}
+
+		if (enquiry.L_Contact.value == '')
+		{
+		    alert("Please Enter Method of Contact!");
+		    enquiry.L_Contact.focus();
+		    return false;
+		}
+		
+		if (enquiry.M_ProductionType.value == '')
+		{
+		    alert("Please Enter Production Type!");
+		    enquiry.M_ProductionType.focus();
+		    return false;
+		}
+
+		if (enquiry.N_ExistingWebsite.value == '')
+		{
+		    alert("Please Enter Your Existing Website!");
+		    enquiry.N_ExistingWebsite.focus();
+		    return false;
+		}
+
+		if (enquiry.S_NumberOfPages.value == '')
+		{
+		    alert("Please Enter Approximate Number of Viewable Pages!");
+		    enquiry.S_NumberOfPages.focus();
+		    return false;
+		}
+
+		if (enquiry.T_AllocatedBudget.value == '')
+		{
+		    alert("Please Enter Your Allocated Budget (in USD)!");
+		    enquiry.T_AllocatedBudget.focus();
+		    return false;
+		}
+
+		if (enquiry.U_ProductionTime.value == '')
+		{
+		    alert("Please Enter Production Time!");
+		    enquiry.U_ProductionTime.focus();
+		    return false;
+		}
+
+		if (enquiry.W_HowDidYouHearAboutUs.value == '')
+		{
+		    alert("Please Enter 'How did you hear about us?' field!");
+		    enquiry.W_HowDidYouHearAboutUs.focus();
+		    return false;
+		}
+
+		return true;
+	}
+//-->
+</script>
+
+
+<body bgcolor="#FFFFFF">
+
+<table border="0" cellspacing="0" cellpadding="0" width="500">
+  <tr align="center"> 
+    <td width="180"> 
+      <div align="center"><img src="images/form/quotheading.GIF" width="250" height="88" border="0"></div>
+    </td>
+
+  </tr>
+
+</table>
+
+<form method="post" action="/cgi-bin/superForm.cgi" name="quotation" onSubmit="return check(this)">
+  <p> 
+    <input type="hidden" name="to-email" value="info@neostream.com">
+    <input type="hidden" name="subject" value="Quotation Request">
+  </p>
+
+  <table border="0" width="500" cellspacing="0" cellpadding="0">
+    <tr> 
+      <td>Please note that all information received is for internal use only and 
+        treated with the utmost respect and privacy.</td>
+    </tr>
+    <tr> 
+      <td>&nbsp;</td>
+    </tr>
+    <tr> 
+      <td>With the following information, we will provide you with an indicative 
+        price range within 24 hours.</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr> 
+      <td>All fields marked with an * are mandatory.</td>
+    </tr>
+    <tr> 
+      <td>&nbsp;</td>
+    </tr>
+    <tr> 
+      <td> 
+        <table border="0" cellspacing="0" cellpadding="3" width="480" align="center">
+          <tr> 
+            <td width="203"><font face="Arial, Helvetica, sans-serif" size="2"><b>Contact 
+              Name*</b></font></td>
+            <td width="5">&nbsp;</td>
+            <td width="254"> 
+              <input type="text" name="A_ContactName" size="30">
+            </td>
+          </tr>
+          <tr> 
+            <td width="203"><font face="Arial, Helvetica, sans-serif"><b><font size="2">Company 
+              Name</font></b></font></td>
+            <td width="5">&nbsp;</td>
+            <td width="254"> 
+              <input type="text" name="B_CompanyName" size="30">
+            </td>
+          </tr>
+          <tr> 
+            <td width="203"><font size="2"><b><font face="Arial, Helvetica, sans-serif">Position</font></b></font></td>
+            <td width="5">&nbsp;</td>
+            <td width="254"> 
+              <input type="text" name="C_Position" size="30">
+            </td>
+          </tr>
+          <tr> 
+            <td width="203" height="22"><font face="Arial, Helvetica, sans-serif"><b><font size="2">Phone 
+              Number</font></b></font></td>
+            <td width="5" height="22">&nbsp;</td>
+            <td width="254" height="22"> 
+              <input type="text" name="D_PhoneNo." size="30">
+            </td>
+          </tr>
+          <tr> 
+            <td width="203" height="22"><font face="Arial, Helvetica, sans-serif"><b><font size="2">Email*</font></b></font></td>
+            <td width="5" height="22">&nbsp;</td>
+            <td width="254" height="22"> 
+              <input type="text" name="fromemail" size="30">
+            </td>
+          </tr>
+          <tr> 
+            <td width="203" height="22"><font face="Arial, Helvetica, sans-serif"><b><font size="2">Country* 
+              </font></b></font></td>
+            <td width="5" height="22">&nbsp;</td>
+            <td width="254" height="22"> 
+              <input type="text" name="E_Country" size="30">
+            </td>
+          </tr>
+          <tr> 
+            <td width="203"><font face="Arial, Helvetica, sans-serif"><font size="2"><b>Industry*</b></font></font></td>
+            <td width="5">&nbsp;</td>
+            <td width="254"> 
+              <input type="text" name="F_Industry" size="30">
+            </td>
+          </tr>
+          <tr> 
+            <td width="203">Company Size*</td>
+            <td width="5">&nbsp;</td>
+            <td width="254"> 
+              <select name="G_CompanySize">
+                <option selected>Choose One</option>
+                <option value="&lt; 20">&lt; 20</option>
+                <option value="21-50">21 - 50</option>
+                <option value="51-100">51 - 100</option>
+                <option value="&gt; 100">&gt; 100</option>
+              </select>
+            </td>
+          </tr>
+          <tr> 
+            <td width="203"><font face="Arial, Helvetica, sans-serif"><b><font size="2">Target 
+              market*</font></b></font></td>
+            <td width="5">&nbsp;</td>
+            <td width="254"> 
+              <input type="text" name="H_TargetMarket" size="30">
+            </td>
+          </tr>
+          <tr> 
+            <td width="203"><font face="Arial, Helvetica, sans-serif"><b><font size="2">Brief 
+              Company Description*</font></b></font></td>
+            <td width="5">&nbsp;</td>
+            <td width="254"> 
+              <textarea name="I_CompanyDescription" cols="20"></textarea>
+            </td>
+          </tr>
+          <tr> 
+            <td width="203"><font face="Arial, Helvetica, sans-serif" size="2">Requirements*</font></td>
+            <td width="5">&nbsp;</td>
+            <td width="254"> 
+              <textarea name="J_Requirements" cols="20"></textarea>
+            </td>
+          </tr>
+          <tr> 
+            <td width="203">Purpose of Project*</td>
+            <td width="5">&nbsp;</td>
+            <td width="254"> 
+              <textarea name="K_PurposeOfProject" cols="20"></textarea>
+            </td>
+          </tr>
+          <tr> 
+            <td width="203">Method of Contact*</td>
+            <td width="5">&nbsp;</td>
+            <td width="254"> 
+              <table width="140" border="0" cellspacing="0" cellpadding="0">
+                <tr> 
+                  <td width="24"> 
+                    <input type="radio" name="L_Contact" value="phone" checked>
+                  </td>
+                  <td width="52">Phone</td>
+                  <td width="24" align="center"> 
+                    <input type="radio" name="L_Contact" value="email">
+                  </td>
+                  <td width="40" align="center">Email</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr> 
+            <td width="203">Production Type*</td>
+            <td width="5">&nbsp;</td>
+            <td width="254"> 
+              <table width="253" border="0" cellspacing="0" cellpadding="0">
+                <tr> 
+                  <td width="24"> 
+                    <input type="checkbox" name="M_ProductionType" value="Intro">
+                  </td>
+                  <td width="49">Intro</td>
+                  <td width="24" align="right"> 
+                    <input type="checkbox" name="M_ProductionType" value="FullFlash">
+                  </td>
+                  <td width="70"> Full Flash</td>
+                  <td width="24" align="right"> 
+                    <input type="checkbox" name="M_ProductionType" value="HTML">
+                  </td>
+                  <td width="62" align="center">HTML</td>
+                </tr>
+                <tr> 
+                  <td width="24" valign="top"> 
+                    <input type="checkbox" name="M_ProductionType" value="CombinationFlashAndHTML">
+                  </td>
+                  <td colspan="3">Combination Flash &amp; HTML </td>
+                  <td width="24" align="right" valign="top"> 
+                    <input type="checkbox" name="M_ProductionType" value="Database">
+                  </td>
+                  <td width="62" align="center" valign="top">Database</td>
+                </tr>
+                <tr> 
+                  <td width="24" valign="top">
+                    <input type="checkbox" name="M_ProductionType" value="CustomizedWebApplication">
+                  </td>
+                  <td colspan="5">Customized Web Application</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr> 
+            <td width="203">Existing Website*</td>
+            <td width="5">&nbsp;</td>
+            <td width="254"> 
+              <table width="253" border="0" cellspacing="0" cellpadding="0">
+                <tr> 
+                  <td width="24"> 
+                    <input type="radio" name="N_ExistingWebsite" value="No" checked>
+                  </td>
+                  <td width="31">No</td>
+                  <td width="24" align="right"> 
+                    <input type="radio" name="N_ExistingWebsite" value="Yes">
+                  </td>
+                  <td width="33">Yes</td>
+                  <td width="141">&nbsp;</td>
+                </tr>
+                <tr> 
+                  <td width="24">&nbsp;</td>
+                  <td width="31">&nbsp;</td>
+                  <td width="24" align="right">&nbsp;</td>
+                  <td colspan="2"> 
+                    <input type="text" name="O_Address" value="http://">
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr> 
+            <td width="203">Competitor Urls</td>
+            <td width="5">&nbsp;</td>
+            <td width="254"> 1. 
+              <input type="text" size="30" name="P_CompetitorUrls1" value="http://">
+            </td>
+          </tr>
+          <tr> 
+            <td width="203">&nbsp;</td>
+            <td width="5">&nbsp;</td>
+            <td width="254"> 2. 
+              <input type="text" size="30" name="Q_CompetitorUrls2" value="http://">
+            </td>
+          </tr>
+          <tr> 
+            <td width="203">&nbsp;</td>
+            <td width="5">&nbsp;</td>
+            <td width="254"> 3. 
+              <input type="text" size="30" name="R_CompetitorUrls3" value="http://">
+            </td>
+          </tr>
+          <tr> 
+            <td width="203">Number of Approx Viewable Pages*</td>
+            <td width="5">&nbsp;</td>
+            <td width="254"> 
+              <input type="text" size="30" name="S_NumberOfPages">
+            </td>
+          </tr>
+          <tr> 
+            <td width="203">Estimated Budget (in USD)*</td>
+            <td width="5">&nbsp;</td>
+            <td width="254"> 
+              <select name="T_AllocatedBudget">
+                <option selected>Choose One</option>
+                <option value="$5,001 - $10,000">$5,001 - $10,000</option>
+                <option value="$10,001 - $20,000">$10,001 - $20,000</option>
+                <option value="$20,001 - $50,000">$20,001 - $50,000</option>
+                <option value="$50,000 - $100,000">$50,000 - $100,000</option>
+                <option>&gt; $100,000</option>
+              </select>
+            </td>
+          </tr>
+          <tr> 
+            <td width="203">Production Time*</td>
+            <td width="5">&nbsp;</td>
+            <td width="254"> 
+              <select name="U_ProductionTime">
+                <option selected>Choose One</option>
+                <option value="&lt; 4 weeks">&lt; 4 weeks</option>
+                <option value="4 weeks">4 weeks</option>
+                <option value="6 weeks">6 weeks</option>
+                <option value="8 weeks">8 weeks</option>
+                <option value="&gt; 8 weeks">&gt; 8 weeks</option>
+              </select>
+            </td>
+          </tr>
+          <tr> 
+            <td width="203">Other Comments/Requirements</td>
+            <td width="5">&nbsp;</td>
+            <td width="254"> 
+              <textarea name="V_OtherComments/Requirements" cols="20"></textarea>
+            </td>
+          </tr>
+          <tr> 
+            <td width="203">How did you hear about us?*</td>
+            <td width="5">&nbsp;</td>
+            <td width="254"> 
+              <input type="text" size="30" name="W_HowDidYouHearAboutUs">
+            </td>
+          </tr>
+          <tr> 
+            <td width="203">&nbsp;</td>
+            <td width="5">&nbsp;</td>
+            <td width="254">&nbsp; </td>
+          </tr>
+        </table>
+        <p>&nbsp;</p>
+        <table border="0" width="250" cellspacing="0" cellpadding="0" align="center">
+          <tr> 
+            <td width="89"> 
+              <input type="submit" name="submit" value="submit">
+            </td>
+            <td width="81"> 
+              <input type="reset" name="reset" value="Reset">
+            </td>
+            <td width="80"> 
+              <input type="button" name="close" value="Close" onClick="window.close()">
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+  </form>
+
+</body>
+
+</html>
+
+

@@ -1,0 +1,73 @@
+body {
+	scrollbar-arrow-color:#D6D6D6;
+	scrollbar-base-color:#3A7AB2;
+	scrollbar-shadow-color:#B8B8B8;
+	scrollbar-face-color:#3A7AB2;
+	scrollbar-highlight-color:#F7F7F7;
+	scrollbar-darkshadow-color:#3A7AB2;
+	scrollbar-3dlight-color:#B8B8B8;
+}
+
+P, UL, OL, LI, DL, DD, DT, TD, SPAN, BLOCKQUOTE {
+		font-family: Arial, geneva, sans-serif;
+		font-size: 11px;
+		color: #004694;
+}
+.bolded {
+		font-family: Verdana, Arial, Arial, geneva, sans-serif;
+		font-size: 11px;
+		color: #92373B;
+		font-weight: bold;
+}
+.boldedblue {
+		font-family: Verdana, Arial, Arial, geneva, sans-serif;
+		font-size: 11px;
+		color: #004694;
+		font-weight: bold;
+}
+.newspublisher {
+		font-family: Verdana, Arial, Arial, geneva, sans-serif;
+		font-size: 9px;
+}
+sup {font-family:Arial, Helvetica; font-size: 8pt;} 
+A:link {color: #014D87; text-decoration: underline;}
+A:visited {color: #014D87; text-decoration: underline;}
+A:hover {
+	color: #ffffff;
+	background : #014D87;
+	text-decoration: none;}
+
+.txtBoxStyle1{
+    border-top: 1px solid #0D406B;
+    border-bottom: 1px solid #0D406B;
+    border-left: 1px solid #0D406B;
+    border-right: 1px solid #0D406B;
+    background-color: #FFFFFF;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 9px;    
+    color: #000000;
+    background-image:   url(../graphics/homepage/formshadow.gif);
+}
+
+.drpDown1{
+    border-top: 1px solid #9BA2A9;
+    border-bottom: 1px solid #9BA2A9;
+    border-left: 1px solid #9BA2A9;
+    border-right: 1px solid #9BA2A9;
+    background-color: #FFFFFF;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 9px;    
+    color: #3D6389;		
+}
+
+.txtArea1{
+    border-top: 1px solid #7F9DB9;
+    border-bottom: 1px solid #7F9DB9;
+    border-left: 1px solid #7F9DB9;
+    border-right: 1px solid #7F9DB9;
+    background-color: #FFFFFF;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    color: #3D6389;
+}
+

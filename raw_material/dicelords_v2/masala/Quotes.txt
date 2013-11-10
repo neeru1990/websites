@@ -1,0 +1,128 @@
+Project Management Concepts
+
+At least 7 of 10 signs of IS project failures are determined before a design is developed or a line of code is written - John Reel
+
+Software Process and Project Metrics
+
+Software metrics let you know when to laugh and when to cry - Tom Gilb
+
+Not everything that can be counted counts, and not everything that counts can be counted - Albert Einstein
+
+
+Project Scheduling and Tracking
+
+Excessive or irrational schedules are probably the single most destructive influence in all of software - Capers Jones
+
+I love deadlines. I like the whooshing sound they make as they fly by. - Douglas Adams
+
+Overly optimistic scheduling dosen't result in shorter actual schedules, it results in longer ones - Steve McConnell
+
+The  basic rule of software status reporting can be summarized in a single phrase: "No surprises" - Capers Jones
+
+
+
+Analysis Concepts and Principles
+
+This sentence contradicts itself - no actually it dosen't - Douglas Hofstadter
+
+He who asks a question is a fool for five minutes; he who does not ask a question remains a fool forever - Chinese Proverb
+
+Plain question and plain answer make the shortest road out of most perplexities - Mark Twain
+
+Facts do not cease to exist because they are ignored - Aldous Huxley
+
+The beginning is the most important part of the work - Plato
+
+A computer will do what you tell it to do, but that may be much different from what you had in mind - Joseph Weizenbaum
+
+Furious activity is no substitute for understanding - H. H. Williams
+
+Developers may build and test against specifications but users accept or reject current and actual operational realities - Bernard Boar
+
+
+Analysis Modelling
+
+The problem is not that there are problems. The problem is expecting otherwise and thinking that having problems is a problem - Theodore Rubin
+
+The environment of a real-time system contains devices that act as the senses of the system - Paul Ward and Stephen Mellor
+
+The only thing missing is a state of confusion - A reviewer upon puzzling over an extremely complex STD
+
+
+Design COncepts and Principles
+
+The most common miracles of software engineering are the transitions from analysis to design and design to code - Richard Due
+
+To achieve a good design, people have to think the right way about how to conduct the design activity - Katharine Whitehead
+
+There are two ways of constructing a software design: One way is to make it so simple that there are obviously no deficiencies, and the other way is to make it so complicated that there are no obvious deficiencies. The first method is far more difficult. - C. A. R. Hoare
+
+Abstraction is one of the fundamental ways that we as humans cope with complexity - Grady Booch
+
+There's always an easy solution to every human problem -neat, plausible, and wrong. - H. L. Mencken
+
+A software architechture is the development work product that gives the highest reurn on investmest with respect to quality, schedule and cost - Len Bass et al.
+
+The order and connection of ideas is the same as the order and connection of things. - Baruch Spinoza
+
+The notion that good [design] techniques restrict creativity is like saying that an artist can paint without learning the details of form or a musician does not need knowlegde of music theory - Marvin Zelkowitz et al.
+
+
+Architechtural Design
+
+The architechture of a system is a comprehensive framework that describes its form and structure -its componentsand how they fit together - Jerrold Grochow
+
+Data quality is the difference between a data warehouse and a data garbage dump - Jarrett Rosenberg
+
+The use of patterns and styles of design is pervasive in engineering disciplines - Mary Shaw and David Garlan
+
+A good architect is the principal keeper of the user's vision of the end product - Normon Simenson
+
+Maybe it's in the basement, let me go up stairs and check - M. C. Escher
+
+
+Software Testing Techniques
+
+A working program remains an elusive thing of beauty - Robert Dunn
+
+Errors are more common, more pervasive , and more troublesome in software that with other technologies - David Parnas
+
+There is only one rule in designing test cases: cover all features, but do not make too many test cases - Tsuneo Yamaura
+
+Bugs lurk in corners and congregate at boudaries - Boris Beizer
+
+To err is human, to find a bug, devine - Robert Dunn
+
+
+Technical Metrics For Software
+
+Rather that just musing on what 'new metric' might apply...we should also be asking ourselves the more basic question, "What will we do with metrics" - Michael Mah and Larry Putnam
+
+Measure what is measurable , and what is not measurable, make measurable. - Galileo
+
+Measurement can be seen as a detour. This detour is necessary because humans mostly are not able to make clear and pbjective decisions [without quantitative support]. - Horst Zuse
+
+Beauty -the adjustment of all parts proportionately so that one cannot add or subtract or change without impairing the harmony of the whole - Leon Alberti
+
+The human brain follows a more rigid set of rules [in developing algorithms] than it has been aware of - Maurice Halstead
+
+
+Software Testing Strategies
+
+Testing is an unavoidable part ofany responsible effort to develop a software sysytem - William Howden
+
+Testing only to end-user percieved requirements is like inspecting a building based on the work done by the interior decorator at the expense of the foundations, griders, and plumbing - Boris Beizer
+
+Treat the daily build as the heartbeat of the project. If there's no heartbeat, the project is dead - Jim McCarthy
+
+Like death and taxes, testing is both unpleasant and inevitable - Ed Yourdon
+
+If you're trying to find true system bugs and have never subjected your software to a real stress test, then it is high time you started - Boris Beizer
+
+The variety within all computr programs that must be diagnosed [for debugging] is probably greater than the variety within all other examples of systems that are regularly diagnosed -John Gould
+
+
+
+
+
+

@@ -1,0 +1,62 @@
+Dear Pushkar,
+ 
+Given below is the description for ArcMentor page. I do not have a web site to show you for this so this will have to be your imagination only based on your design of the other pages
+ 
+We now have sections like this:
+ 
+Faxserver softwares - RightFax, FaxCore and Zetafax (The last one I am still awaiting the microsite from them)
+Hardware - Brooktrout TR114, TR1034, TruFax
+Document Management - Aviator
+Instant message Archival & Monitoring - ArcMentor
+ 
+So you can now think of the products page based on this. We do not have any section on CallXpress so we can skip that. The only thing remaining from our side is ZetaFax site which I hope to get soon from UK
+ 
+Manish
+ 
+ArcMentor - Archiving and Monitoring of IM communication
+ 
+Key Features and Benefits
+Capture and archive the content of all your IM communication-
+Nothing is lost at the end of an IM session. Key word trapping and alerting.
+Retrieve all communication-
+All archived sessions can be retrieved to provide proof of  communications and to audit conversations
+Analyze and track trends-
+Web based controls allow easy but secure access for administrators to view global usage reports, receive real time notifications and alerts, scan or monitor content.
+Report, Manage & Monitor-
+Capture business intelligence and have full control over the communication networks.
+                                             
+ArcMentor is a secure archiving, monitoring, retrieval and analysis application for instant messaging content.  ArcMentor works together with your enterprise IM platform in a seamless way, providing transparent, secure archiving of all instant message and conference traffic. The content is stored securely on the server side where only authorized individuals are able to access the stored content.  ArcMentor is just one application in our suite of products that are available for integration with the technology you use today. Our products integrate with existing enterprise information technology to manage and structure the flow of real-time communication among individuals, groups, and applications. By wrapping real time communications around the technology that runs your business, you can respond in real time to time-critical events, giving your enterprise the critical advantages of saving time and money and speeding decision-making.
+ 
+Analyze and Track Trends
+ArcMentor allows you to ask and answer the question, how were yesterday's problems solved? Answering this question and you can refine your communications so business critical events can be solved faster, which in turn translates directly into higher operational efficiency. Web based controls allow easy but secure access for administrators to view global usage reports, receive real time notifications and alerts, scan or monitor content.
+_ Reduce redundant effort
+_ Identify and duplicate solutions
+_ Sense and interpret: Predict future risks and opportunities, identify, assemble and track indicators that measure operational performance Turn exceptions into insights: Change underlying processes to better handle similar situations in the future.
+ 
+Report, Manage & Monitor
+ArcMentor gives you complete awareness of an emergency when it occurs and when confidential data is transmitted. With today's business pressures, it is extremely beneficial for enterprises to capture business intelligence and have full control over their communication networks. The application offers powerful administration tools for modifying settings, monitoring communications, and generating reports: 
+_ Global traffic and usage metrics consolidated across servers
+_ Real-time charts that can be exported to other enterprise apps (e.g., excel)
+_ Intelligent content filters for CIO's to view data 
+ 
+Capture & Store
+ArcMentor enables you to locate and retrieve your IM platform communications. All of your IM communications are captured together in real time and automatically stored and archived in the Message Center to ensure exact retrieval. Stored communications can be easily offloaded to Optical media to ensure disaster recovery.
+Other features include:
+_ Key word trapping and alters
+_ Real-time indexing for accurate auditing
+_ ODBC compliance to work with any Enterprise DB 
+ 
+Retrieve
+ArcMentor generates a powerful full-text index of instant communications to enable easy retrieval of specific "conversations" or group sessions. All messages and associated files are stored together, enabling multi-session search for administrators or authorized users.
+Communications are easy to locate by:
+_ To/from screen names, screen names
+_ Date range
+_ Keywords
+_ File names and more.
+_ NLP (Natural Language Processing) indexing agents to extract relevant data
+ 
+Integration & Deployment
+Deployment of ArcMentor is transparent to the end user. There is no installation at the client side, and the user may not know that there content is archived and monitored. There is no need for the user to change how they use your IM platform but you will be able to gather important metrics and data regarding how it is used to solve issues.
+_ Exposed API's to integrate with other QoS (Quality of Service) apps
+_ Easy integration with other applications
+_ Low cost due to ODBC ready DB

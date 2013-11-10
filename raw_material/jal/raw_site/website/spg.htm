@@ -1,0 +1,635 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+
+<HEAD>
+<META Name='PageType' Content='Graphic'>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<!--  (c) 2001 Media Catalyst  -  www.mediacatalyst.com -->
+
+<!--TemplateName	(Template) 	= portalpage_1_4	-->
+<!--PageName	(Page)		= 		-->
+<!--Browser	(B)		= ie		-->
+<!--CID		(CID)		= 		-->
+<!--CID2		(CID2)		= 		-->
+<!--CID3		(CID3)		= 		-->
+<!--PID		(PID)		= 		-->
+<!--PID2		(PID2)		= 		-->
+<!--LeftMenu	(LM)		= 		-->
+<!--StartIndex	(start)		= 		-->
+
+<script language=javascript>
+	//****************************************************************************
+	//	The following code redirects to the frameset if a page is not inside
+	//	a frame.
+	//****************************************************************************
+	
+	function BrowserDetect() {
+		var agt=navigator.userAgent.toLowerCase();
+		var is_major = parseInt(navigator.appVersion);
+		var is_minor = parseFloat(navigator.appVersion);
+
+		var is_nav  = ((agt.indexOf('mozilla')!=-1) && (agt.indexOf('spoofer')==-1)
+		            && (agt.indexOf('compatible') == -1) && (agt.indexOf('opera')==-1)
+		            && (agt.indexOf('webtv')==-1) && (agt.indexOf('hotjava')==-1));
+		var is_nav4 = (is_nav && (is_major >= 4));
+		var is_nav6 = (agt.indexOf('netscape6') > -1);
+		var is_gecko = (agt.indexOf('gecko') != -1);
+
+		var is_ie     = ((agt.indexOf("msie") != -1) && (agt.indexOf("opera") == -1));
+		var is_ie4    = (is_ie && (is_major >= 4) && (agt.indexOf("msie 5")==-1) );
+		var is_ie5up  = (is_ie && is_major>=4 && !is_ie4);
+
+		var is_opera = (agt.indexOf("opera") != -1);
+		var is_opera2 = (agt.indexOf("opera 2") != -1 || agt.indexOf("opera/2") != -1);
+		var is_opera3 = (agt.indexOf("opera 3") != -1 || agt.indexOf("opera/3") != -1);
+		var is_opera4 = (agt.indexOf("opera 4") != -1 || agt.indexOf("opera/4") != -1);
+		var is_opera5 = (agt.indexOf("opera 5") != -1 || agt.indexOf("opera/5") != -1);
+		var is_opera5up = (is_opera && !is_opera2 && !is_opera3 && !is_opera4);
+		
+		if (is_ie4 || is_ie5up || is_gecko)
+			return "ie"
+			
+		if (is_nav4)
+			return "ns"
+			
+		return "ie"
+	}
+	
+	if ( (document == top.document) && "" == "" ) {
+		var NewURL = ""
+		if ("portalpage_1_4" != "") NewURL = "template=portalpage_1_4"
+		if ("" != "") NewURL = NewURL + "page="
+		NewURL = NewURL + "&B=" + BrowserDetect()
+		if ("" != "") NewURL = NewURL + "&CID="
+		if ("" != "") NewURL = NewURL + "&CID2="
+		if ("" != "") NewURL = NewURL + "&CID3="
+		if ("" != "") NewURL = NewURL + "&PID="
+		if ("" != "") NewURL = NewURL + "&PID2="
+		if ("" != "") NewURL = NewURL + "&LM="
+		if ("" != "") NewURL = NewURL + "&start="
+		if ("" != "") NewURL = NewURL + "&start2="
+		if ("" != "") NewURL = NewURL + "&gcat="
+		if ("" != "") NewURL = NewURL + "&FID="
+		if ("" != "") NewURL = NewURL + "&FCID="
+		if ("" != "") NewURL = NewURL + "&sortName="
+		if ("" != "") NewURL = NewURL + "&sortDate="
+		if ("" !="") NewURL = NewURL + "&FileCatID="
+	
+		if ("" == ""){
+			if (!(BrowserDetect() == "ns" && !(window.innerWidth > 0))) top.document.location.href = "spg.jsp?page=gis&Redir="+escape(NewURL)
+		}
+		else if ("" == "1"){
+			if (!(BrowserDetect() == "ns" && !(window.innerWidth > 0))) top.document.location.href = "spg.jsp?page=gsapopup&Redir="+escape(NewURL)
+		}
+	}
+</script>
+
+<link rel='stylesheet' href='spg.jsp?template=Stylesheet_ie'>
+<script language=javascript>
+function popupProductImage(PID)
+{
+    	var stats;
+	var url;
+	stats = "screenX=260,screenY=450"
+		+ ",width=260,height=450"
+		+ ",left=0,top=0"
+		+ ",resizable=no"
+		+ ",scrollbars=auto"
+		+ ",status=no"
+		+ ",menubar=no"
+		+ ",location=no"
+		+ ",directories=no";
+	url = "spg.jsp?template=PopUp&B=ie&PID=" + PID + "&NoRedir=2";
+	open(url, '', stats);
+}
+</script>
+
+<script language='javascript'>
+	var cold1_1 = new Image();
+	var cold1_2 = new Image();
+	var cold2_1 = new Image();
+	var cold2_2 = new Image();
+	var conn1_1 = new Image();
+	var conn1_2 = new Image();
+	var conn2_1 = new Image();
+	var conn2_2 = new Image();
+	var ent1_1 = new Image();
+	var ent1_2 = new Image();
+	var ent2_1 = new Image();
+	var ent2_2 = new Image();
+	var imag1_1 = new Image();
+	var imag1_2 = new Image();
+	var imag2_1 = new Image();
+	var imag2_2 = new Image();
+	var mess1_1 = new Image();
+	var mess1_2 = new Image();
+	var mess2_1 = new Image();
+	var mess2_2 = new Image();
+	
+	cold1_1.src = '/images/spgc/CWS31AFW_Right_Cold1_1_27_0_1090.jpg';
+	cold1_2.src = '/images/spgc/CWS31AFW_Right_Cold1_2_27_0_1090.jpg';
+	cold2_1.src = '/images/spgc/CWS31AFW_Right_Cold2_1_27_0_1090.jpg';
+	cold2_2.src = '/images/spgc/CWS31AFW_Right_Cold2_2_27_0_1090.jpg';
+	conn1_1.src = '/images/spgc/CWS31AFW_Right_Conn1_1_27_0_1090.jpg';
+	conn1_2.src = '/images/spgc/CWS31AFW_Right_Conn1_2_27_0_1090.jpg';
+	conn2_1.src = '/images/spgc/CWS31AFW_Right_Conn2_1_27_0_1090.jpg';
+	conn2_2.src = '/images/spgc/CWS31AFW_Right_Conn2_2_27_0_1090.jpg';
+	ent1_1.src = '/images/spgc/CWS31AFW_Right_Ent1_1_27_0_1090.jpg';
+	ent1_2.src = '/images/spgc/CWS31AFW_Right_Ent1_2_27_0_1090.jpg';
+	ent2_1.src = '/images/spgc/CWS31AFW_Right_Ent2_1_27_0_1090.jpg';
+	ent2_2.src = '/images/spgc/CWS31AFW_Right_Ent2_2_27_0_1090.jpg';
+	imag1_1.src = '/images/spgc/CWS31AFW_Right_Imag1_1_27_0_1090.jpg';
+	imag1_2.src = '/images/spgc/CWS31AFW_Right_Imag1_2_27_0_1090.jpg';
+	imag2_1.src = '/images/spgc/CWS31AFW_Right_Imag2_1_27_0_1090.jpg';
+	imag2_2.src = '/images/spgc/CWS31AFW_Right_Imag2_2_27_0_1090.jpg';
+	mess1_1.src = '/images/spgc/CWS31AFW_Right_Mess1_1_27_0_1090.jpg';
+	mess1_2.src = '/images/spgc/CWS31AFW_Right_Mess1_2_27_0_1090.jpg';
+	mess2_1.src = '/images/spgc/CWS31AFW_Right_Mess2_1_27_0_1090.jpg';
+	mess2_2.src = '/images/spgc/CWS31AFW_Right_Mess2_2_27_0_1090.gif';
+	
+	function changeImage(type){
+		if ('ie' == 'ie'){
+			document.getElementById('img1_1').src = eval(type + '1_1').src;
+			document.getElementById('img1_2').src = eval(type + '1_2').src;
+			document.getElementById('img2_1').src = eval(type + '2_1').src;
+			document.getElementById('img2_2').src = eval(type + '2_2').src;
+		}
+		else {
+			document.images['img1_1'].src = eval(type + '1_1').src;
+			document.images['img1_2'].src = eval(type + '1_2').src;
+			document.images['img2_1'].src = eval(type + '2_1').src;
+			document.images['img2_2'].src = eval(type + '2_2').src;
+		}
+	}
+	
+	
+	var africaArr = new Array();
+	var americaArr = new Array();
+	var asiaArr = new Array();
+	var europeArr = new Array();
+	
+	function fillArr(link, name){
+		this.link = link;
+		this.name = name;
+	}
+	
+	function newOption(value, text) {
+		var Opt		= new Option();
+		Opt.value	= value;
+		Opt.text	= text;
+		return Opt;
+	}
+	
+	africaArr[africaArr.length] = new fillArr("http://www.sonyericsson.com/za/" , "Central & South Africa");africaArr[africaArr.length] = new fillArr("http://www.sonyericsson.com/ae/" , "Middle East & North Africa");americaArr[americaArr.length] = new fillArr("http://www.sonyericsson.com/br/" , "Brasil");americaArr[americaArr.length] = new fillArr("http://www.sonyericsson.com/ca/" , "Canada");americaArr[americaArr.length] = new fillArr("http://www.sonyericsson.com/mx/" , "Mexico");americaArr[americaArr.length] = new fillArr("http://www.sonyericsson.com/us/" , "United States");americaArr[americaArr.length] = new fillArr("0" , "------------------------");americaArr[americaArr.length] = new fillArr("http://www.sonyericsson.com/ar/" , "Argentina");americaArr[americaArr.length] = new fillArr("http://www.sonyericsson.com/cam/" , "America Central");americaArr[americaArr.length] = new fillArr("http://www.sonyericsson.com/bo/" , "Bolivia");americaArr[americaArr.length] = new fillArr("http://www.sonyericsson.com/cai/" , "Caribbean Islands");americaArr[americaArr.length] = new fillArr("http://www.sonyericsson.com/cl/" , "Chile");americaArr[americaArr.length] = new fillArr("http://www.sonyericsson.com/co/" , "Colombia");americaArr[americaArr.length] = new fillArr("http://www.sonyericsson.com/ec/" , "Ecuador");americaArr[americaArr.length] = new fillArr("http://www.sonyericsson.com/py/" , "Paraguay");americaArr[americaArr.length] = new fillArr("http://www.sonyericsson.com/pe/" , "Peru");americaArr[americaArr.length] = new fillArr("http://www.sonyericsson.com/uy/" , "Uruguay");americaArr[americaArr.length] = new fillArr("http://www.sonyericsson.com/ve/" , "Venezuela");asiaArr[asiaArr.length] = new fillArr("http://www.sonyericsson.com/au/" , "Australia");asiaArr[asiaArr.length] = new fillArr("http://www.sonyericsson.com/cn/" , "China");asiaArr[asiaArr.length] = new fillArr("http://www.sonyericsson.com/hk/" , "Hongkong");asiaArr[asiaArr.length] = new fillArr("http://www.sonyericsson.com/jp/" , "Japan");asiaArr[asiaArr.length] = new fillArr("http://www.sonyericsson.com/sg/" , "Singapore");asiaArr[asiaArr.length] = new fillArr("http://www.sonyericsson.com/tw/" , "Taiwan");asiaArr[asiaArr.length] = new fillArr("0" , "------------------------");asiaArr[asiaArr.length] = new fillArr("http://www.sonyericsson.com/in/" , "India");asiaArr[asiaArr.length] = new fillArr("http://www.sonyericsson.com/id/" , "Indonesia");asiaArr[asiaArr.length] = new fillArr("http://www.sonyericsson.com/my/" , "Malaysia");asiaArr[asiaArr.length] = new fillArr("http://www.sonyericsson.com/nz/" , "New Zealand");asiaArr[asiaArr.length] = new fillArr("http://www.sonyericsson.com/ph/" , "Philippines");asiaArr[asiaArr.length] = new fillArr("http://www.sonyericsson.com/th/" , "Thailand");asiaArr[asiaArr.length] = new fillArr("http://www.sonyericsson.com/vn/" , "Vietnam");asiaArr[asiaArr.length] = new fillArr("http://www.sonyericsson.com/ap/" , "Other AP Countries");europeArr[europeArr.length] = new fillArr("http://www.sonyericsson.com/at/" , "Austria");europeArr[europeArr.length] = new fillArr("http://www.sonyericsson.com/be/" , "Belgium");europeArr[europeArr.length] = new fillArr("http://www.sonyericsson.com/fr/" , "France");europeArr[europeArr.length] = new fillArr("http://www.sonyericsson.com/de/" , "Germany");europeArr[europeArr.length] = new fillArr("http://www.sonyericsson.com/gr/" , "Greece");europeArr[europeArr.length] = new fillArr("http://www.sonyericsson.com/it/" , "Italy");europeArr[europeArr.length] = new fillArr("http://www.sonyericsson.com/nl/" , "Netherlands");europeArr[europeArr.length] = new fillArr("http://www.sonyericsson.com/pt/" , "Portugal");europeArr[europeArr.length] = new fillArr("http://www.sonyericsson.com/ru/" , "Russia");europeArr[europeArr.length] = new fillArr("http://www.sonyericsson.com/es/" , "Spain");europeArr[europeArr.length] = new fillArr("http://www.sonyericsson.com/se/" , "Sweden");europeArr[europeArr.length] = new fillArr("http://www.sonyericsson.com/ch/" , "Switzerland");europeArr[europeArr.length] = new fillArr("http://www.sonyericsson.com/tr/" , "Turkey");europeArr[europeArr.length] = new fillArr("http://www.sonyericsson.com/uk/" , "UK & Ireland");europeArr[europeArr.length] = new fillArr("0" , "------------------------");europeArr[europeArr.length] = new fillArr("http://www.sonyericsson.com/hr/" , "Croatia");europeArr[europeArr.length] = new fillArr("http://www.sonyericsson.com/cz/" , "Czech Republic");europeArr[europeArr.length] = new fillArr("http://www.sonyericsson.com/dk/" , "Denmark");europeArr[europeArr.length] = new fillArr("http://www.sonyericsson.com/ee/" , "Estonia");europeArr[europeArr.length] = new fillArr("http://www.sonyericsson.com/fi/" , "Finland");europeArr[europeArr.length] = new fillArr("http://www.sonyericsson.com/hu/" , "Hungary");europeArr[europeArr.length] = new fillArr("http://www.sonyericsson.com/il/" , "Israel");europeArr[europeArr.length] = new fillArr("http://www.sonyericsson.com/lv/" , "Latvia");europeArr[europeArr.length] = new fillArr("http://www.sonyericsson.com/lt/" , "Lithuania");europeArr[europeArr.length] = new fillArr("http://www.sonyericsson.com/no/" , "Norway");europeArr[europeArr.length] = new fillArr("http://www.sonyericsson.com/pl/" , "Poland");europeArr[europeArr.length] = new fillArr("http://www.sonyericsson.com/ro/" , "Romania");europeArr[europeArr.length] = new fillArr("http://www.sonyericsson.com/sk/" , "Slovakia");
+	
+	function fillCountry(){
+		var form = document.forms.countryForm;
+		var region = form.region.options[form.region.selectedIndex].value;
+		if (region != '-1'){
+			var regionArr = new Array();
+			regionArr = eval(region + 'Arr');
+			form.country.disabled = false;
+			form.country.options.length = 0;
+			form.country.options[0] = newOption("-1", "Location");
+			form.country.options[1] = newOption("0", "------------------------");
+			for (i=0; i<regionArr.length; i++){
+				form.country.options.length += 1;
+				form.country.options[form.country.options.length-1] = newOption(regionArr[i].link, regionArr[i].name);
+			}
+		}
+		else {
+			form.country.options.length = 0;
+			form.country.options[0] = newOption("-1", "Location");
+			form.country.disabled = true;
+		}
+	}
+	
+	function toCountry(){
+		var form = document.forms.countryForm;
+		var selValue = form.country.options[form.country.selectedIndex].value;
+		if (selValue != "-1" && selValue != "0"){
+			top.document.location.href = selValue;
+		}
+		//else {
+		//	alert("Please select a country or region first");
+		//}
+	}
+	
+	function atOnload(){
+		if ('ie' == 'ie'){
+			var form = document.forms.countryForm;
+			form.country.disabled = false;
+			form.country.options.length = 0;
+			form.country.options[0] = newOption("-1", "Location");
+			form.region.selectedIndex = 0;
+			form.country.disabled = true;
+		}
+	}
+</script>
+
+<TITLE>Sony Ericsson </TITLE>
+</HEAD>
+
+<body topmargin='0' leftmargin='0' bgcolor='#FFFFFF' onload='atOnload();'>
+	<table cellpadding='0' cellspacing='0' border='0' width='560' align='center' ID="Table1">
+		<tr>
+			<td class='text' height='20'><img src='/images/statics/spacer.gif' height='20' width='1' border='0'></td>
+		</tr>
+		<tr>
+			<td class='text' width='560'>
+				<table cellpadding='0' cellspacing='0' border='0' width='560' ID="Table2">
+					<tr>
+						<td class='text' height='30'><img  src='/images/spgc/CWS31AFW_8419_27_0_1090.gif' width='279' height='30' border='0'></td>
+						<td class='text' height='30' align='right'><img  src='/images/spgc/CWS31AFW_8420_27_0_1090.gif' width='139' height='30' border='0'></td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td class='text' height='20'><img src='/images/statics/spacer.gif' height='20' width='1' border='0'></td>
+		</tr>
+		<tr>
+			<td class='text' width='560'>
+				<table cellpadding='0' cellspacing='0' border='0' width='560' ID="Table3">
+					<tr>
+						<td class='text' height='139' width='279'><script language='javascript'>
+								var imgArr = new Array();							
+								imgArr[imgArr.length] = '/images/spgc/AFW_LeftImg1_27_0_1090.jpg';
+								//imgArr[imgArr.length] = '/images/spgc/AFW_LeftImg2_27_0_1090.jpg';
+								//imgArr[imgArr.length] = '/images/spgc/AFW_LeftImg3_27_0_1090.jpg';
+								
+								Display = Math.floor(Math.random()*imgArr.length);	//Get random nr based on amount of returned banners
+								document.write("<img border=0 src='"+imgArr[Display]+"' width=279 height=139>");
+						</script></td>
+						<td class='text' width='1'></td>
+						<td class='text' height='139' width='279'><table cellpadding='0' cellspacing='0' border='0' width='279' ID="Table1">
+	<tr>
+		<td class='text' height='70' width='140'><a href='http://www.sonyericsson.com/connectivity/en/' onmouseover='changeImage("conn");' target='_blank'><img  src='/images/spgc/CWS31AFW_8398_27_0_1090.jpg' border='0' name='img1_1' id='img1_1'></a></td>
+		<td class='text' height='70' width='139'><a href='http://www.sonyericsson.com/imaging/en/' onmouseover='changeImage("imag");' target='_blank'><img  src='/images/spgc/CWS31AFW_8399_27_0_1090.jpg' border='0' name='img1_2' id='img1_2' ></a></td>
+	</tr>
+	<tr>
+		<td class='text' height='69' width='140'><a href='http://www.sonyericsson.com/entertainment/en/' onmouseover='changeImage("ent");' target='_blank'><img  src='/images/spgc/CWS31AFW_8400_27_0_1090.jpg' border='0' name='img2_1' id='img2_1'></a></td>
+		<td class='text' height='69' width='139'><a href='http://www.sonyericsson.com/messaging/en/' onmouseover='changeImage("mess");' target='_blank'><img  src='/images/spgc/CWS31AFW_8401_27_0_1090.jpg' border='0' name='img2_2' id='img2_2'></a></td>
+	</tr>
+</table></td>
+						<td class='text' width='1'></td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td height='1'></td>
+		</tr>
+		<tr>
+			<td class='text' width='560'>
+				<form name='countryForm' id='countryForm'>
+				<table cellpadding='0' cellspacing='0' border='0' width='560' ID="Table4">
+					<tr>
+						<td class='text' width='419' height='69' valign='top'>
+							<table cellpadding='0' cellspacing='0' border='0' width='419' ID="Table5">
+								<tr>
+									<td class='text' width='139' valign='top' background='/images/spgc/CWS31AFW_GPP_WorldImg_27_0_1090.gif'>
+										<table cellspacing='0' cellpadding='0' ID="Table6">
+											<tr>
+												<td class='text' height='20' width='5'></td>
+												<td class='gpptext' height='20'>Products & local news:</td>
+											</tr>
+											<tr>
+												<td class='text' height='49' width='5'></td>
+												<td class='text' height='49' width='134' valign='top'>Select a region, then choose your local Sony Ericsson website.</td>
+											</tr>
+										</table>
+									</td>
+									<td class='text' width='1'></td>			
+									<td class='text' width='279' valign='top' align='left' bgcolor='#BACAD7'>
+										<table cellpadding='0' cellspacing='0' border='0' width='215' ID="Table7">
+											<tr>
+												<td class='text' height='20' width='5' bgcolor='#BACAD7'></td>
+												<td class='text' height='20' width='210' bgcolor='#BACAD7'>&nbsp;<b>Please select:</b></td>
+											</tr>
+											<tr>
+												<td class='text' height='21' width='5' bgcolor='#BACAD7'></td>
+												<td class='text' height='21' width='210' bgcolor='#BACAD7'>
+													<select id='region' name='region' class='text' width='185px' style='width:185px' onchange='fillCountry();'>
+														<option value='-1'>Region</option>
+														<option value='-1'>------------------------</option>
+														<option value='africa'>Africa & Middle East</option>
+														<option value='america'>Americas</option>
+														<option value='asia'>Asia-Pacific</option>
+														<option value='europe'>Europe</option>
+													</select>
+												</td>
+											</tr>
+											<tr>
+												<td class='text' height='2' width='5' bgcolor='#BACAD7'></td>
+												<td class='text' height='2' width='210' bgcolor='#BACAD7'></td>
+											</tr>
+											<tr>
+												<td class='text' height='21' width='5' bgcolor='#BACAD7'></td>
+												<td class='text' height='21' width='210' bgcolor='#BACAD7'>
+													<select id="country" name='country' class='text' width='185px' style='width:185px' disabled='true' onchange='toCountry();'>
+														<option value='-1'>Location</option>
+													</select>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</td>
+						<td class='text' width='1'></td>
+						<td class='text' height='139' width='140' bgcolor='#EEEEEE' valign='top'>
+							<table cellpadding='0' cellspacing='0' border='0' ID="Table8">
+								<tr>
+									<td class='text' height='20' width='5' bgcolor='#EEEEEE'></td>
+									<td class='gpptext' height='20' width='135' bgcolor='#EEEEEE'>Global links:</td>
+								</tr>
+								<tr>
+												<td class='text' height='18' width='5' bgcolor='#EEEEEE'></td>
+												<td class='text' height='18' width='135' bgcolor='#EEEEEE'><a href='javascript:;' onclick="window.open('spg.jsp?template=S0&B=ie&noredir=1','','fullscreen=no,toolbar=no,status=no,menubar=no,scrollbars=yes,resizable=yes,directories=no,location=no,width=750,height=525,left=0,top=0,dependent=no');" class='topmenu2' target='_top'>Global support area</a></td>
+											</tr><tr>
+												<td class='text' height='18' width='5' bgcolor='#EEEEEE'></td>
+												<td class='text' height='18' width='135' bgcolor='#EEEEEE'><a href='m2m' onclick="" class='topmenu2' target='_top'>M2M Connectivity</a></td>
+											</tr><tr>
+												<td class='text' height='18' width='5' bgcolor='#EEEEEE'></td>
+												<td class='text' height='18' width='135' bgcolor='#EEEEEE'><a href='http://www.sonyericsson.com/fun/' onclick="" class='topmenu2' target='_top'>Fun & downloads</a></td>
+											</tr><tr>
+												<td class='text' height='18' width='5' bgcolor='#EEEEEE'></td>
+												<td class='text' height='18' width='135' bgcolor='#EEEEEE'><a href='http://www.sonyericsson.com/partnerplace/' onclick="" class='topmenu2' target='_top'>Partner place</a></td>
+											</tr><tr>
+												<td class='text' height='18' width='5' bgcolor='#EEEEEE'></td>
+												<td class='text' height='18' width='135' bgcolor='#EEEEEE'><a href='spg.jsp?page=GIS' onclick="" class='topmenu2' target='_top'>Press room</a></td>
+											</tr><tr>
+												<td class='text' height='18' width='5' bgcolor='#EEEEEE'></td>
+												<td class='text' height='18' width='135' bgcolor='#EEEEEE'><a href='http://www.sonyericsson.com/developer/' onclick="" class='topmenu2' target='_top'>Developer World</a></td>
+											</tr>
+								<tr>
+									<td class='text' height='10' width='5' bgcolor='#EEEEEE'></td>
+									<td class='text' height='10' width='135' bgcolor='#EEEEEE'></td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+				</form>
+			</td>
+		</tr>
+		<tr>
+			<td class='text' height='25'><img src='/images/statics/spacer.gif' height='25' width='1' border='0'></td>
+		</tr>
+		<tr>
+			<td class='text' width='560'>
+				<script language=javascript>
+	function BannerPopup(url) {
+	    var stats;
+		stats = "screenX=750,screenY=480"
+			+ ",width=800,height=550"
+			+ ",left=20,top=20"
+			+ ",resizable=yes"
+			+ ",scrollbars=yes"
+			+ ",status=yes"
+			+ ",menubar=yes"
+			+ ",location=yes"
+			+ ",directories=yes";
+		open(url, '', stats);				
+	}
+</script>
+
+<script language=javascript>
+		var BannerArr = new Array()
+		var Display
+		
+		//Function used to fill array of banners
+		function FillPos(src, url, target) {
+			this.src = src
+			this.url = url
+			this.target = target
+		}
+		
+		//Fill array with menu options
+		BannerArr[BannerArr.length] = new FillPos('/images/spgc/AFW_B3_27_0_1090.gif', 'http://www.handango.com/sonyericsson', '');BannerArr[BannerArr.length] = new FillPos('/images/spgc/AFW_B5_27_0_1090.gif', 'http://www.sonyericsson.com/t310/', '');BannerArr[BannerArr.length] = new FillPos('/images/spgc/AFW_Bfun_27_0_1090.gif', 'http://www.sonyericsson.com/fun', '');BannerArr[BannerArr.length] = new FillPos('/images/spgc/AFW_B1_27_0_1090.gif', 'http://www.sonyericsson.com/fun/page.jsp?application_area.application=sh_music&application_area.left_nav=sh_music_nav', '');BannerArr[BannerArr.length] = new FillPos('/images/spgc/AFW_B2_27_0_1090.gif', 'http://www.sonyericsson.com/t610/', '');
+
+		//Start writing the output table
+		document.write("<table border=0 cellspacing=0 cellpadding=0>");
+		document.write("<tr>");
+		//document.write("<td><img src='/images/statics/spacer.gif' width=20 height=1></td>")
+
+		//Pick 3 banners from the array of banners
+		var iLength = BannerArr.length;
+			if (iLength > 3) iLength = 3;
+			
+		for (i=1; i<=iLength; i++) {
+			if (BannerArr.length >= 0) {								//If no more banners, stop looping
+				Display = Math.floor(Math.random()*BannerArr.length);	//Get random nr based on amount of returned banners
+				if (i == 3){
+					document.write("<td width=170 height=45><a href='javascript:;' onclick='BannerPopup(\""+BannerArr[Display].url+"\")'><img border=0 src='"+BannerArr[Display].src+"' width='170' height='45'></a></td>");
+				}
+				else {
+					document.write("<td width=170 height=45><a href='javascript:;' onclick='BannerPopup(\""+BannerArr[Display].url+"\")'><img border=0 src='"+BannerArr[Display].src+"' width='170' height='45'></a></td><td width=25></td>");
+				}
+				BannerArr[Display] = BannerArr[BannerArr.length-1];		//Switch last pos in array with selected pos
+				BannerArr.length--;										//Cut end off array so banner is not reselected
+			}
+			else
+				document.write("<td width=170></td>")					//If no results stretch table cell
+		}
+					
+		document.write("</tr>")
+		document.write("</table>")
+	</script>
+			</td>
+		</tr>
+	</table>
+<!-- BEGIN STATISTICS INCLUDE -->
+
+<script language="JavaScript">
+
+	function wtl_Tag6(iSiteID,sCG)
+{
+
+	var CONTENTGROUP = typeof(sCG)== "string" ? sCG : "";
+	var wtl_URL= CUSTOMURL;
+	var wtl_Title= CUSTOMTITLE;
+
+	function D8( d)
+	{
+		var fwd=1, seed= new Date('01/01/2000'), key= "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+		var s= key.charAt( d.getFullYear()-2000)+key.charAt( d.getMonth()+1)+key.charAt( d.getDate());
+		s+= key.charAt( d.getHours())+key.charAt( d.getMinutes())+key.charAt( d.getSeconds());
+		while( seed.getDay()!=fwd) seed= new Date(seed.getTime() + 86400000);
+		var w= Math.floor( (d.getTime()-(seed.getTime()+86400000)) / 604800000 );
+		s+= key.charAt( (w-(w%16))/16 );
+		s+= key.charAt( w%16);
+		return s;
+	}
+
+	function A( B, C)
+	{
+		W+="&"+B+"="+escape(C);
+	}
+	
+	var t = new Date();
+	var W="http"+(wtl_URL.indexOf('https:')==0?'s':'')+"://statse.webtrendslive.com/S" + iSiteID + "/button6.asp?tagver=6&si=" + iSiteID + "&fw=1";
+	A( "server", typeof(SERVER)== "string" ? SERVER : "");
+	A( "order", typeof(ORDER)== "string" ? ORDER : "");
+	A( "Group", typeof(CONTENTGROUP)== "string" ? CONTENTGROUP : "");
+	A( "invoice", typeof(INVOICE)== "string" ? INVOICE : "");
+	A( "cartview", typeof(CARTVIEW)== "string" ? CARTVIEW : "");
+	A( "cartadd", typeof(CARTADD)== "string" ? CARTADD : "");
+	A( "cartremove", typeof(CARTREMOVE)== "string" ? CARTREMOVE : "");
+	A( "checkout", typeof(CHECKOUT)== "string" ? CHECKOUT : "");
+	A( "cartbuy", typeof(CARTBUY)== "string" ? CARTBUY : "");
+	A( "adcampaign", typeof(ADCAMPAIGN)== "string" ? ADCAMPAIGN : "");
+	A( "tz", t.getTimezoneOffset());
+	A( "ch", t.getHours());
+	A( "cl", D8(t));
+	A( "ti", typeof(wtl_Title)== "string" ? wtl_Title : document.title);
+	A( "url", typeof(wtl_URL)== "string" ? wtl_URL : document.URL);
+	A( "rf", parent.document.referrer);
+	A( "js", "Yes");
+	A( "ul", navigator.appName=="Netscape" ? navigator.language : navigator.userLanguage);
+	if(typeof(screen)=="object")
+	{
+	A( "sr", screen.width+"x"+screen.height);
+	A( "cd", screen.colorDepth);
+	A( "jo", navigator.javaEnabled() ? "Yes" : "No");
+	}
+	if( W.length>2048 && navigator.userAgent.indexOf('MSIE')>=0)
+		W= W.substring( 0, 2043)+"&tu=1";
+
+	document.write('<IMG ID="WTL_TAG" BORDER="0" WIDTH="1" HEIGHT="1" SRC="'+W+'">');
+}
+
+	var Template_Group	= 1		//Template_Group 1=no prod 2=prod 3=prod spec execpt.
+	var GLOBAL_CAT
+	var GLOBAL_SUBCAT
+	var LOCAL_CAT
+	var LOCAL_SUBCAT
+	var PAGETITLE		= "Undefined page category";
+	var COUNTRY			= "(Show all)"
+	var LANGUAGE		= "27";
+	var PRODUCTNAME		= "";
+	var WTLURL			= COUNTRY + "/" + LANGUAGE + "/";
+	var TEMPLATE		= 'portalpage_1_4';
+	var PAGE			= '';
+
+	if (TEMPLATE == '' && PAGE != '') TEMPLATE=PAGE;
+	
+	//Set page title to actual html title
+	PAGETITLE = TEMPLATE + ' ' + PRODUCTNAME;
+	
+	//Convert to uppercase so matching does not fail on lowercase
+	TEMPLATE = TEMPLATE.toUpperCase()
+
+	//Categorize templates into the 3 template groups
+	//if (TEMPLATE == "PS1")			Template_Group = 3	//Product specification
+
+	if (Template_Group == 1) {
+	        GLOBAL_CAT		= COUNTRY+","; 
+	        GLOBAL_SUBCAT	= TEMPLATE;
+	        LOCAL_CAT		= TEMPLATE; 
+	        LOCAL_SUBCAT	= "";
+	        PAGETITLE = TEMPLATE;
+	        WTLURL			+= TEMPLATE;
+	} else if (Template_Group == 2) {
+	        GLOBAL_CAT		= COUNTRY+",";
+	        GLOBAL_SUBCAT	= PRODUCTNAME;
+	        LOCAL_CAT		= PRODUCTNAME+",";
+	        LOCAL_SUBCAT	= TEMPLATE;
+	        WTLURL			+= PRODUCTNAME + "/" + TEMPLATE;
+	} else if (Template_Group == 3) {
+	        GLOBAL_CAT		= COUNTRY;
+	        GLOBAL_SUBCAT	= "";		//change to Systemname - Productname
+	        LOCAL_CAT		= PRODUCTNAME+",";
+	        LOCAL_SUBCAT	= TEMPLATE;
+	        WTLURL			+= PRODUCTNAME + "/" + TEMPLATE;
+	} else {
+	        wtl_Tag6='undefined';
+	}
+
+	var PARMS="Country=0" + "&Language=27" + "&ProductName=" + PRODUCTNAME + "&PageTitle=" + PAGETITLE;
+	var CUSTOMURL = "http://semc.com/" + WTLURL + "/" + "templatename.jsp" + location.search + "&" + PARMS;
+	var CUSTOMTITLE = PAGETITLE;
+
+	//debugging code
+	//alert(TEMPLATE)
+	//alert(Template_Group)
+	//alert("CUSTOMURL: " + CUSTOMURL + "\nCUSTOMTITLE: " + CUSTOMTITLE);
+	//alert(PAGETITLE)
+	
+	var ORDER		= "";
+	var SERVER		= "";
+	var INVOICE		= "";
+	var CARTVIEW	= "";
+	var CARTADD		= "";
+	var CARTREMOVE	= "";
+	var CHECKOUT	= "";
+	var CARTBUY		= "";
+	var ADCAMPAIGN	= "";
+	
+	var GLOBAL_ID	= '104644';		//
+	var LOCAL_ID	= '116385';		//
+
+	if (wtl_Tag6 != 'undefined' && GLOBAL_ID != '' && LOCAL_ID != '') {
+		wtl_Tag6(GLOBAL_ID, GLOBAL_CAT + GLOBAL_SUBCAT + ";");
+		wtl_Tag6(LOCAL_ID, LOCAL_CAT + LOCAL_SUBCAT + ";");
+	} else {
+		//alert("Setup is not complete - no statistics is collected!");
+	}
+
+</SCRIPT>
+
+<NOSCRIPT>
+<!-- No Script section for Global Report -->
+<IMG BORDER="0" WIDTH="1" HEIGHT="1" SRC="http://statse.webtrendslive.com/S104644/button6.asp?tagver=6&si=104644&fw=1&js=No&">
+<!-- No Script section for sonyericsonmobile.com UK -->
+<IMG BORDER="0" WIDTH="1" HEIGHT="1" SRC="http://statse.webtrendslive.com/S116385/button6.asp?tagver=6&si=116385&fw=1&js=No&">
+</NOSCRIPT>
+
+<!-- END STATISTICS INCLUDE -->
+</body>
+<!-- SPG Page Performance: Fri Jul 11 13:24:04 CEST 2003 Elapse time: 26ms  cached page -->
+</html>
+
+
+
+
